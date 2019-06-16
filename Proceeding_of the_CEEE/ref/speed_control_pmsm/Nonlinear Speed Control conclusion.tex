@@ -1,0 +1,78 @@
+\documentclass[onecolumn]{IEEEtranTIE}
+%\documentclass[journal]{IEEEtranTIE}
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage{picinpar}
+\usepackage{amsmath}
+\usepackage{url}
+\usepackage{flushend}
+\usepackage[latin1]{inputenc}
+\usepackage{colortbl}
+\usepackage{soul}
+\usepackage{multirow}
+\usepackage{pifont}
+\usepackage{color}
+\usepackage{alltt}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumerate}
+\usepackage{siunitx}
+\usepackage{breakurl}
+\usepackage{epstopdf}
+\usepackage{pbox}
+\usepackage{psfrag}
+\usepackage{makecell}
+\usepackage{bm}
+\usepackage{subfigure}
+
+\begin{document}
+\title{	Response to Reviewers }
+\maketitle
+
+\newsavebox\newreach
+\begin{lrbox}{\newreach}
+\begin{minipage}{0.1\textwidth}
+\begin{align}
+\dot{s} &= -eq(x_1,s) sgn(s)\nonumber\\
+eq(x_1,s) &= \frac{k}{\epsilon + (1+\frac{1}{\left|{x_1}\right|}-\epsilon)e^{-\delta \left|{s}\right|}}\nonumber
+\end{align}
+\end{minipage}
+\end{lrbox}
+
+
+\newsavebox\unistress
+\begin{lrbox}{\unistress}
+  \begin{minipage}{0.1\textwidth}
+\begin{align}
+\frac{d i_d}{d t} &= \frac{u_{d}^*}{L} + d_{d} \nonumber\\
+\frac{d i_q}{d t} &= \frac{u_{q}^*}{L} + d_{q} \nonumber
+\end{align}
+ \end{minipage}
+\end{lrbox}
+
+
+
+\begin{table}[!t]
+	\renewcommand{\arraystretch}{1.3}
+	\caption{COMPARISON OF Equal reaching law and Novel reaching law}  %表格的名字
+	\centering
+	\label{comparison9andpaper}
+	%\centering
+	\resizebox{\columnwidth}{!}{
+	\begin{tabular}{{l  l  l}}  % 表格开始，两个C表示分为两列
+			\hline\hline \\[-3mm]
+Descriptions & Equal reaching law & Novel reaching law\\    %表头
+\hline     %一道分隔线
+reaching law          & $\dot{s} = -k_1 \cdot sgn(s)$ & \usebox{\newreach}\\
+a faster reaching time           &  $k_1$    					  & $\frac{k}{\epsilon}$  \\   %数据
+chattering             & $  $                  &  $eq(x_1,s)$ gradually decreases to zero to suppress the chattering \\
+reaching time t						 &	$t_1 =\frac{ \left|s(0) \right|}{k_1}$						& $t < \frac{\epsilon \left|s(0) \right|}{k}$\\
+reduce the chattering of SMC            & none      					  & $k < \epsilon k_1$  \\   %数据
+bandwidth					 & $\Delta = k_1 T$																													& $\Delta \approx \frac{k \left| x_1 \right| T}{1+\left| x_1 \right|}$\\
+		[1.4ex] \hline\hline
+		\end{tabular}
+}
+\end{table}
+
+
+
+\end{document}
