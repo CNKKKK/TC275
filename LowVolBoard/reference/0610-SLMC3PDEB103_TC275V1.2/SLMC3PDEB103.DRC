@@ -1,0 +1,2222 @@
+Date and Time : 06/15/19 11:21:08
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+WARNING(ORCAP-1608): Net has no driving source N58343 
+                    SCHEMATIC1, PAGE4  (4.20, 2.80) 
+WARNING(ORCAP-1608): Net has no driving source SCI_TX 
+                    SCHEMATIC1, PAGE1  (0.50, 0.80) 
+WARNING(ORCAP-1608): Net has no driving source N00841 
+                    SCHEMATIC1, PAGE1  (0.40, 0.90) 
+WARNING(ORCAP-1608): Net has no driving source N01058 
+                    SCHEMATIC1, PAGE1  (1.81, 1.20) 
+
+Checking For Single Node Nets
+WARNING(ORCAP-1600): Net has fewer than two connections S_COS- 
+                    SCHEMATIC1, PAGE2  (7.10, 0.80) 
+WARNING(ORCAP-1600): Net has fewer than two connections E/X/C 
+                    SCHEMATIC1, PAGE2  (4.40, 3.40) 
+WARNING(ORCAP-1600): Net has fewer than two connections S_R2 
+                    SCHEMATIC1, PAGE2  (7.10, 1.10) 
+WARNING(ORCAP-1600): Net has fewer than two connections EXC 
+                    SCHEMATIC1, PAGE2  (0.50, 3.40) 
+WARNING(ORCAP-1600): Net has fewer than two connections S_R1 
+                    SCHEMATIC1, PAGE2  (6.70, 1.20) 
+WARNING(ORCAP-1600): Net has fewer than two connections S_SIN+ 
+                    SCHEMATIC1, PAGE2  (7.10, 0.90) 
+WARNING(ORCAP-1600): Net has fewer than two connections S_COS+ 
+                    SCHEMATIC1, PAGE2  (7.10, 0.70) 
+WARNING(ORCAP-1600): Net has fewer than two connections S_SIN- 
+                    SCHEMATIC1, PAGE2  (7.10, 1.00) 
+WARNING(ORCAP-1600): Net has fewer than two connections AN18 
+                    SCHEMATIC1, PAGE3  (3.70, 1.30) 
+WARNING(ORCAP-1600): Net has fewer than two connections AN3 
+                    SCHEMATIC1, PAGE3  (3.70, 1.80) 
+WARNING(ORCAP-1600): Net has fewer than two connections P14.3 
+                    SCHEMATIC1, PAGE3  (1.10, 2.20) 
+WARNING(ORCAP-1600): Net has fewer than two connections P14.4 
+                    SCHEMATIC1, PAGE3  (2.10, 2.20) 
+WARNING(ORCAP-1600): Net has fewer than two connections DB5 
+                    SCHEMATIC1, PAGE3  (8.70, 1.60) 
+WARNING(ORCAP-1600): Net has fewer than two connections P23.0 
+                    SCHEMATIC1, PAGE3  (3.70, 3.00) 
+WARNING(ORCAP-1600): Net has fewer than two connections P02.3 
+                    SCHEMATIC1, PAGE3  (3.70, 1.90) 
+WARNING(ORCAP-1600): Net has fewer than two connections P10.1 
+                    SCHEMATIC1, PAGE3  (1.10, 1.50) 
+WARNING(ORCAP-1600): Net has fewer than two connections P15.1 
+                    SCHEMATIC1, PAGE3  (2.10, 2.80) 
+WARNING(ORCAP-1600): Net has fewer than two connections AN6 
+                    SCHEMATIC1, PAGE3  (3.70, 1.70) 
+WARNING(ORCAP-1600): Net has fewer than two connections P20.8 
+                    SCHEMATIC1, PAGE3  (2.10, 3.20) 
+WARNING(ORCAP-1600): Net has fewer than two connections COS 
+                    SCHEMATIC1, PAGE3  (6.00, 1.70) 
+WARNING(ORCAP-1600): Net has fewer than two connections N82077 
+                    SCHEMATIC1, PAGE3  (6.10, 5.90) 
+WARNING(ORCAP-1600): Net has fewer than two connections AN1 
+                    SCHEMATIC1, PAGE3  (3.70, 2.00) 
+WARNING(ORCAP-1600): Net has fewer than two connections P33.6 
+                    SCHEMATIC1, PAGE3  (3.70, 2.40) 
+WARNING(ORCAP-1600): Net has fewer than two connections N94445 
+                    SCHEMATIC1, PAGE3  (7.20, 3.00) 
+WARNING(ORCAP-1600): Net has fewer than two connections P23.4 
+                    SCHEMATIC1, PAGE3  (3.70, 3.20) 
+WARNING(ORCAP-1600): Net has fewer than two connections DB10 
+                    SCHEMATIC1, PAGE3  (8.70, 2.10) 
+WARNING(ORCAP-1600): Net has fewer than two connections P15.2 
+                    SCHEMATIC1, PAGE3  (1.10, 2.70) 
+WARNING(ORCAP-1600): Net has fewer than two connections P33.8 
+                    SCHEMATIC1, PAGE3  (3.70, 2.50) 
+WARNING(ORCAP-1600): Net has fewer than two connections P33.13 
+                    SCHEMATIC1, PAGE3  (4.70, 2.70) 
+WARNING(ORCAP-1600): Net has fewer than two connections P14.8 
+                    SCHEMATIC1, PAGE3  (1.10, 1.30) 
+WARNING(ORCAP-1600): Net has fewer than two connections P11.12 
+                    SCHEMATIC1, PAGE3  (1.10, 1.60) 
+WARNING(ORCAP-1600): Net has fewer than two connections P20.9 
+                    SCHEMATIC1, PAGE3  (1.10, 3.10) 
+WARNING(ORCAP-1600): Net has fewer than two connections XB_3 
+                    SCHEMATIC1, PAGE3  (6.00, 2.20) 
+WARNING(ORCAP-1600): Net has fewer than two connections N92516 
+                    SCHEMATIC1, PAGE3  (6.00, 2.40) 
+WARNING(ORCAP-1600): Net has fewer than two connections P15.8 
+                    SCHEMATIC1, PAGE3  (1.10, 2.40) 
+WARNING(ORCAP-1600): Net has fewer than two connections XB_NRST 
+                    SCHEMATIC1, PAGE3  (6.10, 2.90) 
+WARNING(ORCAP-1600): Net has fewer than two connections P14.5 
+                    SCHEMATIC1, PAGE3  (1.10, 2.10) 
+WARNING(ORCAP-1600): Net has fewer than two connections P10.5 
+                    SCHEMATIC1, PAGE3  (1.10, 1.00) 
+WARNING(ORCAP-1600): Net has fewer than two connections DB1 
+                    SCHEMATIC1, PAGE3  (8.70, 1.20) 
+WARNING(ORCAP-1600): Net has fewer than two connections AN24 
+                    SCHEMATIC1, PAGE3  (3.70, 1.20) 
+WARNING(ORCAP-1600): Net has fewer than two connections AN20 
+                    SCHEMATIC1, PAGE3  (4.70, 1.30) 
+WARNING(ORCAP-1600): Net has fewer than two connections P20.7 
+                    SCHEMATIC1, PAGE3  (1.10, 3.20) 
+WARNING(ORCAP-1600): Net has fewer than two connections N92502 
+                    SCHEMATIC1, PAGE3  (6.00, 2.30) 
+WARNING(ORCAP-1600): Net has fewer than two connections U_B 
+                    SCHEMATIC1, PAGE3  (6.60, 5.70) 
+WARNING(ORCAP-1600): Net has fewer than two connections P15.6 
+                    SCHEMATIC1, PAGE3  (1.10, 2.50) 
+WARNING(ORCAP-1600): Net has fewer than two connections SINLO 
+                    SCHEMATIC1, PAGE3  (6.00, 1.50) 
+WARNING(ORCAP-1600): Net has fewer than two connections P11.10 
+                    SCHEMATIC1, PAGE3  (1.10, 1.70) 
+WARNING(ORCAP-1600): Net has fewer than two connections DB6 
+                    SCHEMATIC1, PAGE3  (8.70, 1.70) 
+WARNING(ORCAP-1600): Net has fewer than two connections P11.9 
+                    SCHEMATIC1, PAGE3  (2.10, 1.80) 
+WARNING(ORCAP-1600): Net has fewer than two connections DB0 
+                    SCHEMATIC1, PAGE3  (8.70, 1.10) 
+WARNING(ORCAP-1600): Net has fewer than two connections AN8 
+                    SCHEMATIC1, PAGE3  (3.70, 1.60) 
+WARNING(ORCAP-1600): Net has fewer than two connections P20.10 
+                    SCHEMATIC1, PAGE3  (2.10, 3.10) 
+WARNING(ORCAP-1600): Net has fewer than two connections P11.3 
+                    SCHEMATIC1, PAGE3  (2.10, 1.90) 
+WARNING(ORCAP-1600): Net has fewer than two connections SAMPLE 
+                    SCHEMATIC1, PAGE3  (8.80, 3.20) 
+WARNING(ORCAP-1600): Net has fewer than two connections P11.6 
+                    SCHEMATIC1, PAGE3  (1.10, 1.80) 
+WARNING(ORCAP-1600): Net has fewer than two connections DB8 
+                    SCHEMATIC1, PAGE3  (8.70, 1.90) 
+WARNING(ORCAP-1600): Net has fewer than two connections P13.1 
+                    SCHEMATIC1, PAGE3  (1.10, 1.10) 
+WARNING(ORCAP-1600): Net has fewer than two connections P14.6 
+                    SCHEMATIC1, PAGE3  (2.10, 1.30) 
+WARNING(ORCAP-1600): Net has fewer than two connections P15.3 
+                    SCHEMATIC1, PAGE3  (2.10, 2.70) 
+WARNING(ORCAP-1600): Net has fewer than two connections AN17 
+                    SCHEMATIC1, PAGE3  (4.70, 1.40) 
+WARNING(ORCAP-1600): Net has fewer than two connections P02.5 
+                    SCHEMATIC1, PAGE3  (1.10, 0.70) 
+WARNING(ORCAP-1600): Net has fewer than two connections DB11 
+                    SCHEMATIC1, PAGE3  (8.70, 2.20) 
+WARNING(ORCAP-1600): Net has fewer than two connections P10.4 
+                    SCHEMATIC1, PAGE3  (2.10, 1.40) 
+WARNING(ORCAP-1600): Net has fewer than two connections P32.2 
+                    SCHEMATIC1, PAGE3  (4.70, 2.80) 
+WARNING(ORCAP-1600): Net has fewer than two connections P23.2 
+                    SCHEMATIC1, PAGE3  (3.70, 3.10) 
+WARNING(ORCAP-1600): Net has fewer than two connections P33.3 
+                    SCHEMATIC1, PAGE3  (4.70, 2.20) 
+WARNING(ORCAP-1600): Net has fewer than two connections P10.3 
+                    SCHEMATIC1, PAGE3  (1.10, 1.40) 
+WARNING(ORCAP-1600): Net has fewer than two connections P20.13 
+                    SCHEMATIC1, PAGE3  (1.10, 2.90) 
+WARNING(ORCAP-1600): Net has fewer than two connections AN7 
+                    SCHEMATIC1, PAGE3  (4.70, 1.70) 
+WARNING(ORCAP-1600): Net has fewer than two connections P13.3 
+                    SCHEMATIC1, PAGE3  (2.10, 2.00) 
+WARNING(ORCAP-1600): Net has fewer than two connections P15.7 
+                    SCHEMATIC1, PAGE3  (2.10, 2.50) 
+WARNING(ORCAP-1600): Net has fewer than two connections RDVEL 
+                    SCHEMATIC1, PAGE3  (8.80, 3.40) 
+WARNING(ORCAP-1600): Net has fewer than two connections P32.0 
+                    SCHEMATIC1, PAGE3  (3.70, 2.80) 
+WARNING(ORCAP-1600): Net has fewer than two connections P33.2 
+                    SCHEMATIC1, PAGE3  (3.70, 2.20) 
+WARNING(ORCAP-1600): Net has fewer than two connections P10.7 
+                    SCHEMATIC1, PAGE3  (1.10, 0.90) 
+WARNING(ORCAP-1600): Net has fewer than two connections AN37 
+                    SCHEMATIC1, PAGE3  (3.70, 0.80) 
+WARNING(ORCAP-1600): Net has fewer than two connections EXC 
+                    SCHEMATIC1, PAGE3  (6.00, 1.20) 
+WARNING(ORCAP-1600): Net has fewer than two connections P11.11 
+                    SCHEMATIC1, PAGE3  (2.10, 1.70) 
+WARNING(ORCAP-1600): Net has fewer than two connections P23.1 
+                    SCHEMATIC1, PAGE3  (4.70, 3.00) 
+WARNING(ORCAP-1600): Net has fewer than two connections P02.0 
+                    SCHEMATIC1, PAGE3  (2.10, 0.90) 
+WARNING(ORCAP-1600): Net has fewer than two connections P14.9 
+                    SCHEMATIC1, PAGE3  (2.10, 1.20) 
+WARNING(ORCAP-1600): Net has fewer than two connections COSLO 
+                    SCHEMATIC1, PAGE3  (6.00, 1.80) 
+WARNING(ORCAP-1600): Net has fewer than two connections P20.14 
+                    SCHEMATIC1, PAGE3  (2.10, 2.90) 
+WARNING(ORCAP-1600): Net has fewer than two connections AN44 
+                    SCHEMATIC1, PAGE3  (4.70, 0.70) 
+WARNING(ORCAP-1600): Net has fewer than two connections P14.2 
+                    SCHEMATIC1, PAGE3  (2.10, 2.30) 
+WARNING(ORCAP-1600): Net has fewer than two connections P33.7 
+                    SCHEMATIC1, PAGE3  (4.70, 2.40) 
+WARNING(ORCAP-1600): Net has fewer than two connections P10.0 
+                    SCHEMATIC1, PAGE3  (2.10, 1.60) 
+WARNING(ORCAP-1600): Net has fewer than two connections P10.6 
+                    SCHEMATIC1, PAGE3  (2.10, 1.00) 
+WARNING(ORCAP-1600): Net has fewer than two connections DB3 
+                    SCHEMATIC1, PAGE3  (8.70, 1.40) 
+WARNING(ORCAP-1600): Net has fewer than two connections XB_1 
+                    SCHEMATIC1, PAGE3  (6.00, 2.00) 
+WARNING(ORCAP-1600): Net has fewer than two connections P02.6 
+                    SCHEMATIC1, PAGE3  (2.10, 0.70) 
+WARNING(ORCAP-1600): Net has fewer than two connections P15.4 
+                    SCHEMATIC1, PAGE3  (1.10, 2.60) 
+WARNING(ORCAP-1600): Net has fewer than two connections P10.2 
+                    SCHEMATIC1, PAGE3  (2.10, 1.50) 
+WARNING(ORCAP-1600): Net has fewer than two connections P11.2 
+                    SCHEMATIC1, PAGE3  (1.10, 1.90) 
+WARNING(ORCAP-1600): Net has fewer than two connections P02.4 
+                    SCHEMATIC1, PAGE3  (2.10, 0.80) 
+WARNING(ORCAP-1600): Net has fewer than two connections P33.0 
+                    SCHEMATIC1, PAGE3  (3.70, 2.10) 
+WARNING(ORCAP-1600): Net has fewer than two connections AN26 
+                    SCHEMATIC1, PAGE3  (3.70, 1.10) 
+WARNING(ORCAP-1600): Net has fewer than two connections AN11 
+                    SCHEMATIC1, PAGE3  (3.70, 1.50) 
+WARNING(ORCAP-1600): Net has fewer than two connections P20.12 
+                    SCHEMATIC1, PAGE3  (2.10, 3.00) 
+WARNING(ORCAP-1600): Net has fewer than two connections P14.7 
+                    SCHEMATIC1, PAGE3  (2.10, 2.10) 
+WARNING(ORCAP-1600): Net has fewer than two connections AN36 
+                    SCHEMATIC1, PAGE3  (4.70, 0.90) 
+WARNING(ORCAP-1600): Net has fewer than two connections P33.10 
+                    SCHEMATIC1, PAGE3  (3.70, 2.60) 
+WARNING(ORCAP-1600): Net has fewer than two connections P33.12 
+                    SCHEMATIC1, PAGE3  (3.70, 2.70) 
+WARNING(ORCAP-1600): Net has fewer than two connections P13.2 
+                    SCHEMATIC1, PAGE3  (1.10, 2.00) 
+WARNING(ORCAP-1600): Net has fewer than two connections P33.4 
+                    SCHEMATIC1, PAGE3  (3.70, 2.30) 
+WARNING(ORCAP-1600): Net has fewer than two connections P13.0 
+                    SCHEMATIC1, PAGE3  (2.10, 1.10) 
+WARNING(ORCAP-1600): Net has fewer than two connections AN25 
+                    SCHEMATIC1, PAGE3  (4.70, 1.20) 
+WARNING(ORCAP-1600): Net has fewer than two connections P02.1 
+                    SCHEMATIC1, PAGE3  (1.10, 0.80) 
+WARNING(ORCAP-1600): Net has fewer than two connections P23.5 
+                    SCHEMATIC1, PAGE3  (4.70, 3.20) 
+WARNING(ORCAP-1600): Net has fewer than two connections /E/X/C 
+                    SCHEMATIC1, PAGE3  (6.00, 1.10) 
+WARNING(ORCAP-1600): Net has fewer than two connections SIN 
+                    SCHEMATIC1, PAGE3  (6.00, 1.40) 
+WARNING(ORCAP-1600): Net has fewer than two connections P02.2 
+                    SCHEMATIC1, PAGE3  (4.70, 1.80) 
+WARNING(ORCAP-1600): Net has fewer than two connections AN0 
+                    SCHEMATIC1, PAGE3  (4.70, 2.00) 
+WARNING(ORCAP-1600): Net has fewer than two connections DB2 
+                    SCHEMATIC1, PAGE3  (8.70, 1.30) 
+WARNING(ORCAP-1600): Net has fewer than two connections AN10 
+                    SCHEMATIC1, PAGE3  (4.70, 1.60) 
+WARNING(ORCAP-1600): Net has fewer than two connections AN38 
+                    SCHEMATIC1, PAGE3  (4.70, 0.80) 
+WARNING(ORCAP-1600): Net has fewer than two connections AN32 
+                    SCHEMATIC1, PAGE3  (3.70, 1.00) 
+WARNING(ORCAP-1600): Net has fewer than two connections P33.9 
+                    SCHEMATIC1, PAGE3  (4.70, 2.50) 
+WARNING(ORCAP-1600): Net has fewer than two connections V_B 
+                    SCHEMATIC1, PAGE3  (6.60, 5.60) 
+WARNING(ORCAP-1600): Net has fewer than two connections P33.5 
+                    SCHEMATIC1, PAGE3  (4.70, 2.30) 
+WARNING(ORCAP-1600): Net has fewer than two connections AN16 
+                    SCHEMATIC1, PAGE3  (3.70, 1.40) 
+WARNING(ORCAP-1600): Net has fewer than two connections AN12 
+                    SCHEMATIC1, PAGE3  (4.70, 1.50) 
+WARNING(ORCAP-1600): Net has fewer than two connections AN35 
+                    SCHEMATIC1, PAGE3  (3.70, 0.90) 
+WARNING(ORCAP-1600): Net has fewer than two connections AN33 
+                    SCHEMATIC1, PAGE3  (4.70, 1.00) 
+WARNING(ORCAP-1600): Net has fewer than two connections P33.1 
+                    SCHEMATIC1, PAGE3  (4.70, 2.10) 
+WARNING(ORCAP-1600): Net has fewer than two connections P15.0 
+                    SCHEMATIC1, PAGE3  (1.10, 2.80) 
+WARNING(ORCAP-1600): Net has fewer than two connections P23.3 
+                    SCHEMATIC1, PAGE3  (4.70, 3.10) 
+WARNING(ORCAP-1600): Net has fewer than two connections P14.0 
+                    SCHEMATIC1, PAGE3  (2.10, 2.40) 
+WARNING(ORCAP-1600): Net has fewer than two connections P33.11 
+                    SCHEMATIC1, PAGE3  (4.70, 2.60) 
+WARNING(ORCAP-1600): Net has fewer than two connections DB7 
+                    SCHEMATIC1, PAGE3  (8.70, 1.80) 
+WARNING(ORCAP-1600): Net has fewer than two connections AN2 
+                    SCHEMATIC1, PAGE3  (4.70, 1.90) 
+WARNING(ORCAP-1600): Net has fewer than two connections AN27 
+                    SCHEMATIC1, PAGE3  (4.70, 1.10) 
+WARNING(ORCAP-1600): Net has fewer than two connections P20.11 
+                    SCHEMATIC1, PAGE3  (1.10, 3.00) 
+WARNING(ORCAP-1600): Net has fewer than two connections XB_2 
+                    SCHEMATIC1, PAGE3  (6.00, 2.10) 
+WARNING(ORCAP-1600): Net has fewer than two connections AN39 
+                    SCHEMATIC1, PAGE3  (3.70, 0.70) 
+WARNING(ORCAP-1600): Net has fewer than two connections CS_RD 
+                    SCHEMATIC1, PAGE3  (8.80, 3.00) 
+WARNING(ORCAP-1600): Net has fewer than two connections P15.5 
+                    SCHEMATIC1, PAGE3  (2.10, 2.60) 
+WARNING(ORCAP-1600): Net has fewer than two connections DB4 
+                    SCHEMATIC1, PAGE3  (8.70, 1.50) 
+WARNING(ORCAP-1600): Net has fewer than two connections P32.3 
+                    SCHEMATIC1, PAGE3  (3.70, 2.90) 
+WARNING(ORCAP-1600): Net has fewer than two connections P32.4 
+                    SCHEMATIC1, PAGE3  (4.70, 2.90) 
+WARNING(ORCAP-1600): Net has fewer than two connections DB9 
+                    SCHEMATIC1, PAGE3  (8.70, 2.00) 
+WARNING(ORCAP-1600): Net has fewer than two connections U_B 
+                    SCHEMATIC1, PAGE4  (0.50, 0.40) 
+WARNING(ORCAP-1600): Net has fewer than two connections DAC2 
+                    SCHEMATIC1, PAGE4  (6.20, 3.20) 
+WARNING(ORCAP-1600): Net has fewer than two connections U_A 
+                    SCHEMATIC1, PAGE4  (1.70, 0.40) 
+WARNING(ORCAP-1600): Net has fewer than two connections GNDP 
+                    SCHEMATIC1, PAGE4  (0.80, 2.50) 
+WARNING(ORCAP-1600): Net has fewer than two connections V_B 
+                    SCHEMATIC1, PAGE4  (3.10, 0.50) 
+WARNING(ORCAP-1600): Net has fewer than two connections V_A 
+                    SCHEMATIC1, PAGE4  (4.70, 0.50) 
+WARNING(ORCAP-1600): Net has fewer than two connections N58343 
+                    SCHEMATIC1, PAGE4  (4.20, 2.80) 
+WARNING(ORCAP-1600): Net has fewer than two connections DAC1 
+                    SCHEMATIC1, PAGE4  (8.10, 3.20) 
+WARNING(ORCAP-1600): Net has fewer than two connections RP_Speed 
+                    SCHEMATIC1, PAGE4  (7.40, 0.90) 
+WARNING(ORCAP-1600): Net has fewer than two connections EXC 
+                    SCHEMATIC1, PAGE1  (2.30, 3.70) 
+WARNING(ORCAP-1600): Net has fewer than two connections N01882 
+                    SCHEMATIC1, PAGE1  (2.30, 0.70) 
+WARNING(ORCAP-1600): Net has fewer than two connections SCI_TX 
+                    SCHEMATIC1, PAGE1  (0.50, 0.80) 
+WARNING(ORCAP-1600): Net has fewer than two connections S_R2 
+                    SCHEMATIC1, PAGE1  (4.80, 5.00) 
+WARNING(ORCAP-1600): Net has fewer than two connections DB4 
+                    SCHEMATIC1, PAGE1  (3.81, 1.89) 
+WARNING(ORCAP-1600): Net has fewer than two connections N01890 
+                    SCHEMATIC1, PAGE1  (2.30, 1.00) 
+WARNING(ORCAP-1600): Net has fewer than two connections IO4 
+                    SCHEMATIC1, PAGE1  (7.90, 1.20) 
+WARNING(ORCAP-1600): Net has fewer than two connections IO7 
+                    SCHEMATIC1, PAGE1  (6.50, 1.40) 
+WARNING(ORCAP-1600): Net has fewer than two connections IO2 
+                    SCHEMATIC1, PAGE1  (7.90, 1.10) 
+WARNING(ORCAP-1600): Net has fewer than two connections N03607 
+                    SCHEMATIC1, PAGE1  (2.10, 2.20) 
+WARNING(ORCAP-1600): Net has fewer than two connections DB5 
+                    SCHEMATIC1, PAGE1  (3.80, 2.29) 
+WARNING(ORCAP-1600): Net has fewer than two connections N01906 
+                    SCHEMATIC1, PAGE1  (2.30, 1.50) 
+WARNING(ORCAP-1600): Net has fewer than two connections IO9 
+                    SCHEMATIC1, PAGE1  (6.50, 1.50) 
+WARNING(ORCAP-1600): Net has fewer than two connections DB2 
+                    SCHEMATIC1, PAGE1  (3.80, 1.09) 
+WARNING(ORCAP-1600): Net has fewer than two connections IO12 
+                    SCHEMATIC1, PAGE1  (7.90, 1.60) 
+WARNING(ORCAP-1600): Net has fewer than two connections DB6 
+                    SCHEMATIC1, PAGE1  (7.00, 3.49) 
+WARNING(ORCAP-1600): Net has fewer than two connections N27863 
+                    SCHEMATIC1, PAGE1  (5.00, 6.50) 
+WARNING(ORCAP-1600): Net has fewer than two connections N00841 
+                    SCHEMATIC1, PAGE1  (0.40, 0.90) 
+WARNING(ORCAP-1600): Net has fewer than two connections N27859 
+                    SCHEMATIC1, PAGE1  (4.20, 6.50) 
+WARNING(ORCAP-1600): Net has fewer than two connections IO6 
+                    SCHEMATIC1, PAGE1  (7.90, 1.30) 
+WARNING(ORCAP-1600): Net has fewer than two connections N01886 
+                    SCHEMATIC1, PAGE1  (2.30, 0.80) 
+WARNING(ORCAP-1600): Net has fewer than two connections IO14 
+                    SCHEMATIC1, PAGE1  (7.90, 1.70) 
+WARNING(ORCAP-1600): Net has fewer than two connections PWM_EXC 
+                    SCHEMATIC1, PAGE1  (0.10, 4.70) 
+WARNING(ORCAP-1600): Net has fewer than two connections IO11 
+                    SCHEMATIC1, PAGE1  (6.50, 1.60) 
+WARNING(ORCAP-1600): Net has fewer than two connections DB0 
+                    SCHEMATIC1, PAGE1  (4.20, 0.29) 
+WARNING(ORCAP-1600): Net has fewer than two connections IO3 
+                    SCHEMATIC1, PAGE1  (6.50, 1.20) 
+WARNING(ORCAP-1600): Net has fewer than two connections N01898 
+                    SCHEMATIC1, PAGE1  (2.30, 1.30) 
+WARNING(ORCAP-1600): Net has fewer than two connections IO5 
+                    SCHEMATIC1, PAGE1  (6.50, 1.30) 
+WARNING(ORCAP-1600): Net has fewer than two connections IO13 
+                    SCHEMATIC1, PAGE1  (6.50, 1.70) 
+WARNING(ORCAP-1600): Net has fewer than two connections DB11 
+                    SCHEMATIC1, PAGE1  (6.60, 5.49) 
+WARNING(ORCAP-1600): Net has fewer than two connections N119699 
+                    SCHEMATIC1, PAGE1  (3.50, 0.90) 
+WARNING(ORCAP-1600): Net has fewer than two connections DB10 
+                    SCHEMATIC1, PAGE1  (6.61, 5.09) 
+WARNING(ORCAP-1600): Net has fewer than two connections CAN_RX 
+                    SCHEMATIC1, PAGE1  (2.03, 1.90) 
+WARNING(ORCAP-1600): Net has fewer than two connections N00845 
+                    SCHEMATIC1, PAGE1  (0.40, 1.20) 
+WARNING(ORCAP-1600): Net has fewer than two connections N01049 
+                    SCHEMATIC1, PAGE1  (1.81, 0.90) 
+WARNING(ORCAP-1600): Net has fewer than two connections N01058 
+                    SCHEMATIC1, PAGE1  (1.81, 1.20) 
+WARNING(ORCAP-1600): Net has fewer than two connections DB8 
+                    SCHEMATIC1, PAGE1  (6.60, 4.29) 
+WARNING(ORCAP-1600): Net has fewer than two connections N120016 
+                    SCHEMATIC1, PAGE1  (0.80, 1.90) 
+WARNING(ORCAP-1600): Net has fewer than two connections IO10 
+                    SCHEMATIC1, PAGE1  (7.90, 1.50) 
+WARNING(ORCAP-1600): Net has fewer than two connections DB9 
+                    SCHEMATIC1, PAGE1  (6.59, 4.70) 
+WARNING(ORCAP-1600): Net has fewer than two connections IO1 
+                    SCHEMATIC1, PAGE1  (6.50, 1.10) 
+WARNING(ORCAP-1600): Net has fewer than two connections N01894 
+                    SCHEMATIC1, PAGE1  (2.30, 1.20) 
+WARNING(ORCAP-1600): Net has fewer than two connections S_R1 
+                    SCHEMATIC1, PAGE1  (4.80, 4.70) 
+WARNING(ORCAP-1600): Net has fewer than two connections DB3 
+                    SCHEMATIC1, PAGE1  (3.79, 1.50) 
+WARNING(ORCAP-1600): Net has fewer than two connections SCI_RX 
+                    SCHEMATIC1, PAGE1  (0.50, 1.10) 
+WARNING(ORCAP-1600): Net has fewer than two connections DB1 
+                    SCHEMATIC1, PAGE1  (4.20, 0.69) 
+WARNING(ORCAP-1600): Net has fewer than two connections IO8 
+                    SCHEMATIC1, PAGE1  (7.90, 1.40) 
+WARNING(ORCAP-1600): Net has fewer than two connections N01902 
+                    SCHEMATIC1, PAGE1  (2.30, 1.40) 
+WARNING(ORCAP-1600): Net has fewer than two connections DB7 
+                    SCHEMATIC1, PAGE1  (7.00, 3.89) 
+WARNING(ORCAP-1600): Net has fewer than two connections N119714 
+                    SCHEMATIC1, PAGE1  (3.50, 1.10) 
+
+Checking For Unconnected Bus Nets
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector COS 
+                    SCHEMATIC1, PAGE3  (6.00, 1.70) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector SINLO 
+                    SCHEMATIC1, PAGE3  (6.00, 1.50) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector EXC 
+                    SCHEMATIC1, PAGE3  (6.00, 1.20) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector COSLO 
+                    SCHEMATIC1, PAGE3  (6.00, 1.80) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector SIN 
+                    SCHEMATIC1, PAGE3  (6.00, 1.40) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector IO_37 
+                    SCHEMATIC1, PAGE4  (8.80, 0.80) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector U_B 
+                    SCHEMATIC1, PAGE4  (0.50, 0.40) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector U_A 
+                    SCHEMATIC1, PAGE4  (1.70, 0.40) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector V_B 
+                    SCHEMATIC1, PAGE4  (3.10, 0.50) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector V_A 
+                    SCHEMATIC1, PAGE4  (4.70, 0.50) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector EXC 
+                    SCHEMATIC1, PAGE1  (2.30, 3.70) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector S_R2 
+                    SCHEMATIC1, PAGE1  (4.80, 5.00) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector DB4 
+                    SCHEMATIC1, PAGE1  (3.81, 1.89) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector DB5 
+                    SCHEMATIC1, PAGE1  (3.80, 2.29) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector DB2 
+                    SCHEMATIC1, PAGE1  (3.80, 1.09) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector DB6 
+                    SCHEMATIC1, PAGE1  (7.00, 3.49) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector S_SIN- 
+                    SCHEMATIC1, PAGE1  (0.20, 6.10) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector S_COS- 
+                    SCHEMATIC1, PAGE1  (3.40, 6.20) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector DB0 
+                    SCHEMATIC1, PAGE1  (4.20, 0.29) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector DB11 
+                    SCHEMATIC1, PAGE1  (6.60, 5.49) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector DB10 
+                    SCHEMATIC1, PAGE1  (6.61, 5.09) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector DB8 
+                    SCHEMATIC1, PAGE1  (6.60, 4.29) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector DB9 
+                    SCHEMATIC1, PAGE1  (6.59, 4.70) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector S_SIN+ 
+                    SCHEMATIC1, PAGE1  (0.20, 5.80) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector S_R1 
+                    SCHEMATIC1, PAGE1  (4.80, 4.70) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector DB3 
+                    SCHEMATIC1, PAGE1  (3.79, 1.50) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector S_COS+ 
+                    SCHEMATIC1, PAGE1  (4.10, 6.00) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector DB1 
+                    SCHEMATIC1, PAGE1  (4.20, 0.69) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector DB7 
+                    SCHEMATIC1, PAGE1  (7.00, 3.89) 
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+    C3  -  PAGE1 (0.25, 0.50)
+    C2  -  PAGE1 (0.25, 0.20)
+    R84  -  PAGE1 (7.10, 4.61)
+    R44  -  PAGE1 (4.27, 2.40)
+    R35  -  PAGE1 (4.28, 2.00)
+    R33  -  PAGE1 (4.28, 1.80)
+    R102  -  PAGE1 (7.07, 5.60)
+    R96  -  PAGE1 (7.08, 5.20)
+    R92  -  PAGE1 (7.08, 5.00)
+    R26  -  PAGE1 (4.30, 1.41)
+    GND  -  PAGE1 (0.91, 3.41)
+    N00707  -  PAGE1 (0.45, 0.30)
+    N00707  -  PAGE1 (0.45, 0.30)
+    N00716  -  PAGE1 (0.15, 0.30)
+    N00716  -  PAGE1 (0.15, 0.30)
+    N00736  -  PAGE1 (0.45, 0.60)
+    N00736  -  PAGE1 (0.15, 0.60)
+    N00736  -  PAGE1 (0.45, 0.60)
+    N00736  -  PAGE1 (0.15, 0.60)
+    N00785  -  PAGE1 (1.81, 0.30)
+    N00785  -  PAGE1 (1.81, 0.30)
+    V33  -  PAGE1 (1.81, 0.40)
+    V33  -  PAGE1 (1.81, 0.40)
+    USARTXB  -  PAGE1 (1.81, 0.80)
+    USARTXB  -  PAGE1 (1.81, 0.80)
+    USARRXB  -  PAGE1 (1.81, 1.10)
+    USARRXB  -  PAGE1 (1.81, 1.10)
+    N01049  -  PAGE1 (1.81, 0.90)
+    N01058  -  PAGE1 (1.81, 1.20)
+    N01067  -  PAGE1 (1.81, 1.40)
+    N01067  -  PAGE1 (1.81, 1.40)
+    CAN_H  -  PAGE1 (0.60, 2.52)
+    CAN_H  -  PAGE1 (0.60, 2.52)
+    N01699  -  PAGE1 (0.80, 2.59)
+    N01699  -  PAGE1 (0.80, 2.59)
+    GND  -  PAGE1 (1.12, 2.60)
+    GND  -  PAGE1 (1.12, 2.60)
+    GND  -  PAGE1 (1.12, 2.59)
+    CAN_H  -  PAGE1 (0.20, 2.69)
+    N01168  -  PAGE1 (0.60, 1.92)
+    N01168  -  PAGE1 (0.60, 1.92)
+    CAN_RX  -  PAGE1 (2.03, 1.90)
+    CAN_RX  -  PAGE1 (2.03, 1.90)
+    V33  -  PAGE1 (2.03, 2.00)
+    V33  -  PAGE1 (2.03, 2.00)
+    GND  -  PAGE1 (2.03, 2.10)
+    GND  -  PAGE1 (2.03, 2.10)
+    N03607  -  PAGE1 (2.03, 2.20)
+    DBI0  -  PAGE1 (4.52, 0.29)
+    DBI0  -  PAGE1 (4.72, 0.29)
+    DBI0  -  PAGE1 (4.72, 0.29)
+    DBI0  -  PAGE1 (4.72, 0.49)
+    DBI0  -  PAGE1 (4.52, 0.49)
+    DBI0  -  PAGE1 (4.72, 0.49)
+    DBI0  -  PAGE1 (4.72, 0.49)
+    DBI0  -  PAGE1 (5.11, 0.49)
+    DB0  -  PAGE1 (4.20, 0.29)
+    DB0  -  PAGE1 (3.80, 0.29)
+    GND  -  PAGE1 (3.80, 0.51)
+    GND  -  PAGE1 (3.80, 0.49)
+    GND  -  PAGE1 (4.20, 0.49)
+    GND  -  PAGE1 (3.80, 0.49)
+    GND  -  PAGE1 (4.20, 0.49)
+    GND  -  PAGE1 (4.21, 0.49)
+    GND  -  PAGE1 (4.22, 0.89)
+    GND  -  PAGE1 (4.22, 0.88)
+    GND  -  PAGE1 (4.20, 0.89)
+    GND  -  PAGE1 (4.22, 0.89)
+    GND  -  PAGE1 (4.20, 0.89)
+    GND  -  PAGE1 (3.80, 0.89)
+    GND  -  PAGE1 (3.80, 0.89)
+    GND  -  PAGE1 (3.80, 0.91)
+    DBI1  -  PAGE1 (4.52, 0.89)
+    DBI1  -  PAGE1 (4.70, 0.89)
+    DBI1  -  PAGE1 (4.52, 0.69)
+    DBI1  -  PAGE1 (4.70, 0.69)
+    DBI1  -  PAGE1 (4.70, 0.69)
+    DBI1  -  PAGE1 (4.70, 0.89)
+    DBI1  -  PAGE1 (4.70, 0.89)
+    DBI1  -  PAGE1 (5.10, 0.89)
+    GND  -  PAGE1 (3.80, 1.29)
+    GND  -  PAGE1 (4.20, 1.29)
+    GND  -  PAGE1 (3.80, 1.29)
+    GND  -  PAGE1 (3.80, 1.31)
+    GND  -  PAGE1 (4.20, 1.29)
+    GND  -  PAGE1 (4.21, 1.29)
+    DBI2  -  PAGE1 (4.52, 1.29)
+    DBI2  -  PAGE1 (4.70, 1.29)
+    DBI2  -  PAGE1 (4.52, 1.08)
+    DBI2  -  PAGE1 (4.52, 1.09)
+    DBI2  -  PAGE1 (4.52, 1.08)
+    DBI2  -  PAGE1 (4.51, 1.08)
+    DBI2  -  PAGE1 (4.52, 1.09)
+    DBI2  -  PAGE1 (4.52, 1.11)
+    DBI2  -  PAGE1 (4.51, 1.09)
+    DBI2  -  PAGE1 (4.52, 1.09)
+    DBI2  -  PAGE1 (4.70, 1.09)
+    DBI2  -  PAGE1 (4.70, 1.29)
+    DBI2  -  PAGE1 (4.52, 1.09)
+    DBI2  -  PAGE1 (4.70, 1.09)
+    DB2  -  PAGE1 (3.80, 1.09)
+    DB2  -  PAGE1 (4.20, 1.09)
+    DB2  -  PAGE1 (4.20, 1.09)
+    DB2  -  PAGE1 (4.21, 1.09)
+    DBI2  -  PAGE1 (5.11, 1.29)
+    DBI2  -  PAGE1 (4.70, 1.29)
+    GND  -  PAGE1 (4.20, 1.69)
+    GND  -  PAGE1 (4.21, 1.69)
+    GND  -  PAGE1 (3.79, 1.70)
+    GND  -  PAGE1 (4.20, 1.69)
+    DBI3  -  PAGE1 (4.51, 1.69)
+    DBI3  -  PAGE1 (4.52, 1.69)
+    DBI3  -  PAGE1 (4.52, 1.69)
+    DBI3  -  PAGE1 (4.71, 1.69)
+    DBI3  -  PAGE1 (4.52, 1.50)
+    DBI3  -  PAGE1 (4.71, 1.50)
+    DBI3  -  PAGE1 (4.71, 1.50)
+    DBI3  -  PAGE1 (4.71, 1.69)
+    DBI3  -  PAGE1 (4.71, 1.69)
+    DBI3  -  PAGE1 (5.10, 1.69)
+    DB3  -  PAGE1 (3.79, 1.50)
+    DB3  -  PAGE1 (4.21, 1.50)
+    GND  -  PAGE1 (3.80, 2.09)
+    GND  -  PAGE1 (3.80, 2.09)
+    GND  -  PAGE1 (4.18, 2.09)
+    GND  -  PAGE1 (4.18, 2.09)
+    GND  -  PAGE1 (4.19, 2.09)
+    DBI4  -  PAGE1 (4.48, 2.09)
+    DBI4  -  PAGE1 (4.50, 2.09)
+    DBI4  -  PAGE1 (4.50, 2.09)
+    DBI4  -  PAGE1 (4.70, 2.09)
+    DBI4  -  PAGE1 (4.70, 2.09)
+    DBI4  -  PAGE1 (4.70, 1.89)
+    DBI4  -  PAGE1 (4.48, 1.89)
+    DBI4  -  PAGE1 (4.50, 1.89)
+    DBI4  -  PAGE1 (4.70, 2.09)
+    DBI4  -  PAGE1 (5.11, 2.09)
+    DBI4  -  PAGE1 (4.50, 1.89)
+    DBI4  -  PAGE1 (4.70, 1.89)
+    DB4  -  PAGE1 (3.81, 1.89)
+    DB4  -  PAGE1 (4.18, 1.89)
+    DB4  -  PAGE1 (4.18, 1.89)
+    DB4  -  PAGE1 (4.22, 1.89)
+    DB5  -  PAGE1 (3.80, 2.29)
+    DB5  -  PAGE1 (4.20, 2.29)
+    DB5  -  PAGE1 (4.20, 2.29)
+    DB5  -  PAGE1 (4.21, 2.29)
+    DBI5  -  PAGE1 (4.71, 2.49)
+    DBI5  -  PAGE1 (4.49, 2.49)
+    DBI5  -  PAGE1 (4.71, 2.49)
+    DBI5  -  PAGE1 (5.10, 2.49)
+    DBI5  -  PAGE1 (4.71, 2.49)
+    DBI5  -  PAGE1 (4.71, 2.29)
+    DBI5  -  PAGE1 (4.51, 2.29)
+    DBI5  -  PAGE1 (4.52, 2.29)
+    DBI5  -  PAGE1 (4.72, 2.29)
+    DBI5  -  PAGE1 (4.72, 2.30)
+    DBI5  -  PAGE1 (4.52, 2.29)
+    DBI5  -  PAGE1 (4.71, 2.29)
+    DBI5  -  PAGE1 (4.71, 2.29)
+    DBI5  -  PAGE1 (4.72, 2.29)
+    GND  -  PAGE1 (4.17, 2.49)
+    GND  -  PAGE1 (4.20, 2.49)
+    GND  -  PAGE1 (4.17, 2.49)
+    GND  -  PAGE1 (3.80, 2.49)
+    GND  -  PAGE1 (3.80, 2.49)
+    GND  -  PAGE1 (3.80, 2.51)
+    DB1  -  PAGE1 (4.20, 0.69)
+    DB1  -  PAGE1 (3.80, 0.69)
+    GND  -  PAGE1 (1.00, 3.51)
+    GND  -  PAGE1 (1.01, 3.51)
+    GND  -  PAGE1 (1.00, 3.51)
+    DBI6  -  PAGE1 (7.32, 3.49)
+    DBI6  -  PAGE1 (7.52, 3.49)
+    DBI6  -  PAGE1 (7.52, 3.49)
+    DBI6  -  PAGE1 (7.52, 3.69)
+    DBI6  -  PAGE1 (7.32, 3.69)
+    DBI6  -  PAGE1 (7.52, 3.69)
+    DBI6  -  PAGE1 (7.52, 3.69)
+    DBI6  -  PAGE1 (7.91, 3.69)
+    DB6  -  PAGE1 (7.00, 3.49)
+    DB6  -  PAGE1 (6.60, 3.49)
+    GND  -  PAGE1 (6.60, 3.71)
+    GND  -  PAGE1 (6.60, 3.69)
+    GND  -  PAGE1 (7.00, 3.69)
+    GND  -  PAGE1 (6.60, 3.69)
+    GND  -  PAGE1 (7.00, 3.69)
+    GND  -  PAGE1 (7.01, 3.69)
+    GND  -  PAGE1 (7.02, 4.09)
+    GND  -  PAGE1 (7.02, 4.08)
+    GND  -  PAGE1 (7.00, 4.09)
+    GND  -  PAGE1 (7.02, 4.09)
+    GND  -  PAGE1 (7.00, 4.09)
+    GND  -  PAGE1 (6.60, 4.09)
+    GND  -  PAGE1 (6.60, 4.09)
+    GND  -  PAGE1 (6.60, 4.11)
+    DBI7  -  PAGE1 (7.32, 4.09)
+    DBI7  -  PAGE1 (7.50, 4.09)
+    DBI7  -  PAGE1 (7.32, 3.89)
+    DBI7  -  PAGE1 (7.50, 3.89)
+    DBI7  -  PAGE1 (7.50, 3.89)
+    DBI7  -  PAGE1 (7.50, 4.09)
+    DBI7  -  PAGE1 (7.50, 4.09)
+    DBI7  -  PAGE1 (7.90, 4.09)
+    GND  -  PAGE1 (6.60, 4.49)
+    GND  -  PAGE1 (7.00, 4.49)
+    GND  -  PAGE1 (6.60, 4.49)
+    GND  -  PAGE1 (6.60, 4.51)
+    GND  -  PAGE1 (7.00, 4.49)
+    GND  -  PAGE1 (7.01, 4.49)
+    DBI8  -  PAGE1 (7.32, 4.49)
+    DBI8  -  PAGE1 (7.50, 4.49)
+    DBI8  -  PAGE1 (7.32, 4.28)
+    DBI8  -  PAGE1 (7.32, 4.29)
+    DBI8  -  PAGE1 (7.32, 4.28)
+    DBI8  -  PAGE1 (7.31, 4.28)
+    DBI8  -  PAGE1 (7.32, 4.29)
+    DBI8  -  PAGE1 (7.32, 4.31)
+    DBI8  -  PAGE1 (7.31, 4.29)
+    DBI8  -  PAGE1 (7.32, 4.29)
+    DBI8  -  PAGE1 (7.50, 4.29)
+    DBI8  -  PAGE1 (7.50, 4.49)
+    DBI8  -  PAGE1 (7.32, 4.29)
+    DBI8  -  PAGE1 (7.50, 4.29)
+    DB8  -  PAGE1 (6.60, 4.29)
+    DB8  -  PAGE1 (7.00, 4.29)
+    DB8  -  PAGE1 (7.00, 4.29)
+    DB8  -  PAGE1 (7.01, 4.29)
+    DBI8  -  PAGE1 (7.91, 4.49)
+    DBI8  -  PAGE1 (7.50, 4.49)
+    GND  -  PAGE1 (7.00, 4.89)
+    GND  -  PAGE1 (7.01, 4.89)
+    GND  -  PAGE1 (6.59, 4.90)
+    GND  -  PAGE1 (7.00, 4.89)
+    DBI9  -  PAGE1 (7.31, 4.89)
+    DBI9  -  PAGE1 (7.32, 4.89)
+    DBI9  -  PAGE1 (7.32, 4.89)
+    DBI9  -  PAGE1 (7.51, 4.89)
+    DBI9  -  PAGE1 (7.32, 4.70)
+    DBI9  -  PAGE1 (7.51, 4.70)
+    DBI9  -  PAGE1 (7.51, 4.70)
+    DBI9  -  PAGE1 (7.51, 4.89)
+    DBI9  -  PAGE1 (7.51, 4.89)
+    DBI9  -  PAGE1 (7.90, 4.89)
+    DB9  -  PAGE1 (6.59, 4.70)
+    DB9  -  PAGE1 (7.01, 4.70)
+    GND  -  PAGE1 (6.60, 5.29)
+    GND  -  PAGE1 (6.60, 5.29)
+    GND  -  PAGE1 (6.98, 5.29)
+    GND  -  PAGE1 (6.98, 5.29)
+    GND  -  PAGE1 (6.99, 5.29)
+    DBI10  -  PAGE1 (7.28, 5.29)
+    DBI10  -  PAGE1 (7.30, 5.29)
+    DBI10  -  PAGE1 (7.30, 5.29)
+    DBI10  -  PAGE1 (7.50, 5.29)
+    DBI10  -  PAGE1 (7.50, 5.29)
+    DBI10  -  PAGE1 (7.50, 5.09)
+    DBI10  -  PAGE1 (7.28, 5.09)
+    DBI10  -  PAGE1 (7.30, 5.09)
+    DBI10  -  PAGE1 (7.50, 5.29)
+    DBI10  -  PAGE1 (7.91, 5.29)
+    DBI10  -  PAGE1 (7.30, 5.09)
+    DBI10  -  PAGE1 (7.50, 5.09)
+    DB10  -  PAGE1 (6.61, 5.09)
+    DB10  -  PAGE1 (6.98, 5.09)
+    DB10  -  PAGE1 (6.98, 5.09)
+    DB10  -  PAGE1 (7.02, 5.09)
+    DB11  -  PAGE1 (6.60, 5.49)
+    DB11  -  PAGE1 (7.00, 5.49)
+    DB11  -  PAGE1 (7.00, 5.49)
+    DB11  -  PAGE1 (7.01, 5.49)
+    DBI11  -  PAGE1 (7.51, 5.69)
+    DBI11  -  PAGE1 (7.29, 5.69)
+    DBI11  -  PAGE1 (7.51, 5.69)
+    DBI11  -  PAGE1 (7.90, 5.69)
+    DBI11  -  PAGE1 (7.51, 5.69)
+    DBI11  -  PAGE1 (7.51, 5.49)
+    DBI11  -  PAGE1 (7.31, 5.49)
+    DBI11  -  PAGE1 (7.32, 5.49)
+    DBI11  -  PAGE1 (7.52, 5.49)
+    DBI11  -  PAGE1 (7.52, 5.50)
+    DBI11  -  PAGE1 (7.32, 5.49)
+    DBI11  -  PAGE1 (7.51, 5.49)
+    DBI11  -  PAGE1 (7.51, 5.49)
+    DBI11  -  PAGE1 (7.52, 5.49)
+    GND  -  PAGE1 (6.97, 5.69)
+    GND  -  PAGE1 (7.00, 5.69)
+    GND  -  PAGE1 (6.97, 5.69)
+    GND  -  PAGE1 (6.60, 5.69)
+    GND  -  PAGE1 (6.60, 5.69)
+    GND  -  PAGE1 (6.60, 5.71)
+    DB7  -  PAGE1 (7.00, 3.89)
+    DB7  -  PAGE1 (6.60, 3.89)
+
+Reporting Ports
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    VDD
+    VCC
+    V33
+    UDC_POWER
+    EQV
+    +5V
+    +3V3D
+    GND
+    GND_POWER
+    V12P
+    1.7V
+
+Reporting Net Names
+    N107066
+    N83813
+    SIN-
+    S_COS-_37605
+    -------------------------------------------------------------------------------
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? S_COS- 
+                    SCHEMATIC1, PAGE2  (7.10, 0.80) 
+             Alternate Name:  S_COS-
+    -------------------------------------------------------------------------------
+
+    UDC_POWER
+    E/X/C
+    N106546
+    COS
+    R1
+    V33
+    S_R2_37605
+    -------------------------------------------------------------------------------
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? S_R2 
+                    SCHEMATIC1, PAGE2  (7.10, 1.10) 
+             Alternate Name:  S_R2
+    -------------------------------------------------------------------------------
+
+    N85112
+    GND_POWER
+    -------------------------------------------------------------------------------
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? GND_POWER 
+                    SCHEMATIC1, PAGE2  (1.00, 0.70) 
+             Alternate Name:  GNDP
+    -------------------------------------------------------------------------------
+
+    N85164
+    COS-
+    R2
+    N95367
+    SINLO
+    N95380
+    N84578
+    N83845
+    V12P
+    N850262
+    EXC_83261
+    -------------------------------------------------------------------------------
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? EXC 
+                    SCHEMATIC1, PAGE2  (0.50, 3.40) 
+             Alternate Name:  EXC
+    -------------------------------------------------------------------------------
+
+    N85100
+    SIN+
+    N83701
+    N85160
+    S_R1_37605
+    -------------------------------------------------------------------------------
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? S_R1 
+                    SCHEMATIC1, PAGE2  (6.70, 1.20) 
+             Alternate Name:  S_R1
+    -------------------------------------------------------------------------------
+
+    N83867
+    VCC
+    N833952
+    N83705
+    1.7V
+    N95384
+    S_SIN+_37605
+    -------------------------------------------------------------------------------
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? S_SIN+ 
+                    SCHEMATIC1, PAGE2  (7.10, 0.90) 
+             Alternate Name:  S_SIN+
+    -------------------------------------------------------------------------------
+
+    SIN
+    XB_REF
+    COSLO
+    N83628
+    COS+
+    N85152
+    N85116
+    N83863
+    S_COS+_37605
+    -------------------------------------------------------------------------------
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? S_COS+ 
+                    SCHEMATIC1, PAGE2  (7.10, 0.70) 
+             Alternate Name:  S_COS+
+    -------------------------------------------------------------------------------
+
+    S_SIN-_37605
+    -------------------------------------------------------------------------------
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? S_SIN- 
+                    SCHEMATIC1, PAGE2  (7.10, 1.00) 
+             Alternate Name:  S_SIN-
+    -------------------------------------------------------------------------------
+
+    N9049829
+    N68678
+    AN18
+    AN3
+    P14.3
+    P14.4
+    N75179
+    DB5_90498
+    -------------------------------------------------------------------------------
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? DB5 
+                    SCHEMATIC1, PAGE3  (8.70, 1.60) 
+             Alternate Name:  DB5
+    -------------------------------------------------------------------------------
+
+    P23.0
+    P02.3
+    N93397
+    DOS
+    P10.1
+    P15.1
+    AN6
+    P20.8
+    N94122
+    N75075
+    COS_90498
+    -------------------------------------------------------------------------------
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? COS 
+                    SCHEMATIC1, PAGE3  (6.00, 1.70) 
+             Alternate Name:  COS
+    -------------------------------------------------------------------------------
+
+    N82077
+    N69030
+    PWMVH
+    AN1
+    P33.6
+    N94275
+    N94445
+    P23.4
+    DB10_90498
+    -------------------------------------------------------------------------------
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? DB10 
+                    SCHEMATIC1, PAGE3  (8.70, 2.10) 
+             Alternate Name:  DB10
+    -------------------------------------------------------------------------------
+
+    N75103
+    P15.2
+    P33.8
+    P33.13
+    N69049
+    P14.8
+    P11.12
+    P20.9
+    XB_3
+    N92516
+    P15.8
+    PWMUH
+    XB_NRST
+    P14.5
+    P10.5
+    DB1_90498
+    -------------------------------------------------------------------------------
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? DB1 
+                    SCHEMATIC1, PAGE3  (8.70, 1.20) 
+             Alternate Name:  DB1
+    -------------------------------------------------------------------------------
+
+    AN24
+    AN20
+    P20.7
+    N92502
+    U_B
+    P15.6
+    SINLO_90498
+    -------------------------------------------------------------------------------
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? SINLO 
+                    SCHEMATIC1, PAGE3  (6.00, 1.50) 
+             Alternate Name:  SINLO
+    -------------------------------------------------------------------------------
+
+    P11.10
+    DB6_90498
+    -------------------------------------------------------------------------------
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? DB6 
+                    SCHEMATIC1, PAGE3  (8.70, 1.70) 
+             Alternate Name:  DB6
+    -------------------------------------------------------------------------------
+
+    P11.9
+    N68412
+    N748871
+    DB0_90498
+    -------------------------------------------------------------------------------
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? DB0 
+                    SCHEMATIC1, PAGE3  (8.70, 1.10) 
+             Alternate Name:  DB0
+    -------------------------------------------------------------------------------
+
+    N94294
+    AN8
+    P20.10
+    P11.3
+    SAMPLE
+    P11.6
+    N72685
+    DB8_90498
+    -------------------------------------------------------------------------------
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? DB8 
+                    SCHEMATIC1, PAGE3  (8.70, 1.90) 
+             Alternate Name:  DB8
+    -------------------------------------------------------------------------------
+
+    N68468
+    P13.1
+    P14.6
+    P15.3
+    AN17
+    P02.5
+    DB11_90498
+    -------------------------------------------------------------------------------
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? DB11 
+                    SCHEMATIC1, PAGE3  (8.70, 2.20) 
+             Alternate Name:  DB11
+    -------------------------------------------------------------------------------
+
+    V_A
+    P10.4
+    LOT
+    P32.2
+    P23.2
+    N9049828
+    P33.3
+    P10.3
+    P20.13
+    AN7
+    P13.3
+    N72805
+    P15.7
+    RDVEL
+    P32.0
+    N93401
+    N805164
+    P33.2
+    N94309
+    N91334
+    P10.7
+    AN37
+    EXC_90498
+    -------------------------------------------------------------------------------
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? EXC 
+                    SCHEMATIC1, PAGE3  (6.00, 1.20) 
+             Alternate Name:  EXC
+    -------------------------------------------------------------------------------
+
+    +5V
+    P11.11
+    P23.1
+    P02.0
+    P14.9
+    N72657
+    COSLO_90498
+    -------------------------------------------------------------------------------
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? COSLO 
+                    SCHEMATIC1, PAGE3  (6.00, 1.80) 
+             Alternate Name:  COSLO
+    -------------------------------------------------------------------------------
+
+    P20.14
+    PWMUL
+    AN44
+    P14.2
+    P33.7
+    P10.0
+    +3V3D
+    U_A
+    P10.6
+    DB3_90498
+    -------------------------------------------------------------------------------
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? DB3 
+                    SCHEMATIC1, PAGE3  (8.70, 1.40) 
+             Alternate Name:  DB3
+    -------------------------------------------------------------------------------
+
+    XB_1
+    P02.6
+    GND
+    P15.4
+    P10.2
+    P11.2
+    N75091
+    P02.4
+    P33.0
+    AN26
+    AN11
+    P20.12
+    P14.7
+    AN36
+    P33.10
+    P33.12
+    P13.2
+    N678391
+    P33.4
+    P13.0
+    AN25
+    P02.1
+    P23.5
+    /E/X/C
+    SIN_90498
+    -------------------------------------------------------------------------------
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? SIN 
+                    SCHEMATIC1, PAGE3  (6.00, 1.40) 
+             Alternate Name:  SIN
+    -------------------------------------------------------------------------------
+
+    P02.2
+    N724811
+    AN0
+    DB2_90498
+    -------------------------------------------------------------------------------
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? DB2 
+                    SCHEMATIC1, PAGE3  (8.70, 1.30) 
+             Alternate Name:  DB2
+    -------------------------------------------------------------------------------
+
+    N75211
+    AN10
+    N91348
+    AN38
+    AN32
+    P33.9
+    N93405
+    N72697
+    N72773
+    V_B
+    P33.5
+    AN16
+    AN12
+    N91341
+    IO_37
+    -------------------------------------------------------------------------------
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? IO_37 
+                    SCHEMATIC1, PAGE3  (1.10, 1.20) 
+             Alternate Name:  P14.1
+    -------------------------------------------------------------------------------
+
+    AN35
+    AN33
+    N72669
+    N75063
+    W
+    P33.1
+    P15.0
+    N68246
+    P23.3
+    P14.0
+    P33.11
+    DB7_90498
+    -------------------------------------------------------------------------------
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? DB7 
+                    SCHEMATIC1, PAGE3  (8.70, 1.80) 
+             Alternate Name:  DB7
+    -------------------------------------------------------------------------------
+
+    PWMVL
+    AN2
+    VDD
+    AN27
+    P20.11
+    XB_2
+    AN39
+    CS_RD
+    P15.5
+    DB4_90498
+    -------------------------------------------------------------------------------
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? DB4 
+                    SCHEMATIC1, PAGE3  (8.70, 1.50) 
+             Alternate Name:  DB4
+    -------------------------------------------------------------------------------
+
+    P32.3
+    P32.4
+    DB9_90498
+    -------------------------------------------------------------------------------
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? DB9 
+                    SCHEMATIC1, PAGE3  (8.70, 2.00) 
+             Alternate Name:  DB9
+    -------------------------------------------------------------------------------
+
+    N59989
+    WQEP1A
+    IO_37_60352
+    -------------------------------------------------------------------------------
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? IO_37 
+                    SCHEMATIC1, PAGE4  (8.80, 0.80) 
+             Alternate Name:  IO_37
+    -------------------------------------------------------------------------------
+
+    N56916
+    U_B_56771
+    -------------------------------------------------------------------------------
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U_B 
+                    SCHEMATIC1, PAGE4  (0.50, 0.40) 
+             Alternate Name:  U_B
+    -------------------------------------------------------------------------------
+
+    DAC2
+    U_A_56771
+    -------------------------------------------------------------------------------
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U_A 
+                    SCHEMATIC1, PAGE4  (1.70, 0.40) 
+             Alternate Name:  U_A
+    -------------------------------------------------------------------------------
+
+    N57389
+    DA1
+    N58297
+    AD2
+    EQV
+    AD1
+    N58241
+    GNDP
+    V_B_57309
+    -------------------------------------------------------------------------------
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? V_B 
+                    SCHEMATIC1, PAGE4  (3.10, 0.50) 
+             Alternate Name:  V_B
+    -------------------------------------------------------------------------------
+
+    EN_Z
+    V_A_57309
+    -------------------------------------------------------------------------------
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? V_A 
+                    SCHEMATIC1, PAGE4  (4.70, 0.50) 
+             Alternate Name:  V_A
+    -------------------------------------------------------------------------------
+
+    DA2
+    N65106
+    WQEP1Z
+    EN_A
+    N58343
+    IV-V
+    I_DC
+    WQEP1B
+    DAC1
+    N64736
+    N62811
+    N58232
+    ADC1
+    V_DC
+    RP_SPEED
+    ADC2
+    EN_B
+    N59632
+    IV-U
+    N57938
+    EXC
+    USARTXB
+    N01882
+    COS_AD
+    N00736
+    DBI2
+    SCI_TX
+    S_R2
+    SIN_R1
+    EXC_AD
+    DB4
+    N01890
+    DBI11
+    N24307
+    IO4
+    DBI3
+    IO7
+    N00707
+    IO2
+    N03607
+    DB5
+    DBI1
+    N01906
+    IO9
+    N01168
+    N20167
+    USARRXB
+    N102182
+    DB2
+    IO12
+    DBI10
+    N00716
+    DB6
+    S_SIN-
+    N27863
+    N00841
+    S_COS-
+    N27859
+    IO6
+    N01886
+    IO14
+    DBI8
+    PWM_EXC
+    SINE_AD
+    IO11
+    DB0
+    IO3
+    N01898
+    IO5
+    DBI4
+    IO13
+    DB11
+    N102181
+    N27051
+    N119699
+    DB10
+    N01699
+    CAN_RX
+    N00845
+    N27113
+    N21776
+    N23968
+    DBI6
+    CAN_H
+    N01049
+    N01058
+    N30191
+    N01067
+    DBI5
+    DB8
+    DBI7
+    N120016
+    IO10
+    N00785
+    DB9
+    DBI9
+    IO1
+    S_SIN+
+    N01894
+    DBI0
+    S_R1
+    DB3
+    SCI_RX
+    N20290
+    CAN_L
+    S_COS+
+    DB1
+    IO8
+    N01902
+    DB7
+    N119714
+    N24408
+    N20179
+
+Checking Misleading Tap connection
+
+ERROR(ORCAP-2207): Check Bus width mismatch
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+ERROR(ORCAP-1604): Same Pin Number connected to more than one net. /JP2/1  Nets: 'VDD' and 'VCC'. 
+                    SCHEMATIC1, PAGE3  (3.70, 0.50) 
+ERROR(ORCAP-1604): Same Pin Number connected to more than one net. /JP2/2  Nets: 'VDD' and 'DA2'. 
+                    SCHEMATIC1, PAGE3  (4.70, 0.50) 
+ERROR(ORCAP-1604): Same Pin Number connected to more than one net. /JP2/3  Nets: 'V33' and 'DA1'. 
+                    SCHEMATIC1, PAGE3  (3.70, 0.60) 
+ERROR(ORCAP-1604): Same Pin Number connected to more than one net. /JP2/4  Nets: 'V33' and 'AD2'. 
+                    SCHEMATIC1, PAGE3  (4.70, 0.60) 
+ERROR(ORCAP-1604): Same Pin Number connected to more than one net. /JP2/5  Nets: 'AN39' and 'AD1'. 
+                    SCHEMATIC1, PAGE3  (3.70, 0.70) 
+ERROR(ORCAP-1604): Same Pin Number connected to more than one net. /JP2/6  Nets: 'AN44' and 'GND_POWER'. 
+                    SCHEMATIC1, PAGE3  (4.70, 0.70) 
+ERROR(ORCAP-1604): Same Pin Number connected to more than one net. /JP3/1  Nets: 'VCC' and '+3V3D'. 
+                    SCHEMATIC1, PAGE1  (6.50, 0.80) 
+ERROR(ORCAP-1604): Same Pin Number connected to more than one net. /JP3/2  Nets: 'VCC' and '+3V3D'. 
+                    SCHEMATIC1, PAGE1  (7.50, 0.80) 
+ERROR(ORCAP-1604): Same Pin Number connected to more than one net. /JP3/3  Nets: 'V33' and 'GND_POWER'. 
+                    SCHEMATIC1, PAGE1  (6.50, 0.90) 
+ERROR(ORCAP-1604): Same Pin Number connected to more than one net. /JP3/4  Nets: 'V33' and 'GND_POWER'. 
+                    SCHEMATIC1, PAGE1  (7.50, 0.90) 
+ERROR(ORCAP-1604): Same Pin Number connected to more than one net. /JP3/5  Nets: 'GND' and 'P02.5'. 
+                    SCHEMATIC1, PAGE1  (6.50, 1.00) 
+ERROR(ORCAP-1604): Same Pin Number connected to more than one net. /JP3/6  Nets: 'GND' and 'P02.6'. 
+                    SCHEMATIC1, PAGE1  (7.50, 1.00) 
+ERROR(ORCAP-1604): Same Pin Number connected to more than one net. /JP3/7  Nets: 'IO1' and 'P02.1'. 
+                    SCHEMATIC1, PAGE1  (6.50, 1.10) 
+ERROR(ORCAP-1604): Same Pin Number connected to more than one net. /JP3/8  Nets: 'IO2' and 'P02.4'. 
+                    SCHEMATIC1, PAGE1  (7.50, 1.10) 
+ERROR(ORCAP-1604): Same Pin Number connected to more than one net. /JP3/9  Nets: 'IO3' and 'P10.7'. 
+                    SCHEMATIC1, PAGE1  (6.50, 1.20) 
+ERROR(ORCAP-1604): Same Pin Number connected to more than one net. /JP3/10  Nets: 'IO4' and 'P02.0'. 
+                    SCHEMATIC1, PAGE1  (7.50, 1.20) 
+ERROR(ORCAP-1604): Same Pin Number connected to more than one net. /JP3/11  Nets: 'IO5' and 'P10.5'. 
+                    SCHEMATIC1, PAGE1  (6.50, 1.30) 
+ERROR(ORCAP-1604): Same Pin Number connected to more than one net. /JP3/12  Nets: 'IO6' and 'P10.6'. 
+                    SCHEMATIC1, PAGE1  (7.50, 1.30) 
+ERROR(ORCAP-1604): Same Pin Number connected to more than one net. /JP3/13  Nets: 'IO7' and 'P13.1'. 
+                    SCHEMATIC1, PAGE1  (6.50, 1.40) 
+ERROR(ORCAP-1604): Same Pin Number connected to more than one net. /JP3/14  Nets: 'IO8' and 'P13.0'. 
+                    SCHEMATIC1, PAGE1  (7.50, 1.40) 
+ERROR(ORCAP-1604): Same Pin Number connected to more than one net. /JP3/15  Nets: 'IO9' and 'IO_37'. 
+                    SCHEMATIC1, PAGE1  (6.50, 1.50) 
+ERROR(ORCAP-1604): Same Pin Number connected to more than one net. /JP3/16  Nets: 'IO10' and 'P14.9'. 
+                    SCHEMATIC1, PAGE1  (7.50, 1.50) 
+ERROR(ORCAP-1604): Same Pin Number connected to more than one net. /JP3/17  Nets: 'IO11' and 'P14.8'. 
+                    SCHEMATIC1, PAGE1  (6.50, 1.60) 
+ERROR(ORCAP-1604): Same Pin Number connected to more than one net. /JP3/18  Nets: 'IO12' and 'P14.6'. 
+                    SCHEMATIC1, PAGE1  (7.50, 1.60) 
+ERROR(ORCAP-1604): Same Pin Number connected to more than one net. /JP3/19  Nets: 'IO13' and 'P10.3'. 
+                    SCHEMATIC1, PAGE1  (6.50, 1.70) 
+ERROR(ORCAP-1604): Same Pin Number connected to more than one net. /JP3/20  Nets: 'IO14' and 'P10.4'. 
+                    SCHEMATIC1, PAGE1  (7.50, 1.70) 
+ERROR(ORCAP-1604): Same Pin Number connected to more than one net. /R146/  Nets: 'PWMVH' and 'RP_SPEED'. 
+                    SCHEMATIC1, PAGE3  (0.60, 6.00) 
+ERROR(ORCAP-1604): Same Pin Number connected to more than one net. /R146/  Nets: 'GND_POWER' and 'N59989'. 
+                    SCHEMATIC1, PAGE3  (0.60, 6.50) 
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+ERROR(ORCAP-1616): Reference is invalid for this part SW 
+                    SCHEMATIC1, PAGE4  (8.70, 1.20) 
+ERROR(ORCAP-1621): This reference has already been assigned to a different package type. JP3 
+                    SCHEMATIC1, PAGE1  (6.80, 0.70) 
+ERROR(ORCAP-1621): This reference has already been assigned to a different package type. JP2 
+                    SCHEMATIC1, PAGE3  (4.00, 0.40) 
+ERROR(ORCAP-1605): Other parts in this package have different values or PCB footprints. JP3 
+                    SCHEMATIC1, PAGE3  (1.40, 0.40) 
+ERROR(ORCAP-1605): Other parts in this package have different values or PCB footprints. JP2 
+                    SCHEMATIC1, PAGE4  (8.00, 3.60) 
+
+Report for Duplicate References
+ERROR(ORCAP-1631): Duplicate reference JP3 
+                    SCHEMATIC1, PAGE3  (1.40, 0.40) 
+ERROR(ORCAP-1631): Duplicate reference JP2 
+                    SCHEMATIC1, PAGE4  (8.00, 3.60) 
+ERROR(ORCAP-1631): Duplicate reference R146 
+                    SCHEMATIC1, PAGE4  (7.50, 0.80) 
+
+INFO(ORCAP-2209): Checking Visible Unconnected Power Pins
+
+--------------------------------------------------
+Checking Entire Design: SLMC3PDEB103 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+
+Checking Normal Convert View Sync  
+INFO(ORCAP-36105): Checking Missing Pin Numbers  
+#1 ERROR(ORCAP-36041): Duplicate Pin Name "GND" found on Package U11_0 , U11 Pin Number 5: SCHEMATIC1, PAGE2 (5.70, 4.70). Please renumber one of these.
+#2 ERROR(ORCAP-36041): Duplicate Pin Name "VOUT" found on Package U14_0 , U14 Pin Number 4: SCHEMATIC1, PAGE2 (4.30, 5.60). Please renumber one of these.
+#3 ERROR(ORCAP-36041): Duplicate Pin Name "DGND" found on Package AD2S1205YSTZ , U6 Pin Number 23: SCHEMATIC1, PAGE3 (6.30, 0.90). Please renumber one of these.
+#4 ERROR(ORCAP-36041): Duplicate Pin Name "AGND" found on Package AD2S1205YSTZ , U6 Pin Number 42: SCHEMATIC1, PAGE3 (6.30, 0.90). Please renumber one of these.
+#5 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package HCPL060L , U15 Pin Number 4: SCHEMATIC1, PAGE4 (1.20, 4.00). Please renumber one of these.
+#6 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package HCPL060L , U16 Pin Number 4: SCHEMATIC1, PAGE4 (3.90, 4.10). Please renumber one of these.
+#7 ERROR(ORCAP-36041): Duplicate Pin Name "NC" found on Package HCPL060L , U17 Pin Number 4: SCHEMATIC1, PAGE4 (1.20, 5.30). Please renumber one of these.
+#8 ERROR(ORCAP-36022): Pin number missing from Pin "+" of Package CA**_0 , CA24: SCHEMATIC1, PAGE2 (7.50, 5.10). All pins should be numbered.
+#9 ERROR(ORCAP-36022): Pin number missing from Pin "-" of Package CA**_0 , CA24: SCHEMATIC1, PAGE2 (7.50, 5.10). All pins should be numbered.
+#10 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R58: SCHEMATIC1, PAGE3 (6.20, 2.80). All pins should be numbered.
+#11 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R58: SCHEMATIC1, PAGE3 (6.20, 2.80). All pins should be numbered.
+#12 ERROR(ORCAP-36022): Pin number missing from Pin "K" of Package D , D3: SCHEMATIC1, PAGE2 (6.20, 3.00). All pins should be numbered.
+#13 ERROR(ORCAP-36022): Pin number missing from Pin "A" of Package D , D3: SCHEMATIC1, PAGE2 (6.20, 3.00). All pins should be numbered.
+#14 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R14: SCHEMATIC1, PAGE2 (2.60, 2.70). All pins should be numbered.
+#15 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R14: SCHEMATIC1, PAGE2 (2.60, 2.70). All pins should be numbered.
+#16 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R121: SCHEMATIC1, PAGE3 (5.50, 4.00). All pins should be numbered.
+#17 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R121: SCHEMATIC1, PAGE3 (5.50, 4.00). All pins should be numbered.
+#18 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C45: SCHEMATIC1, PAGE3 (0.20, 6.00). All pins should be numbered.
+#19 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C45: SCHEMATIC1, PAGE3 (0.20, 6.00). All pins should be numbered.
+#20 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R143: SCHEMATIC1, PAGE3 (0.50, 4.50). All pins should be numbered.
+#21 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R143: SCHEMATIC1, PAGE3 (0.50, 4.50). All pins should be numbered.
+#22 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C67: SCHEMATIC1, PAGE4 (0.70, 5.80). All pins should be numbered.
+#23 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C67: SCHEMATIC1, PAGE4 (0.70, 5.80). All pins should be numbered.
+#24 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R132: SCHEMATIC1, PAGE4 (5.10, 4.20). All pins should be numbered.
+#25 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R132: SCHEMATIC1, PAGE4 (5.10, 4.20). All pins should be numbered.
+#26 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R69: SCHEMATIC1, PAGE4 (8.20, 3.10). All pins should be numbered.
+#27 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R69: SCHEMATIC1, PAGE4 (8.20, 3.10). All pins should be numbered.
+#28 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C23: SCHEMATIC1, PAGE4 (8.80, 2.70). All pins should be numbered.
+#29 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C23: SCHEMATIC1, PAGE4 (8.80, 2.70). All pins should be numbered.
+#30 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R36: SCHEMATIC1, PAGE4 (2.60, 2.50). All pins should be numbered.
+#31 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R36: SCHEMATIC1, PAGE4 (2.60, 2.50). All pins should be numbered.
+#32 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R47: SCHEMATIC1, PAGE4 (1.60, 3.20). All pins should be numbered.
+#33 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R47: SCHEMATIC1, PAGE4 (1.60, 3.20). All pins should be numbered.
+#34 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R110: SCHEMATIC1, PAGE2 (1.30, 0.40). All pins should be numbered.
+#35 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R110: SCHEMATIC1, PAGE2 (1.30, 0.40). All pins should be numbered.
+#36 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C34: SCHEMATIC1, PAGE1 (1.60, 4.70). All pins should be numbered.
+#37 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C34: SCHEMATIC1, PAGE1 (1.60, 4.70). All pins should be numbered.
+#38 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C12: SCHEMATIC1, PAGE1 (0.40, 2.00). All pins should be numbered.
+#39 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C12: SCHEMATIC1, PAGE1 (0.40, 2.00). All pins should be numbered.
+#40 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C2: SCHEMATIC1, PAGE1 (0.25, 0.20). All pins should be numbered.
+#41 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C2: SCHEMATIC1, PAGE1 (0.25, 0.20). All pins should be numbered.
+#42 ERROR(ORCAP-36022): Pin number missing from Pin "K" of Package D , D12: SCHEMATIC1, PAGE2 (7.80, 4.70). All pins should be numbered.
+#43 ERROR(ORCAP-36022): Pin number missing from Pin "A" of Package D , D12: SCHEMATIC1, PAGE2 (7.80, 4.70). All pins should be numbered.
+#44 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C24: SCHEMATIC1, PAGE3 (6.30, 3.00). All pins should be numbered.
+#45 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C24: SCHEMATIC1, PAGE3 (6.30, 3.00). All pins should be numbered.
+#46 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R48: SCHEMATIC1, PAGE2 (8.30, 3.30). All pins should be numbered.
+#47 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R48: SCHEMATIC1, PAGE2 (8.30, 3.30). All pins should be numbered.
+#48 ERROR(ORCAP-36022): Pin number missing from Pin "+" of Package CA**_1 , CA2: SCHEMATIC1, PAGE2 (4.70, 2.40). All pins should be numbered.
+#49 ERROR(ORCAP-36022): Pin number missing from Pin "-" of Package CA**_1 , CA2: SCHEMATIC1, PAGE2 (4.70, 2.40). All pins should be numbered.
+#50 ERROR(ORCAP-36022): Pin number missing from Pin "+" of Package CA**_1 , CA25: SCHEMATIC1, PAGE2 (4.20, 2.40). All pins should be numbered.
+#51 ERROR(ORCAP-36022): Pin number missing from Pin "-" of Package CA**_1 , CA25: SCHEMATIC1, PAGE2 (4.20, 2.40). All pins should be numbered.
+#52 ERROR(ORCAP-36022): Pin number missing from Pin "K" of Package D , D4: SCHEMATIC1, PAGE2 (6.20, 3.20). All pins should be numbered.
+#53 ERROR(ORCAP-36022): Pin number missing from Pin "A" of Package D , D4: SCHEMATIC1, PAGE2 (6.20, 3.20). All pins should be numbered.
+#54 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R59: SCHEMATIC1, PAGE2 (4.50, 3.30). All pins should be numbered.
+#55 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R59: SCHEMATIC1, PAGE2 (4.50, 3.30). All pins should be numbered.
+#56 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C13: SCHEMATIC1, PAGE2 (1.40, 3.90). All pins should be numbered.
+#57 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C13: SCHEMATIC1, PAGE2 (1.40, 3.90). All pins should be numbered.
+#58 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R122: SCHEMATIC1, PAGE3 (7.00, 4.20). All pins should be numbered.
+#59 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R122: SCHEMATIC1, PAGE3 (7.00, 4.20). All pins should be numbered.
+#60 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C57: SCHEMATIC1, PAGE3 (8.20, 4.70). All pins should be numbered.
+#61 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C57: SCHEMATIC1, PAGE3 (8.20, 4.70). All pins should be numbered.
+#62 ERROR(ORCAP-36022): Pin number missing from Pin "+" of Package CA**_0 , CA14: SCHEMATIC1, PAGE3 (8.90, 4.30). All pins should be numbered.
+#63 ERROR(ORCAP-36022): Pin number missing from Pin "-" of Package CA**_0 , CA14: SCHEMATIC1, PAGE3 (8.90, 4.30). All pins should be numbered.
+#64 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C35: SCHEMATIC1, PAGE3 (0.20, 4.40). All pins should be numbered.
+#65 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C35: SCHEMATIC1, PAGE3 (0.20, 4.40). All pins should be numbered.
+#66 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R144: SCHEMATIC1, PAGE3 (0.60, 4.60). All pins should be numbered.
+#67 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R144: SCHEMATIC1, PAGE3 (0.60, 4.60). All pins should be numbered.
+#68 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R133: SCHEMATIC1, PAGE4 (3.40, 5.80). All pins should be numbered.
+#69 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R133: SCHEMATIC1, PAGE4 (3.40, 5.80). All pins should be numbered.
+#70 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C68: SCHEMATIC1, PAGE4 (7.70, 1.40). All pins should be numbered.
+#71 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C68: SCHEMATIC1, PAGE4 (7.70, 1.40). All pins should be numbered.
+#72 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R37: SCHEMATIC1, PAGE4 (0.90, 2.60). All pins should be numbered.
+#73 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R37: SCHEMATIC1, PAGE4 (0.90, 2.60). All pins should be numbered.
+#74 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C46: SCHEMATIC1, PAGE2 (3.30, 0.50). All pins should be numbered.
+#75 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C46: SCHEMATIC1, PAGE2 (3.30, 0.50). All pins should be numbered.
+#76 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R111: SCHEMATIC1, PAGE2 (1.80, 0.70). All pins should be numbered.
+#77 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R111: SCHEMATIC1, PAGE2 (1.80, 0.70). All pins should be numbered.
+#78 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R100: SCHEMATIC1, PAGE1 (3.70, 6.10). All pins should be numbered.
+#79 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R100: SCHEMATIC1, PAGE1 (3.70, 6.10). All pins should be numbered.
+#80 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES_0 , R26: SCHEMATIC1, PAGE1 (4.30, 1.41). All pins should be numbered.
+#81 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES_0 , R1: SCHEMATIC1, PAGE1 (4.30, 0.20). All pins should be numbered.
+#82 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C3: SCHEMATIC1, PAGE1 (0.25, 0.50). All pins should be numbered.
+#83 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C3: SCHEMATIC1, PAGE1 (0.25, 0.50). All pins should be numbered.
+#84 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C58: SCHEMATIC1, PAGE2 (7.00, 5.60). All pins should be numbered.
+#85 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C58: SCHEMATIC1, PAGE2 (7.00, 5.60). All pins should be numbered.
+#86 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R123: SCHEMATIC1, PAGE2 (7.30, 4.90). All pins should be numbered.
+#87 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R123: SCHEMATIC1, PAGE2 (7.30, 4.90). All pins should be numbered.
+#88 ERROR(ORCAP-36022): Pin number missing from Pin "+" of Package CA**_2 , CA3: SCHEMATIC1, PAGE3 (7.00, 3.30). All pins should be numbered.
+#89 ERROR(ORCAP-36022): Pin number missing from Pin "-" of Package CA**_2 , CA3: SCHEMATIC1, PAGE3 (7.00, 3.30). All pins should be numbered.
+#90 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C25: SCHEMATIC1, PAGE3 (7.40, 3.40). All pins should be numbered.
+#91 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C25: SCHEMATIC1, PAGE3 (7.40, 3.40). All pins should be numbered.
+#92 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R49: SCHEMATIC1, PAGE3 (8.60, 2.30). All pins should be numbered.
+#93 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R49: SCHEMATIC1, PAGE3 (8.60, 2.30). All pins should be numbered.
+#94 ERROR(ORCAP-36022): Pin number missing from Pin "+" of Package CA**_0 , CA15: SCHEMATIC1, PAGE2 (4.80, 4.90). All pins should be numbered.
+#95 ERROR(ORCAP-36022): Pin number missing from Pin "-" of Package CA**_0 , CA15: SCHEMATIC1, PAGE2 (4.80, 4.90). All pins should be numbered.
+#96 ERROR(ORCAP-36022): Pin number missing from Pin "BASE" of Package NPN* , Q1: SCHEMATIC1, PAGE2 (2.90, 2.40). All pins should be numbered.
+#97 ERROR(ORCAP-36022): Pin number missing from Pin "COLLECTOR" of Package NPN* , Q1: SCHEMATIC1, PAGE2 (2.90, 2.40). All pins should be numbered.
+#98 ERROR(ORCAP-36022): Pin number missing from Pin "EMITTER" of Package NPN* , Q1: SCHEMATIC1, PAGE2 (2.90, 2.40). All pins should be numbered.
+#99 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R27: SCHEMATIC1, PAGE2 (2.60, 3.40). All pins should be numbered.
+#100 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R27: SCHEMATIC1, PAGE2 (2.60, 3.40). All pins should be numbered.
+#101 ERROR(ORCAP-36022): Pin number missing from Pin "+" of Package CA**_0 , CA26: SCHEMATIC1, PAGE3 (4.30, 5.80). All pins should be numbered.
+#102 ERROR(ORCAP-36022): Pin number missing from Pin "-" of Package CA**_0 , CA26: SCHEMATIC1, PAGE3 (4.30, 5.80). All pins should be numbered.
+#103 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R145: SCHEMATIC1, PAGE3 (0.60, 6.20). All pins should be numbered.
+#104 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R145: SCHEMATIC1, PAGE3 (0.60, 6.20). All pins should be numbered.
+#105 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C47: SCHEMATIC1, PAGE3 (2.10, 6.00). All pins should be numbered.
+#106 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C47: SCHEMATIC1, PAGE3 (2.10, 6.00). All pins should be numbered.
+#107 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C36: SCHEMATIC1, PAGE3 (2.10, 4.40). All pins should be numbered.
+#108 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C36: SCHEMATIC1, PAGE3 (2.10, 4.40). All pins should be numbered.
+#109 ERROR(ORCAP-36022): Pin number missing from Pin "K" of Package D , D5: SCHEMATIC1, PAGE3 (1.60, 3.90). All pins should be numbered.
+#110 ERROR(ORCAP-36022): Pin number missing from Pin "A" of Package D , D5: SCHEMATIC1, PAGE3 (1.60, 3.90). All pins should be numbered.
+#111 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R134: SCHEMATIC1, PAGE4 (0.50, 5.30). All pins should be numbered.
+#112 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R134: SCHEMATIC1, PAGE4 (0.50, 5.30). All pins should be numbered.
+#113 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C69: SCHEMATIC1, PAGE4 (6.20, 1.50). All pins should be numbered.
+#114 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C69: SCHEMATIC1, PAGE4 (6.20, 1.50). All pins should be numbered.
+#115 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C4: SCHEMATIC1, PAGE4 (0.90, 1.30). All pins should be numbered.
+#116 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C4: SCHEMATIC1, PAGE4 (0.90, 1.30). All pins should be numbered.
+#117 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R112: SCHEMATIC1, PAGE2 (4.20, 0.70). All pins should be numbered.
+#118 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R112: SCHEMATIC1, PAGE2 (4.20, 0.70). All pins should be numbered.
+#119 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES_0 , R101: SCHEMATIC1, PAGE1 (7.10, 5.40). All pins should be numbered.
+#120 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C14: SCHEMATIC1, PAGE1 (2.40, 2.10). All pins should be numbered.
+#121 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C14: SCHEMATIC1, PAGE1 (2.40, 2.10). All pins should be numbered.
+#122 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES_0 , R38: SCHEMATIC1, PAGE1 (0.50, 2.30). All pins should be numbered.
+#123 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R17: SCHEMATIC1, PAGE3 (8.00, 0.50). All pins should be numbered.
+#124 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R17: SCHEMATIC1, PAGE3 (8.00, 0.50). All pins should be numbered.
+#125 ERROR(ORCAP-36022): Pin number missing from Pin "BASE" of Package PNP* , Q2: SCHEMATIC1, PAGE2 (2.90, 3.60). All pins should be numbered.
+#126 ERROR(ORCAP-36022): Pin number missing from Pin "COLLECTOR" of Package PNP* , Q2: SCHEMATIC1, PAGE2 (2.90, 3.60). All pins should be numbered.
+#127 ERROR(ORCAP-36022): Pin number missing from Pin "EMITTER" of Package PNP* , Q2: SCHEMATIC1, PAGE2 (2.90, 3.60). All pins should be numbered.
+#128 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R39: SCHEMATIC1, PAGE2 (1.30, 4.10). All pins should be numbered.
+#129 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R39: SCHEMATIC1, PAGE2 (1.30, 4.10). All pins should be numbered.
+#130 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R124: SCHEMATIC1, PAGE3 (7.00, 4.40). All pins should be numbered.
+#131 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R124: SCHEMATIC1, PAGE3 (7.00, 4.40). All pins should be numbered.
+#132 ERROR(ORCAP-36022): Pin number missing from Pin "K" of Package D , D6: SCHEMATIC1, PAGE3 (1.60, 5.50). All pins should be numbered.
+#133 ERROR(ORCAP-36022): Pin number missing from Pin "A" of Package D , D6: SCHEMATIC1, PAGE3 (1.60, 5.50). All pins should be numbered.
+#134 ERROR(ORCAP-36022): Pin number missing from Pin "+" of Package CA**_0 , CA4: SCHEMATIC1, PAGE3 (3.80, 4.20). All pins should be numbered.
+#135 ERROR(ORCAP-36022): Pin number missing from Pin "-" of Package CA**_0 , CA4: SCHEMATIC1, PAGE3 (3.80, 4.20). All pins should be numbered.
+#136 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R146: SCHEMATIC1, PAGE4 (7.50, 0.80). All pins should be numbered.
+#137 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R146: SCHEMATIC1, PAGE4 (7.50, 0.80). All pins should be numbered.
+#138 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R146: SCHEMATIC1, PAGE3 (0.50, 6.10). All pins should be numbered.
+#139 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R146: SCHEMATIC1, PAGE3 (0.50, 6.10). All pins should be numbered.
+#140 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R135: SCHEMATIC1, PAGE4 (6.40, 0.40). All pins should be numbered.
+#141 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R135: SCHEMATIC1, PAGE4 (6.40, 0.40). All pins should be numbered.
+#142 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C15: SCHEMATIC1, PAGE4 (3.70, 2.50). All pins should be numbered.
+#143 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C15: SCHEMATIC1, PAGE4 (3.70, 2.50). All pins should be numbered.
+#144 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C5: SCHEMATIC1, PAGE4 (3.50, 1.40). All pins should be numbered.
+#145 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C5: SCHEMATIC1, PAGE4 (3.50, 1.40). All pins should be numbered.
+#146 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R113: SCHEMATIC1, PAGE2 (3.70, 0.40). All pins should be numbered.
+#147 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R113: SCHEMATIC1, PAGE2 (3.70, 0.40). All pins should be numbered.
+#148 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C48: SCHEMATIC1, PAGE2 (0.40, 0.70). All pins should be numbered.
+#149 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C48: SCHEMATIC1, PAGE2 (0.40, 0.70). All pins should be numbered.
+#150 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES_0 , R102: SCHEMATIC1, PAGE1 (7.07, 5.60). All pins should be numbered.
+#151 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C37: SCHEMATIC1, PAGE1 (0.10, 5.90). All pins should be numbered.
+#152 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C37: SCHEMATIC1, PAGE1 (0.10, 5.90). All pins should be numbered.
+#153 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C26: SCHEMATIC1, PAGE1 (0.20, 3.80). All pins should be numbered.
+#154 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C26: SCHEMATIC1, PAGE1 (0.20, 3.80). All pins should be numbered.
+#155 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES_0 , R28: SCHEMATIC1, PAGE1 (4.30, 1.60). All pins should be numbered.
+#156 ERROR(ORCAP-36022): Pin number missing from Pin "+" of Package CA**_0 , CA17: SCHEMATIC1, PAGE2 (8.60, 5.10). All pins should be numbered.
+#157 ERROR(ORCAP-36022): Pin number missing from Pin "-" of Package CA**_0 , CA17: SCHEMATIC1, PAGE2 (8.60, 5.10). All pins should be numbered.
+#158 ERROR(ORCAP-36022): Pin number missing from Pin "BASE" of Package NPN* , Q3: SCHEMATIC1, PAGE2 (6.90, 2.40). All pins should be numbered.
+#159 ERROR(ORCAP-36022): Pin number missing from Pin "COLLECTOR" of Package NPN* , Q3: SCHEMATIC1, PAGE2 (6.90, 2.40). All pins should be numbered.
+#160 ERROR(ORCAP-36022): Pin number missing from Pin "EMITTER" of Package NPN* , Q3: SCHEMATIC1, PAGE2 (6.90, 2.40). All pins should be numbered.
+#161 ERROR(ORCAP-36022): Pin number missing from Pin "K" of Package D , D7: SCHEMATIC1, PAGE3 (6.00, 4.00). All pins should be numbered.
+#162 ERROR(ORCAP-36022): Pin number missing from Pin "A" of Package D , D7: SCHEMATIC1, PAGE3 (6.00, 4.00). All pins should be numbered.
+#163 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R147: SCHEMATIC1, PAGE3 (4.90, 4.60). All pins should be numbered.
+#164 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R147: SCHEMATIC1, PAGE3 (4.90, 4.60). All pins should be numbered.
+#165 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R125: SCHEMATIC1, PAGE3 (7.00, 4.60). All pins should be numbered.
+#166 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R125: SCHEMATIC1, PAGE3 (7.00, 4.60). All pins should be numbered.
+#167 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R114: SCHEMATIC1, PAGE3 (2.60, 5.90). All pins should be numbered.
+#168 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R114: SCHEMATIC1, PAGE3 (2.60, 5.90). All pins should be numbered.
+#169 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R136: SCHEMATIC1, PAGE4 (2.40, 5.40). All pins should be numbered.
+#170 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R136: SCHEMATIC1, PAGE4 (2.40, 5.40). All pins should be numbered.
+#171 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package SW_DS_1 , SW: SCHEMATIC1, PAGE4 (8.70, 1.20). All pins should be numbered.
+#172 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package SW_DS_1 , SW: SCHEMATIC1, PAGE4 (8.70, 1.20). All pins should be numbered.
+#173 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R29: SCHEMATIC1, PAGE4 (1.30, 2.00). All pins should be numbered.
+#174 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R29: SCHEMATIC1, PAGE4 (1.30, 2.00). All pins should be numbered.
+#175 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C49: SCHEMATIC1, PAGE2 (2.80, 0.70). All pins should be numbered.
+#176 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C49: SCHEMATIC1, PAGE2 (2.80, 0.70). All pins should be numbered.
+#177 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R103: SCHEMATIC1, PAGE1 (4.30, 6.40). All pins should be numbered.
+#178 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R103: SCHEMATIC1, PAGE1 (4.30, 6.40). All pins should be numbered.
+#179 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C38: SCHEMATIC1, PAGE1 (3.30, 6.00). All pins should be numbered.
+#180 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C38: SCHEMATIC1, PAGE1 (3.30, 6.00). All pins should be numbered.
+#181 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C27: SCHEMATIC1, PAGE1 (4.90, 4.00). All pins should be numbered.
+#182 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C27: SCHEMATIC1, PAGE1 (4.90, 4.00). All pins should be numbered.
+#183 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES_0 , R18: SCHEMATIC1, PAGE1 (4.30, 1.00). All pins should be numbered.
+#184 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES_0 , R4: SCHEMATIC1, PAGE1 (4.30, 0.40). All pins should be numbered.
+#185 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C16: SCHEMATIC1, PAGE1 (0.10, 2.50). All pins should be numbered.
+#186 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C16: SCHEMATIC1, PAGE1 (0.10, 2.50). All pins should be numbered.
+#187 ERROR(ORCAP-36022): Pin number missing from Pin "+" of Package CA**_0 , CA18: SCHEMATIC1, PAGE2 (8.10, 5.10). All pins should be numbered.
+#188 ERROR(ORCAP-36022): Pin number missing from Pin "-" of Package CA**_0 , CA18: SCHEMATIC1, PAGE2 (8.10, 5.10). All pins should be numbered.
+#189 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R126: SCHEMATIC1, PAGE2 (7.30, 5.60). All pins should be numbered.
+#190 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R126: SCHEMATIC1, PAGE2 (7.30, 5.60). All pins should be numbered.
+#191 ERROR(ORCAP-36022): Pin number missing from Pin "K" of Package D , D8: SCHEMATIC1, PAGE2 (4.00, 4.80). All pins should be numbered.
+#192 ERROR(ORCAP-36022): Pin number missing from Pin "A" of Package D , D8: SCHEMATIC1, PAGE2 (4.00, 4.80). All pins should be numbered.
+#193 ERROR(ORCAP-36022): Pin number missing from Pin "BASE" of Package PNP* , Q4: SCHEMATIC1, PAGE2 (6.90, 3.60). All pins should be numbered.
+#194 ERROR(ORCAP-36022): Pin number missing from Pin "COLLECTOR" of Package PNP* , Q4: SCHEMATIC1, PAGE2 (6.90, 3.60). All pins should be numbered.
+#195 ERROR(ORCAP-36022): Pin number missing from Pin "EMITTER" of Package PNP* , Q4: SCHEMATIC1, PAGE2 (6.90, 3.60). All pins should be numbered.
+#196 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R19: SCHEMATIC1, PAGE2 (3.30, 2.80). All pins should be numbered.
+#197 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R19: SCHEMATIC1, PAGE2 (3.30, 2.80). All pins should be numbered.
+#198 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R5: SCHEMATIC1, PAGE2 (2.60, 2.20). All pins should be numbered.
+#199 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R5: SCHEMATIC1, PAGE2 (2.60, 2.20). All pins should be numbered.
+#200 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R148: SCHEMATIC1, PAGE3 (5.00, 4.70). All pins should be numbered.
+#201 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R148: SCHEMATIC1, PAGE3 (5.00, 4.70). All pins should be numbered.
+#202 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R115: SCHEMATIC1, PAGE3 (2.60, 6.10). All pins should be numbered.
+#203 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R115: SCHEMATIC1, PAGE3 (2.60, 6.10). All pins should be numbered.
+#204 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R137: SCHEMATIC1, PAGE4 (3.40, 6.00). All pins should be numbered.
+#205 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R137: SCHEMATIC1, PAGE4 (3.40, 6.00). All pins should be numbered.
+#206 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C17: SCHEMATIC1, PAGE4 (2.90, 2.80). All pins should be numbered.
+#207 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C17: SCHEMATIC1, PAGE4 (2.90, 2.80). All pins should be numbered.
+#208 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C7: SCHEMATIC1, PAGE4 (4.40, 1.30). All pins should be numbered.
+#209 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C7: SCHEMATIC1, PAGE4 (4.40, 1.30). All pins should be numbered.
+#210 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R104: SCHEMATIC1, PAGE1 (1.00, 6.80). All pins should be numbered.
+#211 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R104: SCHEMATIC1, PAGE1 (1.00, 6.80). All pins should be numbered.
+#212 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R90: SCHEMATIC1, PAGE1 (0.80, 5.40). All pins should be numbered.
+#213 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R90: SCHEMATIC1, PAGE1 (0.80, 5.40). All pins should be numbered.
+#214 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C28: SCHEMATIC1, PAGE1 (0.90, 3.80). All pins should be numbered.
+#215 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C28: SCHEMATIC1, PAGE1 (0.90, 3.80). All pins should be numbered.
+#216 ERROR(ORCAP-36022): Pin number missing from Pin "K" of Package D , D9: SCHEMATIC1, PAGE2 (6.60, 5.00). All pins should be numbered.
+#217 ERROR(ORCAP-36022): Pin number missing from Pin "A" of Package D , D9: SCHEMATIC1, PAGE2 (6.60, 5.00). All pins should be numbered.
+#218 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R80: SCHEMATIC1, PAGE2 (5.20, 3.80). All pins should be numbered.
+#219 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R80: SCHEMATIC1, PAGE2 (5.20, 3.80). All pins should be numbered.
+#220 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R127: SCHEMATIC1, PAGE3 (7.80, 5.40). All pins should be numbered.
+#221 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R127: SCHEMATIC1, PAGE3 (7.80, 5.40). All pins should be numbered.
+#222 ERROR(ORCAP-36022): Pin number missing from Pin "+" of Package CA**_0 , CA7: SCHEMATIC1, PAGE3 (3.80, 5.80). All pins should be numbered.
+#223 ERROR(ORCAP-36022): Pin number missing from Pin "-" of Package CA**_0 , CA7: SCHEMATIC1, PAGE3 (3.80, 5.80). All pins should be numbered.
+#224 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C29: SCHEMATIC1, PAGE4 (6.80, 3.30). All pins should be numbered.
+#225 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C29: SCHEMATIC1, PAGE4 (6.80, 3.30). All pins should be numbered.
+#226 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R138: SCHEMATIC1, PAGE4 (8.90, 0.70). All pins should be numbered.
+#227 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R138: SCHEMATIC1, PAGE4 (8.90, 0.70). All pins should be numbered.
+#228 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C18: SCHEMATIC1, PAGE4 (5.20, 2.70). All pins should be numbered.
+#229 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C18: SCHEMATIC1, PAGE4 (5.20, 2.70). All pins should be numbered.
+#230 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C8: SCHEMATIC1, PAGE4 (1.80, 1.20). All pins should be numbered.
+#231 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C8: SCHEMATIC1, PAGE4 (1.80, 1.20). All pins should be numbered.
+#232 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R116: SCHEMATIC1, PAGE2 (1.30, 1.10). All pins should be numbered.
+#233 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R116: SCHEMATIC1, PAGE2 (1.30, 1.10). All pins should be numbered.
+#234 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R91: SCHEMATIC1, PAGE1 (3.90, 5.60). All pins should be numbered.
+#235 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R91: SCHEMATIC1, PAGE1 (3.90, 5.60). All pins should be numbered.
+#236 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES_0 , R6: SCHEMATIC1, PAGE1 (4.30, 0.60). All pins should be numbered.
+#237 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R128: SCHEMATIC1, PAGE2 (5.50, 5.90). All pins should be numbered.
+#238 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R128: SCHEMATIC1, PAGE2 (5.50, 5.90). All pins should be numbered.
+#239 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package L* , L1: SCHEMATIC1, PAGE2 (6.90, 4.60). All pins should be numbered.
+#240 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package L* , L1: SCHEMATIC1, PAGE2 (6.90, 4.60). All pins should be numbered.
+#241 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R106: SCHEMATIC1, PAGE3 (1.10, 5.50). All pins should be numbered.
+#242 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R106: SCHEMATIC1, PAGE3 (1.10, 5.50). All pins should be numbered.
+#243 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R139: SCHEMATIC1, PAGE4 (6.70, 0.70). All pins should be numbered.
+#244 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R139: SCHEMATIC1, PAGE4 (6.70, 0.70). All pins should be numbered.
+#245 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C19: SCHEMATIC1, PAGE4 (2.10, 3.00). All pins should be numbered.
+#246 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C19: SCHEMATIC1, PAGE4 (2.10, 3.00). All pins should be numbered.
+#247 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R7: SCHEMATIC1, PAGE4 (4.10, 1.00). All pins should be numbered.
+#248 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R7: SCHEMATIC1, PAGE4 (4.10, 1.00). All pins should be numbered.
+#249 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R117: SCHEMATIC1, PAGE2 (3.70, 1.10). All pins should be numbered.
+#250 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R117: SCHEMATIC1, PAGE2 (3.70, 1.10). All pins should be numbered.
+#251 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES_0 , R81: SCHEMATIC1, PAGE1 (7.10, 4.20). All pins should be numbered.
+#252 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES_0 , R92: SCHEMATIC1, PAGE1 (7.08, 5.00). All pins should be numbered.
+#253 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES_0 , R70: SCHEMATIC1, PAGE1 (7.10, 3.60). All pins should be numbered.
+#254 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C9: SCHEMATIC1, PAGE1 (2.00, 1.30). All pins should be numbered.
+#255 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C9: SCHEMATIC1, PAGE1 (2.00, 1.30). All pins should be numbered.
+#256 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package L* , L2: SCHEMATIC1, PAGE2 (1.90, 5.30). All pins should be numbered.
+#257 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package L* , L2: SCHEMATIC1, PAGE2 (1.90, 5.30). All pins should be numbered.
+#258 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R60: SCHEMATIC1, PAGE2 (7.30, 3.20). All pins should be numbered.
+#259 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R60: SCHEMATIC1, PAGE2 (7.30, 3.20). All pins should be numbered.
+#260 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R129: SCHEMATIC1, PAGE4 (0.50, 4.00). All pins should be numbered.
+#261 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R129: SCHEMATIC1, PAGE4 (0.50, 4.00). All pins should be numbered.
+#262 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R8: SCHEMATIC1, PAGE4 (1.50, 0.90). All pins should be numbered.
+#263 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R8: SCHEMATIC1, PAGE4 (1.50, 0.90). All pins should be numbered.
+#264 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R118: SCHEMATIC1, PAGE2 (0.60, 1.20). All pins should be numbered.
+#265 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R118: SCHEMATIC1, PAGE2 (0.60, 1.20). All pins should be numbered.
+#266 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R107: SCHEMATIC1, PAGE2 (0.60, 0.20). All pins should be numbered.
+#267 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R107: SCHEMATIC1, PAGE2 (0.60, 0.20). All pins should be numbered.
+#268 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES_0 , R82: SCHEMATIC1, PAGE1 (7.10, 4.40). All pins should be numbered.
+#269 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R93: SCHEMATIC1, PAGE1 (2.00, 5.80). All pins should be numbered.
+#270 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R93: SCHEMATIC1, PAGE1 (2.00, 5.80). All pins should be numbered.
+#271 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R71: SCHEMATIC1, PAGE1 (2.70, 3.80). All pins should be numbered.
+#272 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R71: SCHEMATIC1, PAGE1 (2.70, 3.80). All pins should be numbered.
+#273 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R61: SCHEMATIC1, PAGE3 (8.20, 2.90). All pins should be numbered.
+#274 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R61: SCHEMATIC1, PAGE3 (8.20, 2.90). All pins should be numbered.
+#275 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R50: SCHEMATIC1, PAGE3 (9.00, 2.40). All pins should be numbered.
+#276 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R50: SCHEMATIC1, PAGE3 (9.00, 2.40). All pins should be numbered.
+#277 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C70: SCHEMATIC1, PAGE2 (4.40, 4.90). All pins should be numbered.
+#278 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C70: SCHEMATIC1, PAGE2 (4.40, 4.90). All pins should be numbered.
+#279 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R94: SCHEMATIC1, PAGE3 (2.60, 4.30). All pins should be numbered.
+#280 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R94: SCHEMATIC1, PAGE3 (2.60, 4.30). All pins should be numbered.
+#281 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R108: SCHEMATIC1, PAGE2 (3.00, 0.20). All pins should be numbered.
+#282 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R108: SCHEMATIC1, PAGE2 (3.00, 0.20). All pins should be numbered.
+#283 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R119: SCHEMATIC1, PAGE2 (3.00, 1.20). All pins should be numbered.
+#284 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R119: SCHEMATIC1, PAGE2 (3.00, 1.20). All pins should be numbered.
+#285 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R72: SCHEMATIC1, PAGE1 (0.00, 4.30). All pins should be numbered.
+#286 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R72: SCHEMATIC1, PAGE1 (0.00, 4.30). All pins should be numbered.
+#287 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R83: SCHEMATIC1, PAGE1 (1.50, 5.00). All pins should be numbered.
+#288 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R83: SCHEMATIC1, PAGE1 (1.50, 5.00). All pins should be numbered.
+#289 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R51: SCHEMATIC1, PAGE3 (8.90, 2.60). All pins should be numbered.
+#290 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R51: SCHEMATIC1, PAGE3 (8.90, 2.60). All pins should be numbered.
+#291 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C60: SCHEMATIC1, PAGE3 (7.60, 5.50). All pins should be numbered.
+#292 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C60: SCHEMATIC1, PAGE3 (7.60, 5.50). All pins should be numbered.
+#293 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R109: SCHEMATIC1, PAGE3 (2.60, 5.70). All pins should be numbered.
+#294 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R109: SCHEMATIC1, PAGE3 (2.60, 5.70). All pins should be numbered.
+#295 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R40: SCHEMATIC1, PAGE4 (3.90, 2.70). All pins should be numbered.
+#296 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R40: SCHEMATIC1, PAGE4 (3.90, 2.70). All pins should be numbered.
+#297 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package JP8 , JP2: SCHEMATIC1, PAGE4 (8.00, 3.60). All pins should be numbered.
+#298 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package JP8 , JP2: SCHEMATIC1, PAGE4 (8.00, 3.60). All pins should be numbered.
+#299 ERROR(ORCAP-36022): Pin number missing from Pin "3" of Package JP8 , JP2: SCHEMATIC1, PAGE4 (8.00, 3.60). All pins should be numbered.
+#300 ERROR(ORCAP-36022): Pin number missing from Pin "4" of Package JP8 , JP2: SCHEMATIC1, PAGE4 (8.00, 3.60). All pins should be numbered.
+#301 ERROR(ORCAP-36022): Pin number missing from Pin "5" of Package JP8 , JP2: SCHEMATIC1, PAGE4 (8.00, 3.60). All pins should be numbered.
+#302 ERROR(ORCAP-36022): Pin number missing from Pin "6" of Package JP8 , JP2: SCHEMATIC1, PAGE4 (8.00, 3.60). All pins should be numbered.
+#303 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C71: SCHEMATIC1, PAGE2 (2.50, 1.60). All pins should be numbered.
+#304 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C71: SCHEMATIC1, PAGE2 (2.50, 1.60). All pins should be numbered.
+#305 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES_0 , R62: SCHEMATIC1, PAGE1 (7.10, 3.40). All pins should be numbered.
+#306 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES_0 , R84: SCHEMATIC1, PAGE1 (7.10, 4.61). All pins should be numbered.
+#307 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R95: SCHEMATIC1, PAGE1 (0.40, 5.70). All pins should be numbered.
+#308 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R95: SCHEMATIC1, PAGE1 (0.40, 5.70). All pins should be numbered.
+#309 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R73: SCHEMATIC1, PAGE1 (0.50, 4.10). All pins should be numbered.
+#310 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R73: SCHEMATIC1, PAGE1 (0.50, 4.10). All pins should be numbered.
+#311 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C61: SCHEMATIC1, PAGE2 (0.20, 5.80). All pins should be numbered.
+#312 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C61: SCHEMATIC1, PAGE2 (0.20, 5.80). All pins should be numbered.
+#313 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R63: SCHEMATIC1, PAGE3 (8.20, 3.10). All pins should be numbered.
+#314 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R63: SCHEMATIC1, PAGE3 (8.20, 3.10). All pins should be numbered.
+#315 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R52: SCHEMATIC1, PAGE2 (6.60, 2.70). All pins should be numbered.
+#316 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R52: SCHEMATIC1, PAGE2 (6.60, 2.70). All pins should be numbered.
+#317 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C50: SCHEMATIC1, PAGE3 (3.60, 6.40). All pins should be numbered.
+#318 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C50: SCHEMATIC1, PAGE3 (3.60, 6.40). All pins should be numbered.
+#319 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C72: SCHEMATIC1, PAGE3 (3.60, 4.80). All pins should be numbered.
+#320 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C72: SCHEMATIC1, PAGE3 (3.60, 4.80). All pins should be numbered.
+#321 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R85: SCHEMATIC1, PAGE3 (1.10, 3.90). All pins should be numbered.
+#322 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R85: SCHEMATIC1, PAGE3 (1.10, 3.90). All pins should be numbered.
+#323 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES_0 , R96: SCHEMATIC1, PAGE1 (7.08, 5.20). All pins should be numbered.
+#324 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES_0 , R74: SCHEMATIC1, PAGE1 (7.10, 3.80). All pins should be numbered.
+#325 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES_0 , R41: SCHEMATIC1, PAGE1 (4.30, 2.20). All pins should be numbered.
+#326 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES_0 , R30: SCHEMATIC1, PAGE1 (0.50, 1.70). All pins should be numbered.
+#327 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C62: SCHEMATIC1, PAGE2 (3.70, 6.00). All pins should be numbered.
+#328 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C62: SCHEMATIC1, PAGE2 (3.70, 6.00). All pins should be numbered.
+#329 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R42: SCHEMATIC1, PAGE2 (8.30, 2.60). All pins should be numbered.
+#330 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R42: SCHEMATIC1, PAGE2 (8.30, 2.60). All pins should be numbered.
+#331 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R75: SCHEMATIC1, PAGE2 (6.60, 3.90). All pins should be numbered.
+#332 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R75: SCHEMATIC1, PAGE2 (6.60, 3.90). All pins should be numbered.
+#333 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R53: SCHEMATIC1, PAGE2 (7.30, 2.80). All pins should be numbered.
+#334 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R53: SCHEMATIC1, PAGE2 (7.30, 2.80). All pins should be numbered.
+#335 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R64: SCHEMATIC1, PAGE2 (6.60, 3.40). All pins should be numbered.
+#336 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R64: SCHEMATIC1, PAGE2 (6.60, 3.40). All pins should be numbered.
+#337 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R31: SCHEMATIC1, PAGE4 (0.90, 2.40). All pins should be numbered.
+#338 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R31: SCHEMATIC1, PAGE4 (0.90, 2.40). All pins should be numbered.
+#339 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package JP8 , JP4: SCHEMATIC1, PAGE2 (5.80, 0.60). All pins should be numbered.
+#340 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package JP8 , JP4: SCHEMATIC1, PAGE2 (5.80, 0.60). All pins should be numbered.
+#341 ERROR(ORCAP-36022): Pin number missing from Pin "3" of Package JP8 , JP4: SCHEMATIC1, PAGE2 (5.80, 0.60). All pins should be numbered.
+#342 ERROR(ORCAP-36022): Pin number missing from Pin "4" of Package JP8 , JP4: SCHEMATIC1, PAGE2 (5.80, 0.60). All pins should be numbered.
+#343 ERROR(ORCAP-36022): Pin number missing from Pin "5" of Package JP8 , JP4: SCHEMATIC1, PAGE2 (5.80, 0.60). All pins should be numbered.
+#344 ERROR(ORCAP-36022): Pin number missing from Pin "6" of Package JP8 , JP4: SCHEMATIC1, PAGE2 (5.80, 0.60). All pins should be numbered.
+#345 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C51: SCHEMATIC1, PAGE2 (0.90, 1.00). All pins should be numbered.
+#346 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C51: SCHEMATIC1, PAGE2 (0.90, 1.00). All pins should be numbered.
+#347 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R97: SCHEMATIC1, PAGE1 (5.20, 6.00). All pins should be numbered.
+#348 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R97: SCHEMATIC1, PAGE1 (5.20, 6.00). All pins should be numbered.
+#349 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R86: SCHEMATIC1, PAGE1 (4.00, 4.60). All pins should be numbered.
+#350 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R86: SCHEMATIC1, PAGE1 (4.00, 4.60). All pins should be numbered.
+#351 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C40: SCHEMATIC1, PAGE1 (2.30, 6.10). All pins should be numbered.
+#352 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C40: SCHEMATIC1, PAGE1 (2.30, 6.10). All pins should be numbered.
+#353 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C63: SCHEMATIC1, PAGE2 (5.30, 5.90). All pins should be numbered.
+#354 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C63: SCHEMATIC1, PAGE2 (5.30, 5.90). All pins should be numbered.
+#355 ERROR(ORCAP-36022): Pin number missing from Pin "+" of Package CA**_2 , CA20: SCHEMATIC1, PAGE2 (2.20, 5.90). All pins should be numbered.
+#356 ERROR(ORCAP-36022): Pin number missing from Pin "-" of Package CA**_2 , CA20: SCHEMATIC1, PAGE2 (2.20, 5.90). All pins should be numbered.
+#357 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R98: SCHEMATIC1, PAGE3 (2.60, 4.50). All pins should be numbered.
+#358 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R98: SCHEMATIC1, PAGE3 (2.60, 4.50). All pins should be numbered.
+#359 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R54: SCHEMATIC1, PAGE4 (6.20, 2.40). All pins should be numbered.
+#360 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R54: SCHEMATIC1, PAGE4 (6.20, 2.40). All pins should be numbered.
+#361 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C30: SCHEMATIC1, PAGE4 (8.70, 3.30). All pins should be numbered.
+#362 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C30: SCHEMATIC1, PAGE4 (8.70, 3.30). All pins should be numbered.
+#363 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R32: SCHEMATIC1, PAGE4 (3.90, 2.00). All pins should be numbered.
+#364 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R32: SCHEMATIC1, PAGE4 (3.90, 2.00). All pins should be numbered.
+#365 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C52: SCHEMATIC1, PAGE2 (3.30, 1.00). All pins should be numbered.
+#366 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C52: SCHEMATIC1, PAGE2 (3.30, 1.00). All pins should be numbered.
+#367 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES_0 , R87: SCHEMATIC1, PAGE1 (7.10, 4.80). All pins should be numbered.
+#368 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R65: SCHEMATIC1, PAGE1 (4.60, 3.70). All pins should be numbered.
+#369 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R65: SCHEMATIC1, PAGE1 (4.60, 3.70). All pins should be numbered.
+#370 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R76: SCHEMATIC1, PAGE1 (3.50, 4.10). All pins should be numbered.
+#371 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R76: SCHEMATIC1, PAGE1 (3.50, 4.10). All pins should be numbered.
+#372 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C41: SCHEMATIC1, PAGE1 (5.60, 6.30). All pins should be numbered.
+#373 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C41: SCHEMATIC1, PAGE1 (5.60, 6.30). All pins should be numbered.
+#374 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES_0 , R21: SCHEMATIC1, PAGE1 (4.30, 1.20). All pins should be numbered.
+#375 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES_0 , R43: SCHEMATIC1, PAGE1 (0.90, 2.50). All pins should be numbered.
+#376 ERROR(ORCAP-36022): Pin number missing from Pin "+" of Package CA**_2 , CA21: SCHEMATIC1, PAGE2 (2.70, 5.90). All pins should be numbered.
+#377 ERROR(ORCAP-36022): Pin number missing from Pin "-" of Package CA**_2 , CA21: SCHEMATIC1, PAGE2 (2.70, 5.90). All pins should be numbered.
+#378 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C31: SCHEMATIC1, PAGE3 (6.30, 3.40). All pins should be numbered.
+#379 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C31: SCHEMATIC1, PAGE3 (6.30, 3.40). All pins should be numbered.
+#380 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R11: SCHEMATIC1, PAGE3 (7.80, 0.10). All pins should be numbered.
+#381 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R11: SCHEMATIC1, PAGE3 (7.80, 0.10). All pins should be numbered.
+#382 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C20: SCHEMATIC1, PAGE2 (8.70, 3.30). All pins should be numbered.
+#383 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C20: SCHEMATIC1, PAGE2 (8.70, 3.30). All pins should be numbered.
+#384 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C64: SCHEMATIC1, PAGE4 (0.70, 4.50). All pins should be numbered.
+#385 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C64: SCHEMATIC1, PAGE4 (0.70, 4.50). All pins should be numbered.
+#386 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R55: SCHEMATIC1, PAGE4 (8.00, 2.40). All pins should be numbered.
+#387 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R55: SCHEMATIC1, PAGE4 (8.00, 2.40). All pins should be numbered.
+#388 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R99: SCHEMATIC1, PAGE1 (0.50, 6.00). All pins should be numbered.
+#389 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R99: SCHEMATIC1, PAGE1 (0.50, 6.00). All pins should be numbered.
+#390 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R77: SCHEMATIC1, PAGE1 (2.20, 4.20). All pins should be numbered.
+#391 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R77: SCHEMATIC1, PAGE1 (2.20, 4.20). All pins should be numbered.
+#392 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R88: SCHEMATIC1, PAGE1 (4.00, 4.90). All pins should be numbered.
+#393 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R88: SCHEMATIC1, PAGE1 (4.00, 4.90). All pins should be numbered.
+#394 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R66: SCHEMATIC1, PAGE1 (2.70, 3.60). All pins should be numbered.
+#395 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R66: SCHEMATIC1, PAGE1 (2.70, 3.60). All pins should be numbered.
+#396 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C42: SCHEMATIC1, PAGE1 (1.10, 6.40). All pins should be numbered.
+#397 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C42: SCHEMATIC1, PAGE1 (1.10, 6.40). All pins should be numbered.
+#398 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES_0 , R44: SCHEMATIC1, PAGE1 (4.27, 2.40). All pins should be numbered.
+#399 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES_0 , R33: SCHEMATIC1, PAGE1 (4.28, 1.80). All pins should be numbered.
+#400 ERROR(ORCAP-36022): Pin number missing from Pin "+" of Package CA**_2 , CA22: SCHEMATIC1, PAGE2 (3.20, 5.90). All pins should be numbered.
+#401 ERROR(ORCAP-36022): Pin number missing from Pin "-" of Package CA**_2 , CA22: SCHEMATIC1, PAGE2 (3.20, 5.90). All pins should be numbered.
+#402 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R67: SCHEMATIC1, PAGE3 (8.20, 3.30). All pins should be numbered.
+#403 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R67: SCHEMATIC1, PAGE3 (8.20, 3.30). All pins should be numbered.
+#404 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C21: SCHEMATIC1, PAGE2 (5.30, 2.50). All pins should be numbered.
+#405 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C21: SCHEMATIC1, PAGE2 (5.30, 2.50). All pins should be numbered.
+#406 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R45: SCHEMATIC1, PAGE2 (6.60, 2.20). All pins should be numbered.
+#407 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R45: SCHEMATIC1, PAGE2 (6.60, 2.20). All pins should be numbered.
+#408 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C32: SCHEMATIC1, PAGE2 (5.30, 3.60). All pins should be numbered.
+#409 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C32: SCHEMATIC1, PAGE2 (5.30, 3.60). All pins should be numbered.
+#410 ERROR(ORCAP-36022): Pin number missing from Pin "K" of Package D , D1: SCHEMATIC1, PAGE2 (2.20, 3.00). All pins should be numbered.
+#411 ERROR(ORCAP-36022): Pin number missing from Pin "A" of Package D , D1: SCHEMATIC1, PAGE2 (2.20, 3.00). All pins should be numbered.
+#412 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R34: SCHEMATIC1, PAGE2 (2.60, 3.90). All pins should be numbered.
+#413 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R34: SCHEMATIC1, PAGE2 (2.60, 3.90). All pins should be numbered.
+#414 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R23: SCHEMATIC1, PAGE2 (0.60, 3.30). All pins should be numbered.
+#415 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R23: SCHEMATIC1, PAGE2 (0.60, 3.30). All pins should be numbered.
+#416 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C54: SCHEMATIC1, PAGE3 (4.60, 4.50). All pins should be numbered.
+#417 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C54: SCHEMATIC1, PAGE3 (4.60, 4.50). All pins should be numbered.
+#418 ERROR(ORCAP-36022): Pin number missing from Pin "+" of Package CA**_0 , CA11: SCHEMATIC1, PAGE3 (8.40, 4.30). All pins should be numbered.
+#419 ERROR(ORCAP-36022): Pin number missing from Pin "-" of Package CA**_0 , CA11: SCHEMATIC1, PAGE3 (8.40, 4.30). All pins should be numbered.
+#420 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R89: SCHEMATIC1, PAGE3 (2.60, 4.10). All pins should be numbered.
+#421 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R89: SCHEMATIC1, PAGE3 (2.60, 4.10). All pins should be numbered.
+#422 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C65: SCHEMATIC1, PAGE4 (3.40, 4.60). All pins should be numbered.
+#423 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C65: SCHEMATIC1, PAGE4 (3.40, 4.60). All pins should be numbered.
+#424 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R130: SCHEMATIC1, PAGE4 (3.20, 4.10). All pins should be numbered.
+#425 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R130: SCHEMATIC1, PAGE4 (3.20, 4.10). All pins should be numbered.
+#426 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R56: SCHEMATIC1, PAGE4 (6.60, 2.60). All pins should be numbered.
+#427 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R56: SCHEMATIC1, PAGE4 (6.60, 2.60). All pins should be numbered.
+#428 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R78: SCHEMATIC1, PAGE1 (0.50, 4.30). All pins should be numbered.
+#429 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R78: SCHEMATIC1, PAGE1 (0.50, 4.30). All pins should be numbered.
+#430 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES_0 , R12: SCHEMATIC1, PAGE1 (4.30, 0.80). All pins should be numbered.
+#431 ERROR(ORCAP-36022): Pin number missing from Pin "+" of Package CA**_2 , CA23: SCHEMATIC1, PAGE2 (4.90, 6.20). All pins should be numbered.
+#432 ERROR(ORCAP-36022): Pin number missing from Pin "-" of Package CA**_2 , CA23: SCHEMATIC1, PAGE2 (4.90, 6.20). All pins should be numbered.
+#433 ERROR(ORCAP-36022): Pin number missing from Pin "K" of Package D , D10: SCHEMATIC1, PAGE2 (1.70, 5.90). All pins should be numbered.
+#434 ERROR(ORCAP-36022): Pin number missing from Pin "A" of Package D , D10: SCHEMATIC1, PAGE2 (1.70, 5.90). All pins should be numbered.
+#435 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R46: SCHEMATIC1, PAGE3 (8.60, 2.20). All pins should be numbered.
+#436 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R46: SCHEMATIC1, PAGE3 (8.60, 2.20). All pins should be numbered.
+#437 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R13: SCHEMATIC1, PAGE3 (7.90, 0.30). All pins should be numbered.
+#438 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R13: SCHEMATIC1, PAGE3 (7.90, 0.30). All pins should be numbered.
+#439 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R24: SCHEMATIC1, PAGE2 (3.30, 3.20). All pins should be numbered.
+#440 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R24: SCHEMATIC1, PAGE2 (3.30, 3.20). All pins should be numbered.
+#441 ERROR(ORCAP-36022): Pin number missing from Pin "K" of Package D , D2: SCHEMATIC1, PAGE2 (2.20, 3.20). All pins should be numbered.
+#442 ERROR(ORCAP-36022): Pin number missing from Pin "A" of Package D , D2: SCHEMATIC1, PAGE2 (2.20, 3.20). All pins should be numbered.
+#443 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C55: SCHEMATIC1, PAGE3 (6.50, 4.50). All pins should be numbered.
+#444 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C55: SCHEMATIC1, PAGE3 (6.50, 4.50). All pins should be numbered.
+#445 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C66: SCHEMATIC1, PAGE4 (3.70, 6.40). All pins should be numbered.
+#446 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C66: SCHEMATIC1, PAGE4 (3.70, 6.40). All pins should be numbered.
+#447 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R131: SCHEMATIC1, PAGE4 (2.40, 4.10). All pins should be numbered.
+#448 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R131: SCHEMATIC1, PAGE4 (2.40, 4.10). All pins should be numbered.
+#449 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R57: SCHEMATIC1, PAGE4 (8.40, 2.60). All pins should be numbered.
+#450 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R57: SCHEMATIC1, PAGE4 (8.40, 2.60). All pins should be numbered.
+#451 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R68: SCHEMATIC1, PAGE4 (6.30, 3.10). All pins should be numbered.
+#452 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R68: SCHEMATIC1, PAGE4 (6.30, 3.10). All pins should be numbered.
+#453 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C22: SCHEMATIC1, PAGE4 (7.00, 2.70). All pins should be numbered.
+#454 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C22: SCHEMATIC1, PAGE4 (7.00, 2.70). All pins should be numbered.
+#455 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES , R142: SCHEMATIC1, PAGE4 (6.70, 1.40). All pins should be numbered.
+#456 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package RES , R142: SCHEMATIC1, PAGE4 (6.70, 1.40). All pins should be numbered.
+#457 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package JP8 , JP8: SCHEMATIC1, PAGE2 (7.40, 0.60). All pins should be numbered.
+#458 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package JP8 , JP8: SCHEMATIC1, PAGE2 (7.40, 0.60). All pins should be numbered.
+#459 ERROR(ORCAP-36022): Pin number missing from Pin "3" of Package JP8 , JP8: SCHEMATIC1, PAGE2 (7.40, 0.60). All pins should be numbered.
+#460 ERROR(ORCAP-36022): Pin number missing from Pin "4" of Package JP8 , JP8: SCHEMATIC1, PAGE2 (7.40, 0.60). All pins should be numbered.
+#461 ERROR(ORCAP-36022): Pin number missing from Pin "5" of Package JP8 , JP8: SCHEMATIC1, PAGE2 (7.40, 0.60). All pins should be numbered.
+#462 ERROR(ORCAP-36022): Pin number missing from Pin "6" of Package JP8 , JP8: SCHEMATIC1, PAGE2 (7.40, 0.60). All pins should be numbered.
+#463 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C44: SCHEMATIC1, PAGE2 (0.90, 0.50). All pins should be numbered.
+#464 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C44: SCHEMATIC1, PAGE2 (0.90, 0.50). All pins should be numbered.
+#465 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES_0 , R79: SCHEMATIC1, PAGE1 (7.10, 4.00). All pins should be numbered.
+#466 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C33: SCHEMATIC1, PAGE1 (2.60, 4.50). All pins should be numbered.
+#467 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C33: SCHEMATIC1, PAGE1 (2.60, 4.50). All pins should be numbered.
+#468 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package RES_0 , R35: SCHEMATIC1, PAGE1 (4.28, 2.00). All pins should be numbered.
+#469 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C11: SCHEMATIC1, PAGE1 (0.10, 1.70). All pins should be numbered.
+#470 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C11: SCHEMATIC1, PAGE1 (0.10, 1.70). All pins should be numbered.
+#471 ERROR(ORCAP-36022): Pin number missing from Pin "1" of Package CAP , C1: SCHEMATIC1, PAGE1 (2.00, 0.20). All pins should be numbered.
+#472 ERROR(ORCAP-36022): Pin number missing from Pin "2" of Package CAP , C1: SCHEMATIC1, PAGE1 (2.00, 0.20). All pins should be numbered.
+
+Checking Device with Zero pins  
+INFO(ORCAP-36101): Checking Missing PCB Footprint Property  
+#473 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D11: SCHEMATIC1, PAGE2 (5.50, 6.50).
+#474 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance CA24: SCHEMATIC1, PAGE2 (7.50, 5.10).
+#475 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R58: SCHEMATIC1, PAGE3 (6.20, 2.80).
+#476 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U11: SCHEMATIC1, PAGE2 (5.70, 4.70).
+#477 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D3: SCHEMATIC1, PAGE2 (6.20, 3.00).
+#478 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R14: SCHEMATIC1, PAGE2 (2.60, 2.70).
+#479 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U3A: SCHEMATIC1, PAGE2 (1.30, 3.10).
+#480 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U3B: SCHEMATIC1, PAGE2 (5.20, 3.10).
+#481 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R121: SCHEMATIC1, PAGE3 (5.50, 4.00).
+#482 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C45: SCHEMATIC1, PAGE3 (0.20, 6.00).
+#483 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R143: SCHEMATIC1, PAGE3 (0.50, 4.50).
+#484 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C67: SCHEMATIC1, PAGE4 (0.70, 5.80).
+#485 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R132: SCHEMATIC1, PAGE4 (5.10, 4.20).
+#486 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R69: SCHEMATIC1, PAGE4 (8.20, 3.10).
+#487 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C23: SCHEMATIC1, PAGE4 (8.80, 2.70).
+#488 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance RP1: SCHEMATIC1, PAGE4 (7.90, 0.60).
+#489 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R36: SCHEMATIC1, PAGE4 (2.60, 2.50).
+#490 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R47: SCHEMATIC1, PAGE4 (1.60, 3.20).
+#491 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R110: SCHEMATIC1, PAGE2 (1.30, 0.40).
+#492 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C34: SCHEMATIC1, PAGE1 (1.60, 4.70).
+#493 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C12: SCHEMATIC1, PAGE1 (0.40, 2.00).
+#494 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C2: SCHEMATIC1, PAGE1 (0.25, 0.20).
+#495 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D12: SCHEMATIC1, PAGE2 (7.80, 4.70).
+#496 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C24: SCHEMATIC1, PAGE3 (6.30, 3.00).
+#497 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R48: SCHEMATIC1, PAGE2 (8.30, 3.30).
+#498 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance CA2: SCHEMATIC1, PAGE2 (4.70, 2.40).
+#499 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance CA25: SCHEMATIC1, PAGE2 (4.20, 2.40).
+#500 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D4: SCHEMATIC1, PAGE2 (6.20, 3.20).
+#501 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R59: SCHEMATIC1, PAGE2 (4.50, 3.30).
+#502 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C13: SCHEMATIC1, PAGE2 (1.40, 3.90).
+#503 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U12: SCHEMATIC1, PAGE3 (5.50, 4.30).
+#504 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R122: SCHEMATIC1, PAGE3 (7.00, 4.20).
+#505 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C57: SCHEMATIC1, PAGE3 (8.20, 4.70).
+#506 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance CA14: SCHEMATIC1, PAGE3 (8.90, 4.30).
+#507 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C35: SCHEMATIC1, PAGE3 (0.20, 4.40).
+#508 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R144: SCHEMATIC1, PAGE3 (0.60, 4.60).
+#509 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R133: SCHEMATIC1, PAGE4 (3.40, 5.80).
+#510 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C68: SCHEMATIC1, PAGE4 (7.70, 1.40).
+#511 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R37: SCHEMATIC1, PAGE4 (0.90, 2.60).
+#512 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C46: SCHEMATIC1, PAGE2 (3.30, 0.50).
+#513 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R111: SCHEMATIC1, PAGE2 (1.80, 0.70).
+#514 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R100: SCHEMATIC1, PAGE1 (3.70, 6.10).
+#515 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R26: SCHEMATIC1, PAGE1 (4.30, 1.41).
+#516 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R1: SCHEMATIC1, PAGE1 (4.30, 0.20).
+#517 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U4: SCHEMATIC1, PAGE1 (1.10, 1.80).
+#518 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C3: SCHEMATIC1, PAGE1 (0.25, 0.50).
+#519 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U13: SCHEMATIC1, PAGE2 (0.80, 5.50).
+#520 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C58: SCHEMATIC1, PAGE2 (7.00, 5.60).
+#521 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R123: SCHEMATIC1, PAGE2 (7.30, 4.90).
+#522 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance CA3: SCHEMATIC1, PAGE3 (7.00, 3.30).
+#523 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C25: SCHEMATIC1, PAGE3 (7.40, 3.40).
+#524 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R49: SCHEMATIC1, PAGE3 (8.60, 2.30).
+#525 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance CA15: SCHEMATIC1, PAGE2 (4.80, 4.90).
+#526 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Q1: SCHEMATIC1, PAGE2 (2.90, 2.40).
+#527 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R27: SCHEMATIC1, PAGE2 (2.60, 3.40).
+#528 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance CA26: SCHEMATIC1, PAGE3 (4.30, 5.80).
+#529 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R145: SCHEMATIC1, PAGE3 (0.60, 6.20).
+#530 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C47: SCHEMATIC1, PAGE3 (2.10, 6.00).
+#531 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C36: SCHEMATIC1, PAGE3 (2.10, 4.40).
+#532 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D5: SCHEMATIC1, PAGE3 (1.60, 3.90).
+#533 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R134: SCHEMATIC1, PAGE4 (0.50, 5.30).
+#534 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C69: SCHEMATIC1, PAGE4 (6.20, 1.50).
+#535 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U5A: SCHEMATIC1, PAGE4 (1.80, 2.40).
+#536 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U5B: SCHEMATIC1, PAGE4 (4.50, 2.30).
+#537 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C4: SCHEMATIC1, PAGE4 (0.90, 1.30).
+#538 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R112: SCHEMATIC1, PAGE2 (4.20, 0.70).
+#539 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R101: SCHEMATIC1, PAGE1 (7.10, 5.40).
+#540 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C14: SCHEMATIC1, PAGE1 (2.40, 2.10).
+#541 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R38: SCHEMATIC1, PAGE1 (0.50, 2.30).
+#542 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U14: SCHEMATIC1, PAGE2 (4.30, 5.60).
+#543 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R17: SCHEMATIC1, PAGE3 (8.00, 0.50).
+#544 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U6: SCHEMATIC1, PAGE3 (6.30, 0.90).
+#545 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Q2: SCHEMATIC1, PAGE2 (2.90, 3.60).
+#546 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R39: SCHEMATIC1, PAGE2 (1.30, 4.10).
+#547 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R124: SCHEMATIC1, PAGE3 (7.00, 4.40).
+#548 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D6: SCHEMATIC1, PAGE3 (1.60, 5.50).
+#549 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance CA4: SCHEMATIC1, PAGE3 (3.80, 4.20).
+#550 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R146: SCHEMATIC1, PAGE4 (7.50, 0.80).
+#551 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R146: SCHEMATIC1, PAGE3 (0.50, 6.10).
+#552 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R135: SCHEMATIC1, PAGE4 (6.40, 0.40).
+#553 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C15: SCHEMATIC1, PAGE4 (3.70, 2.50).
+#554 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C5: SCHEMATIC1, PAGE4 (3.50, 1.40).
+#555 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R113: SCHEMATIC1, PAGE2 (3.70, 0.40).
+#556 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C48: SCHEMATIC1, PAGE2 (0.40, 0.70).
+#557 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R102: SCHEMATIC1, PAGE1 (7.07, 5.60).
+#558 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C37: SCHEMATIC1, PAGE1 (0.10, 5.90).
+#559 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C26: SCHEMATIC1, PAGE1 (0.20, 3.80).
+#560 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R28: SCHEMATIC1, PAGE1 (4.30, 1.60).
+#561 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance CA17: SCHEMATIC1, PAGE2 (8.60, 5.10).
+#562 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Q3: SCHEMATIC1, PAGE2 (6.90, 2.40).
+#563 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D7: SCHEMATIC1, PAGE3 (6.00, 4.00).
+#564 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R147: SCHEMATIC1, PAGE3 (4.90, 4.60).
+#565 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R125: SCHEMATIC1, PAGE3 (7.00, 4.60).
+#566 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R114: SCHEMATIC1, PAGE3 (2.60, 5.90).
+#567 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R136: SCHEMATIC1, PAGE4 (2.40, 5.40).
+#568 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U15: SCHEMATIC1, PAGE4 (1.20, 4.00).
+#569 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance SW: SCHEMATIC1, PAGE4 (8.70, 1.20).
+#570 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R29: SCHEMATIC1, PAGE4 (1.30, 2.00).
+#571 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C49: SCHEMATIC1, PAGE2 (2.80, 0.70).
+#572 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R103: SCHEMATIC1, PAGE1 (4.30, 6.40).
+#573 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C38: SCHEMATIC1, PAGE1 (3.30, 6.00).
+#574 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C27: SCHEMATIC1, PAGE1 (4.90, 4.00).
+#575 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U7A: SCHEMATIC1, PAGE1 (1.30, 4.10).
+#576 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U7B: SCHEMATIC1, PAGE1 (3.60, 3.60).
+#577 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R18: SCHEMATIC1, PAGE1 (4.30, 1.00).
+#578 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R4: SCHEMATIC1, PAGE1 (4.30, 0.40).
+#579 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C16: SCHEMATIC1, PAGE1 (0.10, 2.50).
+#580 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance CA18: SCHEMATIC1, PAGE2 (8.10, 5.10).
+#581 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R126: SCHEMATIC1, PAGE2 (7.30, 5.60).
+#582 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D8: SCHEMATIC1, PAGE2 (4.00, 4.80).
+#583 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Q4: SCHEMATIC1, PAGE2 (6.90, 3.60).
+#584 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R19: SCHEMATIC1, PAGE2 (3.30, 2.80).
+#585 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R5: SCHEMATIC1, PAGE2 (2.60, 2.20).
+#586 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R148: SCHEMATIC1, PAGE3 (5.00, 4.70).
+#587 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R115: SCHEMATIC1, PAGE3 (2.60, 6.10).
+#588 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U8: SCHEMATIC1, PAGE3 (1.10, 4.20).
+#589 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R137: SCHEMATIC1, PAGE4 (3.40, 6.00).
+#590 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U16: SCHEMATIC1, PAGE4 (3.90, 4.10).
+#591 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C17: SCHEMATIC1, PAGE4 (2.90, 2.80).
+#592 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C7: SCHEMATIC1, PAGE4 (4.40, 1.30).
+#593 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R104: SCHEMATIC1, PAGE1 (1.00, 6.80).
+#594 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R90: SCHEMATIC1, PAGE1 (0.80, 5.40).
+#595 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C28: SCHEMATIC1, PAGE1 (0.90, 3.80).
+#596 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D9: SCHEMATIC1, PAGE2 (6.60, 5.00).
+#597 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R80: SCHEMATIC1, PAGE2 (5.20, 3.80).
+#598 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R127: SCHEMATIC1, PAGE3 (7.80, 5.40).
+#599 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance CA7: SCHEMATIC1, PAGE3 (3.80, 5.80).
+#600 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Q5: SCHEMATIC1, PAGE3 (3.20, 4.00).
+#601 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U17: SCHEMATIC1, PAGE4 (1.20, 5.30).
+#602 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C29: SCHEMATIC1, PAGE4 (6.80, 3.30).
+#603 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R138: SCHEMATIC1, PAGE4 (8.90, 0.70).
+#604 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C18: SCHEMATIC1, PAGE4 (5.20, 2.70).
+#605 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C8: SCHEMATIC1, PAGE4 (1.80, 1.20).
+#606 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R116: SCHEMATIC1, PAGE2 (1.30, 1.10).
+#607 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R91: SCHEMATIC1, PAGE1 (3.90, 5.60).
+#608 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U9A: SCHEMATIC1, PAGE1 (1.20, 5.70).
+#609 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U9B: SCHEMATIC1, PAGE1 (4.40, 5.90).
+#610 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R6: SCHEMATIC1, PAGE1 (4.30, 0.60).
+#611 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R128: SCHEMATIC1, PAGE2 (5.50, 5.90).
+#612 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance L1: SCHEMATIC1, PAGE2 (6.90, 4.60).
+#613 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R106: SCHEMATIC1, PAGE3 (1.10, 5.50).
+#614 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Q6: SCHEMATIC1, PAGE3 (3.20, 4.70).
+#615 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R139: SCHEMATIC1, PAGE4 (6.70, 0.70).
+#616 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C19: SCHEMATIC1, PAGE4 (2.10, 3.00).
+#617 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U18: SCHEMATIC1, PAGE4 (3.40, 0.40).
+#618 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R7: SCHEMATIC1, PAGE4 (4.10, 1.00).
+#619 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R117: SCHEMATIC1, PAGE2 (3.70, 1.10).
+#620 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R81: SCHEMATIC1, PAGE1 (7.10, 4.20).
+#621 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R92: SCHEMATIC1, PAGE1 (7.08, 5.00).
+#622 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R70: SCHEMATIC1, PAGE1 (7.10, 3.60).
+#623 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C9: SCHEMATIC1, PAGE1 (2.00, 1.30).
+#624 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance L2: SCHEMATIC1, PAGE2 (1.90, 5.30).
+#625 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R60: SCHEMATIC1, PAGE2 (7.30, 3.20).
+#626 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Q7: SCHEMATIC1, PAGE3 (3.20, 5.60).
+#627 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R129: SCHEMATIC1, PAGE4 (0.50, 4.00).
+#628 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R8: SCHEMATIC1, PAGE4 (1.50, 0.90).
+#629 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R118: SCHEMATIC1, PAGE2 (0.60, 1.20).
+#630 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R107: SCHEMATIC1, PAGE2 (0.60, 0.20).
+#631 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R82: SCHEMATIC1, PAGE1 (7.10, 4.40).
+#632 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R93: SCHEMATIC1, PAGE1 (2.00, 5.80).
+#633 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R71: SCHEMATIC1, PAGE1 (2.70, 3.80).
+#634 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R61: SCHEMATIC1, PAGE3 (8.20, 2.90).
+#635 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R50: SCHEMATIC1, PAGE3 (9.00, 2.40).
+#636 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C70: SCHEMATIC1, PAGE2 (4.40, 4.90).
+#637 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Q8: SCHEMATIC1, PAGE3 (3.20, 6.30).
+#638 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R94: SCHEMATIC1, PAGE3 (2.60, 4.30).
+#639 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R108: SCHEMATIC1, PAGE2 (3.00, 0.20).
+#640 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R119: SCHEMATIC1, PAGE2 (3.00, 1.20).
+#641 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R72: SCHEMATIC1, PAGE1 (0.00, 4.30).
+#642 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R83: SCHEMATIC1, PAGE1 (1.50, 5.00).
+#643 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance J1: SCHEMATIC1, PAGE1 (2.70, 0.60).
+#644 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance JP1: SCHEMATIC1, PAGE1 (2.60, 2.60).
+#645 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R51: SCHEMATIC1, PAGE3 (8.90, 2.60).
+#646 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C60: SCHEMATIC1, PAGE3 (7.60, 5.50).
+#647 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Q9: SCHEMATIC1, PAGE3 (7.60, 4.10).
+#648 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R109: SCHEMATIC1, PAGE3 (2.60, 5.70).
+#649 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R40: SCHEMATIC1, PAGE4 (3.90, 2.70).
+#650 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance JP2: SCHEMATIC1, PAGE3 (4.00, 0.40).
+#651 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance JP2: SCHEMATIC1, PAGE4 (8.00, 3.60).
+#652 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C71: SCHEMATIC1, PAGE2 (2.50, 1.60).
+#653 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R62: SCHEMATIC1, PAGE1 (7.10, 3.40).
+#654 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R84: SCHEMATIC1, PAGE1 (7.10, 4.61).
+#655 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R95: SCHEMATIC1, PAGE1 (0.40, 5.70).
+#656 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R73: SCHEMATIC1, PAGE1 (0.50, 4.10).
+#657 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C61: SCHEMATIC1, PAGE2 (0.20, 5.80).
+#658 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R63: SCHEMATIC1, PAGE3 (8.20, 3.10).
+#659 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R52: SCHEMATIC1, PAGE2 (6.60, 2.70).
+#660 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C50: SCHEMATIC1, PAGE3 (3.60, 6.40).
+#661 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C72: SCHEMATIC1, PAGE3 (3.60, 4.80).
+#662 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R85: SCHEMATIC1, PAGE3 (1.10, 3.90).
+#663 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R96: SCHEMATIC1, PAGE1 (7.08, 5.20).
+#664 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R74: SCHEMATIC1, PAGE1 (7.10, 3.80).
+#665 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance JP3: SCHEMATIC1, PAGE1 (6.80, 0.70).
+#666 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance JP3: SCHEMATIC1, PAGE3 (1.40, 0.40).
+#667 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R41: SCHEMATIC1, PAGE1 (4.30, 2.20).
+#668 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R30: SCHEMATIC1, PAGE1 (0.50, 1.70).
+#669 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C62: SCHEMATIC1, PAGE2 (3.70, 6.00).
+#670 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance X1: SCHEMATIC1, PAGE3 (6.50, 3.20).
+#671 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R42: SCHEMATIC1, PAGE2 (8.30, 2.60).
+#672 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R75: SCHEMATIC1, PAGE2 (6.60, 3.90).
+#673 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R53: SCHEMATIC1, PAGE2 (7.30, 2.80).
+#674 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R64: SCHEMATIC1, PAGE2 (6.60, 3.40).
+#675 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Q10: SCHEMATIC1, PAGE3 (7.60, 4.80).
+#676 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R31: SCHEMATIC1, PAGE4 (0.90, 2.40).
+#677 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance JP4: SCHEMATIC1, PAGE2 (5.80, 0.60).
+#678 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C51: SCHEMATIC1, PAGE2 (0.90, 1.00).
+#679 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R97: SCHEMATIC1, PAGE1 (5.20, 6.00).
+#680 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R86: SCHEMATIC1, PAGE1 (4.00, 4.60).
+#681 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C40: SCHEMATIC1, PAGE1 (2.30, 6.10).
+#682 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C63: SCHEMATIC1, PAGE2 (5.30, 5.90).
+#683 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance CA20: SCHEMATIC1, PAGE2 (2.20, 5.90).
+#684 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance F1: SCHEMATIC1, PAGE3 (6.20, 5.70).
+#685 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R98: SCHEMATIC1, PAGE3 (2.60, 4.50).
+#686 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R54: SCHEMATIC1, PAGE4 (6.20, 2.40).
+#687 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C30: SCHEMATIC1, PAGE4 (8.70, 3.30).
+#688 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R32: SCHEMATIC1, PAGE4 (3.90, 2.00).
+#689 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C52: SCHEMATIC1, PAGE2 (3.30, 1.00).
+#690 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R87: SCHEMATIC1, PAGE1 (7.10, 4.80).
+#691 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R65: SCHEMATIC1, PAGE1 (4.60, 3.70).
+#692 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R76: SCHEMATIC1, PAGE1 (3.50, 4.10).
+#693 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C41: SCHEMATIC1, PAGE1 (5.60, 6.30).
+#694 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R21: SCHEMATIC1, PAGE1 (4.30, 1.20).
+#695 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R43: SCHEMATIC1, PAGE1 (0.90, 2.50).
+#696 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance CA21: SCHEMATIC1, PAGE2 (2.70, 5.90).
+#697 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C31: SCHEMATIC1, PAGE3 (6.30, 3.40).
+#698 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R11: SCHEMATIC1, PAGE3 (7.80, 0.10).
+#699 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C20: SCHEMATIC1, PAGE2 (8.70, 3.30).
+#700 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance JP6: SCHEMATIC1, PAGE3 (6.90, 5.30).
+#701 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C64: SCHEMATIC1, PAGE4 (0.70, 4.50).
+#702 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R55: SCHEMATIC1, PAGE4 (8.00, 2.40).
+#703 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R99: SCHEMATIC1, PAGE1 (0.50, 6.00).
+#704 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R77: SCHEMATIC1, PAGE1 (2.20, 4.20).
+#705 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R88: SCHEMATIC1, PAGE1 (4.00, 4.90).
+#706 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R66: SCHEMATIC1, PAGE1 (2.70, 3.60).
+#707 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C42: SCHEMATIC1, PAGE1 (1.10, 6.40).
+#708 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R44: SCHEMATIC1, PAGE1 (4.27, 2.40).
+#709 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R33: SCHEMATIC1, PAGE1 (4.28, 1.80).
+#710 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance CA22: SCHEMATIC1, PAGE2 (3.20, 5.90).
+#711 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R67: SCHEMATIC1, PAGE3 (8.20, 3.30).
+#712 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C21: SCHEMATIC1, PAGE2 (5.30, 2.50).
+#713 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R45: SCHEMATIC1, PAGE2 (6.60, 2.20).
+#714 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C32: SCHEMATIC1, PAGE2 (5.30, 3.60).
+#715 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D1: SCHEMATIC1, PAGE2 (2.20, 3.00).
+#716 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R34: SCHEMATIC1, PAGE2 (2.60, 3.90).
+#717 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R23: SCHEMATIC1, PAGE2 (0.60, 3.30).
+#718 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C54: SCHEMATIC1, PAGE3 (4.60, 4.50).
+#719 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance CA11: SCHEMATIC1, PAGE3 (8.40, 4.30).
+#720 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R89: SCHEMATIC1, PAGE3 (2.60, 4.10).
+#721 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance JP7: SCHEMATIC1, PAGE4 (4.70, 5.80).
+#722 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C65: SCHEMATIC1, PAGE4 (3.40, 4.60).
+#723 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R130: SCHEMATIC1, PAGE4 (3.20, 4.10).
+#724 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R56: SCHEMATIC1, PAGE4 (6.60, 2.60).
+#725 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R78: SCHEMATIC1, PAGE1 (0.50, 4.30).
+#726 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R12: SCHEMATIC1, PAGE1 (4.30, 0.80).
+#727 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U1: SCHEMATIC1, PAGE1 (0.80, 0.20).
+#728 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance CA23: SCHEMATIC1, PAGE2 (4.90, 6.20).
+#729 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D10: SCHEMATIC1, PAGE2 (1.70, 5.90).
+#730 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R46: SCHEMATIC1, PAGE3 (8.60, 2.20).
+#731 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R13: SCHEMATIC1, PAGE3 (7.90, 0.30).
+#732 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R24: SCHEMATIC1, PAGE2 (3.30, 3.20).
+#733 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D2: SCHEMATIC1, PAGE2 (2.20, 3.20).
+#734 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C55: SCHEMATIC1, PAGE3 (6.50, 4.50).
+#735 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U10: SCHEMATIC1, PAGE3 (1.10, 5.80).
+#736 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C66: SCHEMATIC1, PAGE4 (3.70, 6.40).
+#737 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R131: SCHEMATIC1, PAGE4 (2.40, 4.10).
+#738 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R57: SCHEMATIC1, PAGE4 (8.40, 2.60).
+#739 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R68: SCHEMATIC1, PAGE4 (6.30, 3.10).
+#740 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C22: SCHEMATIC1, PAGE4 (7.00, 2.70).
+#741 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R142: SCHEMATIC1, PAGE4 (6.70, 1.40).
+#742 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U2: SCHEMATIC1, PAGE4 (0.80, 0.30).
+#743 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance JP8: SCHEMATIC1, PAGE2 (7.40, 0.60).
+#744 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C44: SCHEMATIC1, PAGE2 (0.90, 0.50).
+#745 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R79: SCHEMATIC1, PAGE1 (7.10, 4.00).
+#746 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C33: SCHEMATIC1, PAGE1 (2.60, 4.50).
+#747 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R35: SCHEMATIC1, PAGE1 (4.28, 2.00).
+#748 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C11: SCHEMATIC1, PAGE1 (0.10, 1.70).
+#749 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C1: SCHEMATIC1, PAGE1 (2.00, 0.20).
+
+Checking Name Property for Hierarchical Instances  
+
+INFO(ORCAP-2211): Check High Speed Properties Syntax
+
+INFO(ORCAP-2212): Check Power Ground Mismatch
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U3,8  8  V12P
+                    SCHEMATIC1, PAGE2  (1.50, 3.80) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U7,8  8  V12P
+                    SCHEMATIC1, PAGE1  (1.50, 4.80) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U9,4  4  GND
+                    SCHEMATIC1, PAGE1  (1.40, 5.40) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U7,4  4  GND
+                    SCHEMATIC1, PAGE1  (1.50, 3.80) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U5,8  8  V33
+                    SCHEMATIC1, PAGE4  (2.00, 3.10) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U4,VCC  VCC  V33
+                    SCHEMATIC1, PAGE1  (2.03, 2.00) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U9,8  8  V33
+                    SCHEMATIC1, PAGE1  (1.40, 6.40) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? GND_POWER  GND_POWER  GNDP  
+                    SCHEMATIC1, PAGE2  (1.00, 0.70) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U3,4  4  GND_POWER
+                    SCHEMATIC1, PAGE2  (1.50, 2.80) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U5,4  4  GND_POWER
+                    SCHEMATIC1, PAGE4  (2.00, 2.10) 
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------
