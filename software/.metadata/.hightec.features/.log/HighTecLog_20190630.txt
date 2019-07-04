@@ -1,0 +1,400 @@
+-------------------------------------------------------- 
+-------------------------------------------------------- 
+HighTec EDV-System File-Log 
+--------------------------- 
+Creation date: 2019/06/30 
+Creation time: 11:05:51 
+
+HighTec EDV-Systeme information 
+-------------------------------- 
+Please send me to HighTec EDV-Systeme 
+
+HighTec EDV-Systeme GmbH 
+Feldmannstr. 98 
+D-66119 Saarbr¨¹cken 
+Tel: (+49) 681-92613 - 16 
+Fax: (+49) 681-92613 - 26 
+Email: info@hightec-rt.com	
+-------------------------------------------------------- 
+-------------------------------------------------------- 
+
+Installed HighTec-Plugins:
+-------------------------
+com.rt.hightec.buildsystem.arm - 2.1.0.20170130-b29c1f1
+com.rt.hightec.buildsystem.arm.projectdata - 1.1.0.20170130-b29c1f1
+com.rt.hightec.buildsystem.powerpc - 2.1.0.20170130-b29c1f1
+com.rt.hightec.buildsystem.powerpc.old - 1.1.2.deprecated
+com.rt.hightec.buildsystem.powerpc.projectdata - 1.1.0.20170130-b29c1f1
+com.rt.hightec.buildsystem.tricore - 2.1.0.20170130-b29c1f1
+com.rt.hightec.buildsystem.tricore.old - 1.1.2.deprecated
+com.rt.hightec.buildsystem.tricore.projectdata - 1.1.0.20170130-b29c1f1
+com.rt.hightec.dave.importer - 2.1.0.20170130-b29c1f1
+com.rt.hightec.dependencies - 1.1.0.20170130-b29c1f1
+com.rt.hightec.development.platform.arm.branding - 1.6.2.20170130-b29c1f1
+com.rt.hightec.development.platform.multi.branding - 1.6.2.20170130-b29c1f1
+com.rt.hightec.development.platform.powerpc.branding - 1.6.2.20170130-b29c1f1
+com.rt.hightec.development.platform.runtime - 1.6.2.20170130-b29c1f1
+com.rt.hightec.development.platform.tricore.branding - 1.6.2.20170130-b29c1f1
+com.rt.hightec.framework.buildsystem - 2.2.0.20170130-b29c1f1
+com.rt.hightec.framework.common - 2.1.2.20170130-b29c1f1
+com.rt.hightec.framework.emf - 1.3.0.20170130-b29c1f1
+com.rt.hightec.framework.oaw - 1.3.0.20170130-b29c1f1
+com.rt.hightec.ldf.text.editor - 1.3.0.20170130-b29c1f1
+com.rt.hightec.licensing - 2.1.0.20170130-b29c1f1
+com.rt.hightec.modeling.hardware.model - 2.0.0.20170130-b29c1f1
+com.rt.hightec.modeling.hardware.model.gen - 2.0.0.20170130-b29c1f1
+com.rt.hightec.modeling.hardware.model.gen.edit - 2.0.0.20170130-b29c1f1
+com.rt.hightec.modeling.linker.core - 2.1.1.20170130-b29c1f1
+com.rt.hightec.modeling.linker.model - 2.0.0.20170130-b29c1f1
+com.rt.hightec.modeling.linker.model.gen - 3.0.0.20170130-b29c1f1
+com.rt.hightec.modeling.linker.model.gen.edit - 2.0.0.20170130-b29c1f1
+com.rt.hightec.pls.bridge - 1.1.0.htc-revision_htc-builddate
+com.rt.hightec.project.description - 1.2.0.20170130-b29c1f1
+com.rt.hightec.project.description.interpreter - 1.1.0.20170130-b29c1f1
+com.rt.hightec.project.description.ui - 1.2.0.20170130-b29c1f1
+com.rt.hightec.support - 2.2.0.20170130-b29c1f1
+com.rt.hightec.toolchain.manager - 1.1.0.20170130-b29c1f1
+com.rt.hightec.toolchain.manager.store - 1.1.0.20170130-b29c1f1
+
+
+
+
+--------- HighTec EDV-System Session-Log-11:05:51 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-11:05:53 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-11:05:54 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-11:05:54 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-11:05:54 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-11:05:54 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-11:05:54 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-11:05:54 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-11:05:54 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-11:05:55 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-11:05:55 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-11:05:56 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-11:05:57 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-11:05:57 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-11:05:57 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-11:05:57 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-11:05:57 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-11:05:57 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-11:05:57 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-11:05:57 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-11:05:57 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-11:05:58 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-11:06:10 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-11:06:10 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-11:06:12 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-11:06:12 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-11:06:14 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-11:06:23 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-11:06:23 ---------
+-------------------------------------------------------- 
+
+
+
+--------- HighTec EDV-System Session-Log-11:06:23 ---------
+-------------------------------------------------------- 
+
+[11:05:51]: Start plugin: com.rt.hightec.framework.common
+[11:05:53]: Start plugin: com.rt.hightec.framework.buildsystem
+[11:05:54]: Start plugin: com.rt.hightec.project.description.interpreter
+[11:05:54]: Start plugin: com.rt.hightec.buildsystem.arm.projectdata
+[11:05:54]: Start plugin: com.rt.hightec.buildsystem.arm
+[11:05:54]: Start plugin: com.rt.hightec.buildsystem.powerpc.projectdata
+[11:05:54]: Start plugin: com.rt.hightec.buildsystem.powerpc
+[11:05:54]: Start plugin: com.rt.hightec.buildsystem.tricore.projectdata
+[11:05:54]: Start plugin: com.rt.hightec.buildsystem.tricore
+[11:05:55]: Start plugin: com.rt.hightec.toolchain.manager
+[11:05:55]: Start plugin: com.rt.hightec.toolchain.manager.store
+[11:05:56]: 
+
+[11:05:57]: !!!!!!!!!Exception detected!!!!!!!!!!!!!
+
+[11:05:57]: ----------------------------------------
+
+[11:05:57]: org.eclipse.core.internal.resources.ResourceException: The resource tree is locked for modifications.
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:116)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2251)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1697)
+	at com.rt.hightec.framework.buildsystem.ui.explorer.HighTecProjectExplorer.toolchainChanged(Unknown Source)
+	at com.rt.hightec.framework.buildsystem.installation.buildsystem.ToolchainDataController.notifyToolchainDescriptionChanged(Unknown Source)
+	at com.rt.hightec.framework.buildsystem.installation.buildsystem.HighTecToolchain.setDefault(Unknown Source)
+	at com.rt.hightec.toolchain.manager.ToolchainManagerPlugin.handleEmptyArchitectures(Unknown Source)
+	at com.rt.hightec.toolchain.manager.ToolchainManagerPlugin.getToolchains(Unknown Source)
+	at com.rt.hightec.framework.buildsystem.installation.registry.ToolchainRegistry.initRegistry(Unknown Source)
+	at com.rt.hightec.framework.buildsystem.installation.registry.ToolchainRegistry.<init>(Unknown Source)
+	at com.rt.hightec.framework.buildsystem.installation.registry.ToolchainRegistry.createInstance(Unknown Source)
+	at com.rt.hightec.framework.buildsystem.project.language.settings.DiscoveryPathSymbolParser.getSettingEntries(Unknown Source)
+	at com.rt.hightec.framework.buildsystem.project.language.settings.HighTecLanguageSettingsProvider.getSettingEntries(Unknown Source)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesPooled(LanguageSettingsProvidersSerializer.java:1421)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesUpResourceTree(LanguageSettingsProvidersSerializer.java:1449)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1508)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1550)
+	at org.eclipse.cdt.core.settings.model.util.PathEntryTranslator.collectResourceDataEntries(PathEntryTranslator.java:2064)
+	at org.eclipse.cdt.core.settings.model.util.PathEntryTranslator.access$11(PathEntryTranslator.java:2037)
+	at org.eclipse.cdt.core.settings.model.util.PathEntryTranslator$1.visit(PathEntryTranslator.java:2025)
+	at org.eclipse.cdt.core.settings.model.util.PathSettingsContainer.doAccept(PathSettingsContainer.java:519)
+	at org.eclipse.cdt.core.settings.model.util.PathSettingsContainer.accept(PathSettingsContainer.java:515)
+	at org.eclipse.cdt.core.settings.model.util.PathEntryTranslator.collectEntries(PathEntryTranslator.java:2017)
+	at org.eclipse.cdt.internal.core.settings.model.ConfigBasedPathEntryStore.getEntries(ConfigBasedPathEntryStore.java:237)
+	at org.eclipse.cdt.internal.core.settings.model.ConfigBasedPathEntryStore.getRawPathEntries(ConfigBasedPathEntryStore.java:118)
+	at org.eclipse.cdt.internal.core.model.PathEntryStoreProxy.getRawPathEntries(PathEntryStoreProxy.java:97)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getRawPathEntries(PathEntryManager.java:633)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getResolvedPathEntries(PathEntryManager.java:534)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getResolvedPathEntries(PathEntryManager.java:518)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getResolvedPathEntries(PathEntryManager.java:504)
+	at org.eclipse.cdt.internal.core.model.PathEntryStoreChangedOperation.executeOperation(PathEntryStoreChangedOperation.java:41)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:635)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.pathEntryStoreChanged(PathEntryManager.java:1300)
+	at org.eclipse.cdt.internal.core.model.PathEntryStoreProxy.notifyListeners(PathEntryStoreProxy.java:63)
+	at org.eclipse.cdt.internal.core.model.PathEntryStoreProxy.fireContentChangedEvent(PathEntryStoreProxy.java:56)
+	at org.eclipse.cdt.internal.core.model.PathEntryStoreProxy.postProcessProviderChange(PathEntryStoreProxy.java:141)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCExtensionProxy.checkUpdateProvider(AbstractCExtensionProxy.java:121)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCExtensionProxy.providerRequested(AbstractCExtensionProxy.java:38)
+	at org.eclipse.cdt.internal.core.model.PathEntryStoreProxy.getRawPathEntries(PathEntryStoreProxy.java:96)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getRawPathEntries(PathEntryManager.java:633)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getResolvedPathEntries(PathEntryManager.java:534)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getResolvedPathEntries(PathEntryManager.java:518)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getResolvedPathEntries(PathEntryManager.java:504)
+	at org.eclipse.cdt.core.model.CoreModel.getResolvedPathEntries(CoreModel.java:948)
+	at org.eclipse.cdt.internal.core.model.CProject.getResolvedPathEntries(CProject.java:400)
+	at org.eclipse.cdt.internal.core.model.CProject.getOutputEntries(CProject.java:509)
+	at org.eclipse.cdt.internal.core.model.CProject.isOnOutputEntry(CProject.java:541)
+	at org.eclipse.cdt.internal.core.model.CProject.computeChildren(CProject.java:633)
+	at org.eclipse.cdt.internal.core.model.CProject.buildStructure(CProject.java:569)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:261)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:427)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:305)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:295)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:55)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:290)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:267)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.createElement(DeltaProcessor.java:87)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:453)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:471)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.processResourceDelta(DeltaProcessor.java:433)
+	at org.eclipse.cdt.internal.core.model.CModelManager.resourceChanged(CModelManager.java:900)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:378)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1498)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1718)
+	at org.eclipse.core.internal.refresh.RefreshJob.runInWorkspace(RefreshJob.java:167)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+[11:05:57]: 
+
+[11:05:57]: 
+
+[11:05:57]: !!!!!!!!!Exception detected!!!!!!!!!!!!!
+
+[11:05:57]: ----------------------------------------
+
+[11:05:57]: org.eclipse.core.internal.resources.ResourceException: The resource tree is locked for modifications.
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:116)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2251)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1697)
+	at com.rt.hightec.framework.buildsystem.ui.explorer.HighTecProjectExplorer.toolchainChanged(Unknown Source)
+	at com.rt.hightec.framework.buildsystem.installation.buildsystem.ToolchainDataController.notifyToolchainDescriptionChanged(Unknown Source)
+	at com.rt.hightec.framework.buildsystem.installation.buildsystem.HighTecToolchain.setDefault(Unknown Source)
+	at com.rt.hightec.toolchain.manager.ToolchainManagerPlugin.handleEmptyArchitectures(Unknown Source)
+	at com.rt.hightec.toolchain.manager.ToolchainManagerPlugin.getToolchains(Unknown Source)
+	at com.rt.hightec.framework.buildsystem.installation.registry.ToolchainRegistry.initRegistry(Unknown Source)
+	at com.rt.hightec.framework.buildsystem.installation.registry.ToolchainRegistry.<init>(Unknown Source)
+	at com.rt.hightec.framework.buildsystem.installation.registry.ToolchainRegistry.createInstance(Unknown Source)
+	at com.rt.hightec.framework.buildsystem.project.language.settings.DiscoveryPathSymbolParser.getSettingEntries(Unknown Source)
+	at com.rt.hightec.framework.buildsystem.project.language.settings.HighTecLanguageSettingsProvider.getSettingEntries(Unknown Source)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesPooled(LanguageSettingsProvidersSerializer.java:1421)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesUpResourceTree(LanguageSettingsProvidersSerializer.java:1449)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1508)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1550)
+	at org.eclipse.cdt.core.settings.model.util.PathEntryTranslator.collectResourceDataEntries(PathEntryTranslator.java:2064)
+	at org.eclipse.cdt.core.settings.model.util.PathEntryTranslator.access$11(PathEntryTranslator.java:2037)
+	at org.eclipse.cdt.core.settings.model.util.PathEntryTranslator$1.visit(PathEntryTranslator.java:2025)
+	at org.eclipse.cdt.core.settings.model.util.PathSettingsContainer.doAccept(PathSettingsContainer.java:519)
+	at org.eclipse.cdt.core.settings.model.util.PathSettingsContainer.accept(PathSettingsContainer.java:515)
+	at org.eclipse.cdt.core.settings.model.util.PathEntryTranslator.collectEntries(PathEntryTranslator.java:2017)
+	at org.eclipse.cdt.internal.core.settings.model.ConfigBasedPathEntryStore.getEntries(ConfigBasedPathEntryStore.java:237)
+	at org.eclipse.cdt.internal.core.settings.model.ConfigBasedPathEntryStore.getRawPathEntries(ConfigBasedPathEntryStore.java:118)
+	at org.eclipse.cdt.internal.core.model.PathEntryStoreProxy.getRawPathEntries(PathEntryStoreProxy.java:97)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getRawPathEntries(PathEntryManager.java:633)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getResolvedPathEntries(PathEntryManager.java:534)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getResolvedPathEntries(PathEntryManager.java:518)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getResolvedPathEntries(PathEntryManager.java:504)
+	at org.eclipse.cdt.internal.core.model.PathEntryStoreChangedOperation.executeOperation(PathEntryStoreChangedOperation.java:41)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:635)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.pathEntryStoreChanged(PathEntryManager.java:1300)
+	at org.eclipse.cdt.internal.core.model.PathEntryStoreProxy.notifyListeners(PathEntryStoreProxy.java:63)
+	at org.eclipse.cdt.internal.core.model.PathEntryStoreProxy.fireContentChangedEvent(PathEntryStoreProxy.java:56)
+	at org.eclipse.cdt.internal.core.model.PathEntryStoreProxy.postProcessProviderChange(PathEntryStoreProxy.java:141)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCExtensionProxy.checkUpdateProvider(AbstractCExtensionProxy.java:121)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCExtensionProxy.providerRequested(AbstractCExtensionProxy.java:38)
+	at org.eclipse.cdt.internal.core.model.PathEntryStoreProxy.getRawPathEntries(PathEntryStoreProxy.java:96)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getRawPathEntries(PathEntryManager.java:633)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getResolvedPathEntries(PathEntryManager.java:534)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getResolvedPathEntries(PathEntryManager.java:518)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getResolvedPathEntries(PathEntryManager.java:504)
+	at org.eclipse.cdt.core.model.CoreModel.getResolvedPathEntries(CoreModel.java:948)
+	at org.eclipse.cdt.internal.core.model.CProject.getResolvedPathEntries(CProject.java:400)
+	at org.eclipse.cdt.internal.core.model.CProject.getOutputEntries(CProject.java:509)
+	at org.eclipse.cdt.internal.core.model.CProject.isOnOutputEntry(CProject.java:541)
+	at org.eclipse.cdt.internal.core.model.CProject.computeChildren(CProject.java:633)
+	at org.eclipse.cdt.internal.core.model.CProject.buildStructure(CProject.java:569)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:261)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:427)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:305)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:295)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:55)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:290)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:267)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.createElement(DeltaProcessor.java:87)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:453)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:471)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.processResourceDelta(DeltaProcessor.java:433)
+	at org.eclipse.cdt.internal.core.model.CModelManager.resourceChanged(CModelManager.java:900)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:378)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1498)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1718)
+	at org.eclipse.core.internal.refresh.RefreshJob.runInWorkspace(RefreshJob.java:167)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+[11:05:57]: 
+
+[11:05:58]: Start plugin: com.rt.hightec.dave.importer
+[11:06:10]: Start plugin: com.rt.hightec.support
+[11:06:10]: Start plugin: com.rt.hightec.licensing
+[11:06:12]: Start plugin: com.rt.hightec.modeling.linker.model
+[11:06:12]: Start plugin: com.rt.hightec.modeling.linker.core
+[11:06:14]: Start plugin: com.rt.hightec.framework.emf
+[11:06:23]: 
+
+[11:06:23]: !!!!!!!!!Exception detected!!!!!!!!!!!!!
+
+[11:06:23]: ----------------------------------------
+
