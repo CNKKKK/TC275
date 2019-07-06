@@ -1,0 +1,1 @@
+<?xml version="1.0" ?><daqIdeaConfiguration><global><history>5</history></global><variables><variable><enabled>True</enabled><name>((TasksPare)[3]).Task_Count</name><interval>0</interval><chart>1</chart><scale>1.000000e+00</scale><format>Dec</format><color>0xff0000</color></variable></variables></daqIdeaConfiguration>
