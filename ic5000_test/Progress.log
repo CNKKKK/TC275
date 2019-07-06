@@ -1,0 +1,74 @@
+VERIFYING
+	AREA: Virtual
+	Verifying 0x0134 locations from 0x5001'8000
+	Verify ERROR: 0x7 locations at 0x5001'8000
+	Verify ERROR: 0x1 locations at 0x5001'8010
+	Verify ERROR: 0x1 locations at 0x5001'8012
+	Verify ERROR: 0x1 locations at 0x5001'8014
+	Verify ERROR: 0x1 locations at 0x5001'8018
+	Verify ERROR: 0x2 locations at 0x5001'801B
+	Verify ERROR: 0x3 locations at 0x5001'8020
+	Verify ERROR: 0x1 locations at 0x5001'8026
+	Verify ERROR: 0x1 locations at 0x5001'8028
+	Verify ERROR: 0x1 locations at 0x5001'802A
+	Verify ERROR: 0x1 locations at 0x5001'802C
+	Verify ERROR: 0x1 locations at 0x5001'802E
+	Verify ERROR: 0x1 locations at 0x5001'8030
+	Verify ERROR: 0x1 locations at 0x5001'8032
+	Verify ERROR: 0x1 locations at 0x5001'8034
+	Verify ERROR: 0x3 locations at 0x5001'803D
+	Verify ERROR: 0x5 locations at 0x5001'8041
+	Verify ERROR: 0x1 locations at 0x5001'8049
+	Verify ERROR: 0x1 locations at 0x5001'804C
+	Verify ERROR: 0x1 locations at 0x5001'8051
+	Verify ERROR: 0x1 locations at 0x5001'8054
+	Verify ERROR: 0x1 locations at 0x5001'8059
+	Verify ERROR: 0x3 locations at 0x5001'805D
+	Verify ERROR: 0x3 locations at 0x5001'8061
+	Verify ERROR: 0x1 locations at 0x5001'8069
+	Verify ERROR: 0x1 locations at 0x5001'806C
+	Verify ERROR: 0x1 locations at 0x5001'8071
+	Verify ERROR: 0x1 locations at 0x5001'8074
+	Verify ERROR: 0x1 locations at 0x5001'8079
+	Verify ERROR: 0x3 locations at 0x5001'807D
+	Verify ERROR: 0x3 locations at 0x5001'8081
+	Verify ERROR: 0x1 locations at 0x5001'8089
+	Verify ERROR: 0x1 locations at 0x5001'808C
+	Verify ERROR: 0x1 locations at 0x5001'8091
+	Verify ERROR: 0x1 locations at 0x5001'8094
+	Verify ERROR: 0x1 locations at 0x5001'8099
+	Verify ERROR: 0x1 locations at 0x5001'809F
+	Verify ERROR: 0x4 locations at 0x5001'80A3
+	Verify ERROR: 0x3 locations at 0x5001'80A8
+	Verify ERROR: 0x1 locations at 0x5001'80AC
+	Verify ERROR: 0x1 locations at 0x5001'80B1
+	Verify ERROR: 0x1 locations at 0x5001'80B4
+	Verify ERROR: 0x2 locations at 0x5001'80B9
+	Verify ERROR: 0x2 locations at 0x5001'80BE
+	Verify ERROR: 0x3 locations at 0x5001'80C2
+	Verify ERROR: 0x1 locations at 0x5001'80C8
+	Verify ERROR: 0x1 locations at 0x5001'80CC
+	Verify ERROR: 0x1 locations at 0x5001'80D1
+	Verify ERROR: 0x1 locations at 0x5001'80D4
+	Verify ERROR: 0x3 locations at 0x5001'80D8
+	Verify ERROR: 0x9 locations at 0x5001'80DC
+	Verify ERROR: 0x1 locations at 0x5001'80E8
+	Verify ERROR: 0x1 locations at 0x5001'80EC
+	Verify ERROR: 0x1 locations at 0x5001'80F1
+	Verify ERROR: 0x1 locations at 0x5001'80F4
+	Verify ERROR: 0x2 locations at 0x5001'80F9
+	Verify ERROR: 0x3 locations at 0x5001'80FD
+	Verify ERROR: 0x5 locations at 0x5001'8101
+	Verify ERROR: 0x2 locations at 0x5001'8108
+	Verify ERROR: 0x1 locations at 0x5001'810C
+	Verify ERROR: 0x1 locations at 0x5001'8111
+	Verify ERROR: 0x1 locations at 0x5001'8114
+	Verify ERROR: 0x2 locations at 0x5001'8119
+	Verify ERROR: 0x6 locations at 0x5001'811F
+	Verify ERROR: 0x2 locations at 0x5001'8128
+	Verify ERROR: 0x1 locations at 0x5001'812C
+	Verify ERROR: 0x1 locations at 0x5001'8131
+	Verifying 0x01'53E8 locations from 0x8000'0000
+	Verifying 0x0020 locations from 0x8002'0000
+	Verifying 0x0022 locations from 0x800F'1FE0
+	Verifying 0x03E8 locations from 0x800F'6000
