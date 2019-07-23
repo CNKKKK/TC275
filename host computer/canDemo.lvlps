@@ -24,3 +24,11 @@ Cache_Path[Path] Line0001 = "/C/Users/Administrator.MS-20171011DSSZ/AppData/Loc"
 Cache_Path[Path] Line0002 = "al/Temp/AB_Cache_{5B5BFCA3-1BD8-4464-AF2B-27C9CFBA"
 Cache_Path[Path] Line0003 = "1107}.txt"
 
+[AB_Cache_{D62C012D-ECD2-42FC-9F6F-C6B7CBCCA5AB}]
+Cache_Path[Path] Line0001 = "/C/Users/CNK/AppData/Local/Temp/AB_Cache_{D62C012D"
+Cache_Path[Path] Line0002 = "-ECD2-42FC-9F6F-C6B7CBCCA5AB}.txt"
+
+[AB_Cache_{0F59E95B-FE37-44CC-BFF1-0ADB7E40A1FB}]
+Cache_Path[Path] Line0001 = "/C/Users/CNK/AppData/Local/Temp/AB_Cache_{0F59E95B"
+Cache_Path[Path] Line0002 = "-FE37-44CC-BFF1-0ADB7E40A1FB}.txt"
+

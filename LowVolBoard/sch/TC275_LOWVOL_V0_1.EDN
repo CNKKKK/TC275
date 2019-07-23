@@ -1,0 +1,5382 @@
+(edif SCHEMATIC1
+ (edifVersion 2 0 0)
+ (edifLevel 0)
+ (keywordMap (keywordLevel 0))
+ (status
+  (written
+   (timeStamp 2019 07 09 08 04 57)
+   (program "CAPTURE.EXE" (Version "16.6.0.d001"))
+   (comment "Original data from OrCAD/CAPTURE schematic"))
+  (comment "")
+  (comment "Thursday, July 04, 2019")
+  (comment "C:\USERS\CNK\DESKTOP\TC275PROGRAM\TC275\LOWVOLBOARD\SCH\TC275_LOWVOL_V0_1.DSN")
+  (comment "")
+  (comment "")
+  (comment "")
+  (comment "")
+  (comment "")
+  (comment ""))
+ (external OrCAD_LIB
+  (edifLevel 0)
+  (technology
+   (numberDefinition
+    (scale 1 1 (unit distance))))
+  (cell TEST_POINT_0
+   (cellType generic)
+   (comment "From OrCAD library ASSISTANT.OLB")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &1 (direction INOUT)))))
+  (cell (rename CAP_NP "CAP NP")
+   (cellType generic)
+   (comment "From OrCAD library DISCRETE.OLB")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &1 (direction INOUT))
+     (port &2 (direction INOUT)))))
+  (cell RES_0
+   (cellType generic)
+   (comment "From OrCAD library RESISTOR.OLB")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &1 (direction INOUT))
+     (port &2 (direction INOUT)))))
+  (cell AD2S1205
+   (cellType generic)
+   (comment "From OrCAD library LIBRARY1.OLB")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &1 (direction INOUT))
+     (port &2 (direction INOUT))
+     (port &3 (direction INOUT))
+     (port &4 (direction INOUT))
+     (port &5 (direction INOUT))
+     (port &6 (direction INOUT))
+     (port &7 (direction INOUT))
+     (port &8 (direction INOUT))
+     (port &9 (direction INOUT))
+     (port &10 (direction INOUT))
+     (port &11 (direction INOUT))
+     (port &12 (direction INOUT))
+     (port &13 (direction INOUT))
+     (port &14 (direction INOUT))
+     (port &15 (direction INOUT))
+     (port &16 (direction INOUT))
+     (port &17 (direction INOUT))
+     (port &18 (direction INOUT))
+     (port &19 (direction INOUT))
+     (port &20 (direction INOUT))
+     (port &21 (direction INOUT))
+     (port &22 (direction INOUT))
+     (port &44 (direction INOUT))
+     (port &43 (direction INOUT))
+     (port &42 (direction INOUT))
+     (port &41 (direction INOUT))
+     (port &40 (direction INOUT))
+     (port &39 (direction INOUT))
+     (port &38 (direction INOUT))
+     (port &37 (direction INOUT))
+     (port &36 (direction INOUT))
+     (port &35 (direction INOUT))
+     (port &34 (direction INOUT))
+     (port &33 (direction INOUT))
+     (port &32 (direction INOUT))
+     (port &31 (direction INOUT))
+     (port &30 (direction INOUT))
+     (port &29 (direction INOUT))
+     (port &28 (direction INOUT))
+     (port &27 (direction INOUT))
+     (port &26 (direction INOUT))
+     (port &25 (direction INOUT))
+     (port &24 (direction INOUT))
+     (port &23 (direction INOUT)))))
+  (cell R
+   (cellType generic)
+   (comment "From OrCAD library DISCRETE.OLB")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &1 (direction INOUT))
+     (port &2 (direction INOUT)))))
+  (cell STP75NF75_1
+   (cellType generic)
+   (comment "From OrCAD library SLMC3PDEB103.DSN")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &2 (direction INOUT))
+     (port &1 (direction INOUT))
+     (port &3 (direction INOUT)))))
+  (cell CAP_0
+   (cellType generic)
+   (comment "From OrCAD library CAPACITOR.OLB")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &1 (direction INOUT))
+     (port &2 (direction INOUT)))))
+  (cell IMP809_0
+   (cellType generic)
+   (comment "From OrCAD library IC.OLB")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &2 (direction OUTPUT))
+     (port &3 (direction INOUT))
+     (port &1 (direction INOUT)))))
+  (cell LDO_SOT23_5_0
+   (cellType generic)
+   (comment "From OrCAD library IC.OLB")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &1 (direction INOUT))
+     (port &2 (direction INOUT))
+     (port &3 (direction INOUT))
+     (port &4 (direction INOUT))
+     (port &5 (direction INOUT)))))
+  (cell (rename OPA2340BARSO "OPA2340/SO")
+   (cellType generic)
+   (comment "From OrCAD library OPAMP.OLB")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &4 (direction INPUT))
+     (port &1 (direction OUTPUT))
+     (port &3 (direction INPUT))
+     (port &2 (direction INPUT))
+     (port &8 (direction INPUT))
+     (port &7 (direction OUTPUT))
+     (port &5 (direction INPUT))
+     (port &6 (direction INPUT)))))
+  (cell LM1117_1
+   (cellType generic)
+   (comment "From OrCAD library IC.OLB")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &3 (direction INOUT))
+     (port &1 (direction INOUT))
+     (port &2 (direction INOUT))
+     (port &4 (direction INOUT)))))
+  (cell ADM3054
+   (cellType generic)
+   (comment "From OrCAD library LIBRARY1.OLB")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &1 (direction INOUT))
+     (port &2 (direction INOUT))
+     (port &3 (direction INOUT))
+     (port &4 (direction INOUT))
+     (port &5 (direction INOUT))
+     (port &6 (direction INOUT))
+     (port &7 (direction INOUT))
+     (port &8 (direction INOUT))
+     (port &9 (direction INOUT))
+     (port &10 (direction INOUT))
+     (port &11 (direction INOUT))
+     (port &12 (direction INOUT))
+     (port &13 (direction INOUT))
+     (port &14 (direction INOUT))
+     (port &15 (direction INOUT))
+     (port &16 (direction INOUT)))))
+  (cell W25P40
+   (cellType generic)
+   (comment "From OrCAD library SCHLIB.OLB")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &1 (direction INOUT))
+     (port &2 (direction INOUT))
+     (port &3 (direction INPUT))
+     (port &4 (direction INPUT))
+     (port &5 (direction INOUT))
+     (port &6 (direction INOUT))
+     (port &7 (direction INOUT))
+     (port &8 (direction INPUT)))))
+  (cell (rename T_POINT_R "T POINT R")
+   (cellType generic)
+   (comment "From OrCAD library DISCRETE.OLB")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &1 (direction INOUT)))))
+  (cell ALECAP_0
+   (cellType generic)
+   (comment "From OrCAD library CAPACITOR.OLB")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &1 (direction INOUT))
+     (port &2 (direction INOUT)))))
+  (cell CRYSTAL4_0
+   (cellType generic)
+   (comment "From OrCAD library DISCRETE.OLB")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &1 (direction INOUT))
+     (port &3 (direction INOUT))
+     (port &4 (direction INOUT))
+     (port &2 (direction INOUT)))))
+  (cell TLV431_0
+   (cellType generic)
+   (comment "From OrCAD library MOTHERBOARDV1_0.DSN")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port A (direction INOUT))
+     (port K (direction INOUT))
+     (port AK (direction INOUT)))))
+  (cell BTB140
+   (cellType generic)
+   (comment "From OrCAD library TC275.OLB")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &1 (direction INOUT))
+     (port &3 (direction INOUT))
+     (port &5 (direction INOUT))
+     (port &7 (direction INOUT))
+     (port &9 (direction INOUT))
+     (port &11 (direction INOUT))
+     (port &13 (direction INOUT))
+     (port &15 (direction INOUT))
+     (port &17 (direction INOUT))
+     (port &19 (direction INOUT))
+     (port &21 (direction INOUT))
+     (port &23 (direction INOUT))
+     (port &25 (direction INOUT))
+     (port &27 (direction INOUT))
+     (port &29 (direction INOUT))
+     (port &31 (direction INOUT))
+     (port &33 (direction INOUT))
+     (port &35 (direction INOUT))
+     (port &37 (direction INOUT))
+     (port &39 (direction INOUT))
+     (port &41 (direction INOUT))
+     (port &43 (direction INOUT))
+     (port &45 (direction INOUT))
+     (port &47 (direction INOUT))
+     (port &49 (direction INOUT))
+     (port &51 (direction INOUT))
+     (port &53 (direction INOUT))
+     (port &55 (direction INOUT))
+     (port &57 (direction INOUT))
+     (port &59 (direction INOUT))
+     (port &61 (direction INOUT))
+     (port &63 (direction INOUT))
+     (port &65 (direction INOUT))
+     (port &67 (direction INOUT))
+     (port &69 (direction INOUT))
+     (port &71 (direction INOUT))
+     (port &73 (direction INOUT))
+     (port &75 (direction INOUT))
+     (port &77 (direction INOUT))
+     (port &79 (direction INOUT))
+     (port &81 (direction INOUT))
+     (port &83 (direction INOUT))
+     (port &85 (direction INOUT))
+     (port &87 (direction INOUT))
+     (port &89 (direction INOUT))
+     (port &91 (direction INOUT))
+     (port &93 (direction INOUT))
+     (port &95 (direction INOUT))
+     (port &97 (direction INOUT))
+     (port &99 (direction INOUT))
+     (port &101 (direction INOUT))
+     (port &103 (direction INOUT))
+     (port &105 (direction INOUT))
+     (port &107 (direction INOUT))
+     (port &109 (direction INOUT))
+     (port &111 (direction INOUT))
+     (port &113 (direction INOUT))
+     (port &115 (direction INOUT))
+     (port &117 (direction INOUT))
+     (port &119 (direction INOUT))
+     (port &121 (direction INOUT))
+     (port &123 (direction INOUT))
+     (port &125 (direction INOUT))
+     (port &127 (direction INOUT))
+     (port &129 (direction INOUT))
+     (port &131 (direction INOUT))
+     (port &133 (direction INOUT))
+     (port &135 (direction INOUT))
+     (port &137 (direction INOUT))
+     (port &139 (direction INOUT))
+     (port &2 (direction INOUT))
+     (port &4 (direction INOUT))
+     (port &6 (direction INOUT))
+     (port &8 (direction INOUT))
+     (port &10 (direction INOUT))
+     (port &12 (direction INOUT))
+     (port &14 (direction INOUT))
+     (port &16 (direction INOUT))
+     (port &18 (direction INOUT))
+     (port &20 (direction INOUT))
+     (port &22 (direction INOUT))
+     (port &24 (direction INOUT))
+     (port &26 (direction INOUT))
+     (port &28 (direction INOUT))
+     (port &30 (direction INOUT))
+     (port &32 (direction INOUT))
+     (port &34 (direction INOUT))
+     (port &36 (direction INOUT))
+     (port &38 (direction INOUT))
+     (port &40 (direction INOUT))
+     (port &42 (direction INOUT))
+     (port &44 (direction INOUT))
+     (port &46 (direction INOUT))
+     (port &48 (direction INOUT))
+     (port &50 (direction INOUT))
+     (port &52 (direction INOUT))
+     (port &54 (direction INOUT))
+     (port &56 (direction INOUT))
+     (port &58 (direction INOUT))
+     (port &60 (direction INOUT))
+     (port &62 (direction INOUT))
+     (port &64 (direction INOUT))
+     (port &66 (direction INOUT))
+     (port &68 (direction INOUT))
+     (port &70 (direction INOUT))
+     (port &72 (direction INOUT))
+     (port &74 (direction INOUT))
+     (port &76 (direction INOUT))
+     (port &78 (direction INOUT))
+     (port &80 (direction INOUT))
+     (port &82 (direction INOUT))
+     (port &84 (direction INOUT))
+     (port &86 (direction INOUT))
+     (port &88 (direction INOUT))
+     (port &90 (direction INOUT))
+     (port &92 (direction INOUT))
+     (port &94 (direction INOUT))
+     (port &96 (direction INOUT))
+     (port &98 (direction INOUT))
+     (port &100 (direction INOUT))
+     (port &102 (direction INOUT))
+     (port &104 (direction INOUT))
+     (port &106 (direction INOUT))
+     (port &108 (direction INOUT))
+     (port &110 (direction INOUT))
+     (port &112 (direction INOUT))
+     (port &114 (direction INOUT))
+     (port &116 (direction INOUT))
+     (port &118 (direction INOUT))
+     (port &120 (direction INOUT))
+     (port &122 (direction INOUT))
+     (port &124 (direction INOUT))
+     (port &126 (direction INOUT))
+     (port &128 (direction INOUT))
+     (port &130 (direction INOUT))
+     (port &132 (direction INOUT))
+     (port &134 (direction INOUT))
+     (port &136 (direction INOUT))
+     (port &138 (direction INOUT))
+     (port &140 (direction INOUT)))))
+  (cell (rename ACS758LCBMINUS050B "ACS758LCB-050B")
+   (cellType generic)
+   (comment "From OrCAD library LIBRARY13.OLB")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &1 (direction INOUT))
+     (port &3 (direction INOUT))
+     (port &4 (direction INOUT))
+     (port &5 (direction INOUT))
+     (port &2 (direction INOUT)))))
+  (cell LM393_1
+   (cellType generic)
+   (comment "From OrCAD library ZYNQ_FUN.DSN")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &3 (direction INPUT))
+     (port &2 (direction INPUT))
+     (port &1 (direction INOUT))
+     (port &8 (direction INOUT))
+     (port &4 (direction INOUT))
+     (port &5 (direction INPUT))
+     (port &6 (direction INPUT))
+     (port &7 (direction INOUT)))))
+  (cell TQG144_LX9
+   (cellType generic)
+   (comment "From OrCAD library LIBRARY1.OLB")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &1 (direction INOUT))
+     (port &2 (direction INOUT))
+     (port &3 (direction INOUT))
+     (port &4 (direction INOUT))
+     (port &5 (direction INOUT))
+     (port &6 (direction INOUT))
+     (port &7 (direction INOUT))
+     (port &8 (direction INOUT))
+     (port &9 (direction INOUT))
+     (port &10 (direction INOUT))
+     (port &11 (direction INOUT))
+     (port &12 (direction INOUT))
+     (port &13 (direction INOUT))
+     (port &14 (direction INOUT))
+     (port &15 (direction INOUT))
+     (port &16 (direction INOUT))
+     (port &17 (direction INOUT))
+     (port &18 (direction INOUT))
+     (port &19 (direction INOUT))
+     (port &20 (direction INOUT))
+     (port &21 (direction INOUT))
+     (port &22 (direction INOUT))
+     (port &23 (direction INOUT))
+     (port &24 (direction INOUT))
+     (port &25 (direction INOUT))
+     (port &26 (direction INOUT))
+     (port &27 (direction INOUT))
+     (port &28 (direction INOUT))
+     (port &29 (direction INOUT))
+     (port &30 (direction INOUT))
+     (port &31 (direction INOUT))
+     (port &32 (direction INOUT))
+     (port &33 (direction INOUT))
+     (port &34 (direction INOUT))
+     (port &35 (direction INOUT))
+     (port &36 (direction INOUT))
+     (port &37 (direction INOUT))
+     (port &38 (direction INOUT))
+     (port &39 (direction INOUT))
+     (port &40 (direction INOUT))
+     (port &41 (direction INOUT))
+     (port &42 (direction INOUT))
+     (port &43 (direction INOUT))
+     (port &44 (direction INOUT))
+     (port &45 (direction INOUT))
+     (port &46 (direction INOUT))
+     (port &47 (direction INOUT))
+     (port &48 (direction INOUT))
+     (port &49 (direction INOUT))
+     (port &50 (direction INOUT))
+     (port &51 (direction INOUT))
+     (port &52 (direction INOUT))
+     (port &53 (direction INOUT))
+     (port &54 (direction INOUT))
+     (port &55 (direction INOUT))
+     (port &56 (direction INOUT))
+     (port &57 (direction INOUT))
+     (port &58 (direction INOUT))
+     (port &59 (direction INOUT))
+     (port &60 (direction INOUT))
+     (port &61 (direction INOUT))
+     (port &62 (direction INOUT))
+     (port &63 (direction INOUT))
+     (port &64 (direction INOUT))
+     (port &65 (direction INOUT))
+     (port &66 (direction INOUT))
+     (port &67 (direction INOUT))
+     (port &68 (direction INOUT))
+     (port &69 (direction INOUT))
+     (port &70 (direction INOUT))
+     (port &71 (direction INOUT))
+     (port &72 (direction INOUT))
+     (port &73 (direction INOUT))
+     (port &74 (direction INOUT))
+     (port &75 (direction INOUT))
+     (port &76 (direction INOUT))
+     (port &77 (direction INOUT))
+     (port &78 (direction INOUT))
+     (port &79 (direction INOUT))
+     (port &80 (direction INOUT))
+     (port &81 (direction INOUT))
+     (port &82 (direction INOUT))
+     (port &83 (direction INOUT))
+     (port &84 (direction INOUT))
+     (port &85 (direction INOUT))
+     (port &86 (direction INOUT))
+     (port &87 (direction INOUT))
+     (port &88 (direction INOUT))
+     (port &89 (direction INOUT))
+     (port &90 (direction INOUT))
+     (port &91 (direction INOUT))
+     (port &92 (direction INOUT))
+     (port &93 (direction INOUT))
+     (port &94 (direction INOUT))
+     (port &95 (direction INOUT))
+     (port &96 (direction INOUT))
+     (port &97 (direction INOUT))
+     (port &98 (direction INOUT))
+     (port &99 (direction INOUT))
+     (port &100 (direction INOUT))
+     (port &101 (direction INOUT))
+     (port &102 (direction INOUT))
+     (port &103 (direction INOUT))
+     (port &104 (direction INOUT))
+     (port &105 (direction INOUT))
+     (port &106 (direction INOUT))
+     (port &107 (direction INOUT))
+     (port &108 (direction INOUT))
+     (port &109 (direction INOUT))
+     (port &110 (direction INOUT))
+     (port &111 (direction INOUT))
+     (port &112 (direction INOUT))
+     (port &113 (direction INOUT))
+     (port &114 (direction INOUT))
+     (port &115 (direction INOUT))
+     (port &116 (direction INOUT))
+     (port &117 (direction INOUT))
+     (port &118 (direction INOUT))
+     (port &119 (direction INOUT))
+     (port &120 (direction INOUT))
+     (port &121 (direction INOUT))
+     (port &122 (direction INOUT))
+     (port &123 (direction INOUT))
+     (port &124 (direction INOUT))
+     (port &125 (direction INOUT))
+     (port &126 (direction INOUT))
+     (port &127 (direction INOUT))
+     (port &128 (direction INOUT))
+     (port &129 (direction INOUT))
+     (port &130 (direction INOUT))
+     (port &131 (direction INOUT))
+     (port &132 (direction INOUT))
+     (port &133 (direction INOUT))
+     (port &134 (direction INOUT))
+     (port &135 (direction INOUT))
+     (port &136 (direction INOUT))
+     (port &137 (direction INOUT))
+     (port &138 (direction INOUT))
+     (port &139 (direction INOUT))
+     (port &140 (direction INOUT))
+     (port &141 (direction INOUT))
+     (port &142 (direction INOUT))
+     (port &143 (direction INOUT))
+     (port &144 (direction INOUT)))))
+  (cell TLP781
+   (cellType generic)
+   (comment "From OrCAD library LIBRARY1.OLB")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &1 (direction INOUT))
+     (port &2 (direction INOUT))
+     (port &3 (direction INOUT))
+     (port &4 (direction INOUT)))))
+  (cell LED_0
+   (cellType generic)
+   (comment "From OrCAD library DISCRETE.OLB")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port A (direction INOUT))
+     (port K (direction INOUT)))))
+  (cell (rename CON_2BARM_0 "CON_2/M_0")
+   (cellType generic)
+   (comment "From OrCAD library ZYNQ_FUN_V002.DSN")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &1 (direction INOUT))
+     (port &2 (direction INOUT)))))
+  (cell (rename Header_5_0 "Header 5_0")
+   (cellType generic)
+   (comment "From OrCAD library SLMC3PDEB103.DSN")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &1 (direction INOUT))
+     (port &2 (direction INOUT))
+     (port &3 (direction INOUT))
+     (port &4 (direction INOUT))
+     (port &5 (direction INOUT)))))
+  (cell CRYSTAL_1
+   (cellType generic)
+   (comment "From OrCAD library TC275_LOWVOL_V0.1.DSN")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &1 (direction INOUT))
+     (port &3 (direction INOUT))
+     (port &4 (direction INOUT))
+     (port &2 (direction INOUT)))))
+  (cell UCC53X0
+   (cellType generic)
+   (comment "From OrCAD library LIBRARY1.OLB")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &1 (direction INOUT))
+     (port &2 (direction INOUT))
+     (port &3 (direction INOUT))
+     (port &4 (direction INOUT))
+     (port &5 (direction INOUT))
+     (port &6 (direction INOUT))
+     (port &7 (direction INOUT))
+     (port &8 (direction INOUT)))))
+  (cell URB24_0
+   (cellType generic)
+   (comment "From OrCAD library MOTHERBOARDV1_0.DSN")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &1 (direction INOUT))
+     (port &2 (direction INOUT))
+     (port &3 (direction INOUT))
+     (port &4 (direction INOUT))
+     (port &5 (direction INOUT))
+     (port &6 (direction INOUT)))))
+  (cell (rename BAT54SBARSOT_0 "BAT54S/SOT_0")
+   (cellType generic)
+   (comment "From OrCAD library MOTHERBOARDV1_0.DSN")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port K (direction INOUT))
+     (port A1 (direction INOUT))
+     (port A2 (direction INOUT)))))
+  (cell CON8
+   (cellType generic)
+   (comment "From OrCAD library CONNECTOR.OLB")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &1 (direction INOUT))
+     (port &2 (direction INOUT))
+     (port &3 (direction INOUT))
+     (port &4 (direction INOUT))
+     (port &5 (direction INOUT))
+     (port &6 (direction INOUT))
+     (port &7 (direction INOUT))
+     (port &8 (direction INOUT)))))
+  (cell D_1
+   (cellType generic)
+   (comment "From OrCAD library TC275_LOWVOL_V0.1.DSN")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &1 (direction INOUT))
+     (port &2 (direction INOUT)))))
+  (cell CON4
+   (cellType generic)
+   (comment "From OrCAD library CONNECTOR.OLB")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &1 (direction INOUT))
+     (port &2 (direction INOUT))
+     (port &3 (direction INOUT))
+     (port &4 (direction INOUT)))))
+  (cell (rename CONN_PCB_3MINUSR_0 "CONN PCB 3-R_0")
+   (cellType generic)
+   (comment "From OrCAD library ZYNQCOREV1_00.DSN")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &1 (direction INOUT))
+     (port &2 (direction INOUT))
+     (port &3 (direction INOUT)))))
+  (cell (rename CON_10ABARF_0 "CON_10A/F_0")
+   (cellType generic)
+   (comment "From OrCAD library CONNECTOR.OLB")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &1 (direction INOUT))
+     (port &2 (direction INOUT))
+     (port &3 (direction INOUT))
+     (port &4 (direction INOUT))
+     (port &5 (direction INOUT))
+     (port &6 (direction INOUT))
+     (port &7 (direction INOUT))
+     (port &8 (direction INOUT))
+     (port &9 (direction INOUT))
+     (port &10 (direction INOUT)))))
+  (cell CON6
+   (cellType generic)
+   (comment "From OrCAD library CONNECTOR.OLB")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &1 (direction INOUT))
+     (port &2 (direction INOUT))
+     (port &3 (direction INOUT))
+     (port &4 (direction INOUT))
+     (port &5 (direction INOUT))
+     (port &6 (direction INOUT)))))
+  (cell DIODES_0
+   (cellType generic)
+   (comment "From OrCAD library DISCRETE.OLB")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port A1 (direction INOUT))
+     (port K (direction INOUT))
+     (port A2 (direction INOUT)))))
+  (cell (rename MOSFET_P_0 "MOSFET P_0")
+   (cellType generic)
+   (comment "From OrCAD library MOTHERBOARDV1_0.DSN")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &1 (direction INPUT))
+     (port &2 (direction INOUT))
+     (port &3 (direction INOUT))
+     (port &4 (direction INOUT)))))
+  (cell PIDUCIAL_POINT_2
+   (cellType generic)
+   (comment "From OrCAD library 8300MAIN_V3.06.DSN")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &1 (direction INOUT)))))
+  (cell INDUCTOR_0
+   (cellType generic)
+   (comment "From OrCAD library MOTHERBOARDV1_0.DSN")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &1 (direction INOUT))
+     (port &4 (direction INOUT))
+     (port &2 (direction INOUT))
+     (port &3 (direction INOUT)))))
+  (cell HCPL060L_0
+   (cellType generic)
+   (comment "From OrCAD library TC275_LOWVOL_V0.1.DSN")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &1 (direction INOUT))
+     (port &2 (direction INOUT))
+     (port &3 (direction INOUT))
+     (port &4 (direction INOUT))
+     (port &5 (direction INOUT))
+     (port &6 (direction INOUT))
+     (port &7 (direction INOUT))
+     (port &8 (direction INOUT)))))
+  (cell &74LVC4245A
+   (cellType generic)
+   (comment "From OrCAD library LIBRARY1.OLB")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &3 (direction INOUT))
+     (port &4 (direction INOUT))
+     (port &5 (direction INOUT))
+     (port &6 (direction INOUT))
+     (port &7 (direction INOUT))
+     (port &8 (direction INOUT))
+     (port &9 (direction INOUT))
+     (port &10 (direction INOUT))
+     (port &21 (direction INOUT))
+     (port &20 (direction INOUT))
+     (port &19 (direction INOUT))
+     (port &18 (direction INOUT))
+     (port &17 (direction INOUT))
+     (port &16 (direction INOUT))
+     (port &15 (direction INOUT))
+     (port &14 (direction INOUT))
+     (port &1 (direction INOUT))
+     (port &2 (direction INOUT))
+     (port &24 (direction INOUT))
+     (port &23 (direction INOUT))
+     (port &22 (direction INOUT))
+     (port &11 (direction INOUT))
+     (port &12 (direction INOUT))
+     (port &13 (direction INOUT))))))
+ (library MAIN_LIB
+  (edifLevel 0)
+  (technology
+   (numberDefinition
+    (scale 1 1 (unit distance))))
+  (cell SCHEMATIC1
+   (cellType generic)
+   (view NetlistView
+    (viewType netlist)
+    (interface)
+    (contents
+     (instance TP39
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance C211
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance R347
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance U77
+      (viewRef NetlistView
+       (cellRef AD2S1205
+        (libraryRef OrCAD_LIB))))
+     (instance R315
+      (viewRef NetlistView
+       (cellRef R
+        (libraryRef OrCAD_LIB))))
+     (instance TP103
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance Q6
+      (viewRef NetlistView
+       (cellRef STP75NF75_1
+        (libraryRef OrCAD_LIB))))
+     (instance R89
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R57
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R348
+      (viewRef NetlistView
+       (cellRef R
+        (libraryRef OrCAD_LIB))))
+     (instance C212
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R316
+      (viewRef NetlistView
+       (cellRef R
+        (libraryRef OrCAD_LIB))))
+     (instance U78
+      (viewRef NetlistView
+       (cellRef IMP809_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP104
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance Q7
+      (viewRef NetlistView
+       (cellRef STP75NF75_1
+        (libraryRef OrCAD_LIB))))
+     (instance U14
+      (viewRef NetlistView
+       (cellRef LDO_SOT23_5_0
+        (libraryRef OrCAD_LIB))))
+     (instance R58
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R26
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R349
+      (viewRef NetlistView
+       (cellRef R
+        (libraryRef OrCAD_LIB))))
+     (instance C213
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance U79
+      (viewRef NetlistView
+       (cellRef OPA2340BARSO
+        (libraryRef OrCAD_LIB))))
+     (instance R317
+      (viewRef NetlistView
+       (cellRef R
+        (libraryRef OrCAD_LIB))))
+     (instance TP105
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance Q8
+      (viewRef NetlistView
+       (cellRef STP75NF75_1
+        (libraryRef OrCAD_LIB))))
+     (instance R59
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R27
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C214
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R318
+      (viewRef NetlistView
+       (cellRef R
+        (libraryRef OrCAD_LIB))))
+     (instance TP106
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance Q9
+      (viewRef NetlistView
+       (cellRef STP75NF75_1
+        (libraryRef OrCAD_LIB))))
+     (instance U16
+      (viewRef NetlistView
+       (cellRef LM1117_1
+        (libraryRef OrCAD_LIB))))
+     (instance R28
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R130
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C215
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R319
+      (viewRef NetlistView
+       (cellRef R
+        (libraryRef OrCAD_LIB))))
+     (instance TP107
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance R29
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R131
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C216
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP108
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance U18
+      (viewRef NetlistView
+       (cellRef ADM3054
+        (libraryRef OrCAD_LIB))))
+     (instance U19
+      (viewRef NetlistView
+       (cellRef W25P40
+        (libraryRef OrCAD_LIB))))
+     (instance R132
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP109
+      (viewRef NetlistView
+       (cellRef T_POINT_R
+        (libraryRef OrCAD_LIB))))
+     (instance R133
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R134
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C219
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R135
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R136
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R137
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R138
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R139
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R270
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R271
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R272
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R273
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C170
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance R274
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C171
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance R275
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C80
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance C172
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance R276
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C140
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C81
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance C173
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance R277
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C141
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C82
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C50
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C174
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance C142
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R278
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C83
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C51
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP70
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance C175
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance C143
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R279
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C84
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance C52
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C20
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP71
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance C176
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance EC51
+      (viewRef NetlistView
+       (cellRef ALECAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C144
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C85
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C21
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance X1
+      (viewRef NetlistView
+       (cellRef CRYSTAL4_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP40
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP72
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance C177
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance C145
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C86
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C22
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP41
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP73
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance C178
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance EC53
+      (viewRef NetlistView
+       (cellRef ALECAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C87
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R91
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C23
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP74
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP42
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance R350
+      (viewRef NetlistView
+       (cellRef R
+        (libraryRef OrCAD_LIB))))
+     (instance U80
+      (viewRef NetlistView
+       (cellRef TLV431_0
+        (libraryRef OrCAD_LIB))))
+     (instance C179
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance EC54
+      (viewRef NetlistView
+       (cellRef ALECAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C147
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C88
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance U1
+      (viewRef NetlistView
+       (cellRef BTB140
+        (libraryRef OrCAD_LIB))))
+     (instance C56
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance C24
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R60
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP75
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP43
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance R351
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance U81
+      (viewRef NetlistView
+       (cellRef ACS758LCBMINUS050B
+        (libraryRef OrCAD_LIB))))
+     (instance EC55
+      (viewRef NetlistView
+       (cellRef ALECAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C148
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C89
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance U2
+      (viewRef NetlistView
+       (cellRef BTB140
+        (libraryRef OrCAD_LIB))))
+     (instance C57
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance R61
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C25
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP44
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP76
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance U82
+      (viewRef NetlistView
+       (cellRef ACS758LCBMINUS050B
+        (libraryRef OrCAD_LIB))))
+     (instance R320
+      (viewRef NetlistView
+       (cellRef R
+        (libraryRef OrCAD_LIB))))
+     (instance C149
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R1
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R62
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C26
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R30
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance U3
+      (viewRef NetlistView
+       (cellRef LM393_1
+        (libraryRef OrCAD_LIB))))
+     (instance TP77
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance U83
+      (viewRef NetlistView
+       (cellRef ACS758LCBMINUS050B
+        (libraryRef OrCAD_LIB))))
+     (instance R321
+      (viewRef NetlistView
+       (cellRef R
+        (libraryRef OrCAD_LIB))))
+     (instance EC57
+      (viewRef NetlistView
+       (cellRef ALECAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R2
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R63
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C27
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R31
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance U4
+      (viewRef NetlistView
+       (cellRef LM393_1
+        (libraryRef OrCAD_LIB))))
+     (instance U20
+      (viewRef NetlistView
+       (cellRef TQG144_LX9
+        (libraryRef OrCAD_LIB))))
+     (instance TP78
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance U84
+      (viewRef NetlistView
+       (cellRef ACS758LCBMINUS050B
+        (libraryRef OrCAD_LIB))))
+     (instance R322
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP110
+      (viewRef NetlistView
+       (cellRef T_POINT_R
+        (libraryRef OrCAD_LIB))))
+     (instance R3
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R64
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C28
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance U5
+      (viewRef NetlistView
+       (cellRef LM393_1
+        (libraryRef OrCAD_LIB))))
+     (instance R32
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP79
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP111
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance U85
+      (viewRef NetlistView
+       (cellRef OPA2340BARSO
+        (libraryRef OrCAD_LIB))))
+     (instance R323
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance EC59
+      (viewRef NetlistView
+       (cellRef ALECAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C29
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R33
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R65
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance U6
+      (viewRef NetlistView
+       (cellRef LM393_1
+        (libraryRef OrCAD_LIB))))
+     (instance U86
+      (viewRef NetlistView
+       (cellRef OPA2340BARSO
+        (libraryRef OrCAD_LIB))))
+     (instance R324
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R34
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance U7
+      (viewRef NetlistView
+       (cellRef LM393_1
+        (libraryRef OrCAD_LIB))))
+     (instance R357
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance U87
+      (viewRef NetlistView
+       (cellRef OPA2340BARSO
+        (libraryRef OrCAD_LIB))))
+     (instance R325
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R6
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R67
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R35
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance U8
+      (viewRef NetlistView
+       (cellRef LM393_1
+        (libraryRef OrCAD_LIB))))
+     (instance C222
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R358
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance U88
+      (viewRef NetlistView
+       (cellRef OPA2340BARSO
+        (libraryRef OrCAD_LIB))))
+     (instance R326
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R7
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R36
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R359
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance EC1
+      (viewRef NetlistView
+       (cellRef ALECAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C223
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance U89
+      (viewRef NetlistView
+       (cellRef TLP781
+        (libraryRef OrCAD_LIB))))
+     (instance R327
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R69
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R37
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance EC2
+      (viewRef NetlistView
+       (cellRef ALECAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R328
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R38
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R329
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R39
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance LED1
+      (viewRef NetlistView
+       (cellRef LED_0
+        (libraryRef OrCAD_LIB))))
+     (instance C1
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance CN2
+      (viewRef NetlistView
+       (cellRef CON_2BARM_0
+        (libraryRef OrCAD_LIB))))
+     (instance C2
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance CN3
+      (viewRef NetlistView
+       (cellRef CON_2BARM_0
+        (libraryRef OrCAD_LIB))))
+     (instance C3
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance CN4
+      (viewRef NetlistView
+       (cellRef CON_2BARM_0
+        (libraryRef OrCAD_LIB))))
+     (instance R112
+      (viewRef NetlistView
+       (cellRef R
+        (libraryRef OrCAD_LIB))))
+     (instance C4
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R113
+      (viewRef NetlistView
+       (cellRef R
+        (libraryRef OrCAD_LIB))))
+     (instance C5
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R114
+      (viewRef NetlistView
+       (cellRef R
+        (libraryRef OrCAD_LIB))))
+     (instance C6
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R115
+      (viewRef NetlistView
+       (cellRef R
+        (libraryRef OrCAD_LIB))))
+     (instance C7
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R116
+      (viewRef NetlistView
+       (cellRef R
+        (libraryRef OrCAD_LIB))))
+     (instance C8
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R280
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R117
+      (viewRef NetlistView
+       (cellRef R
+        (libraryRef OrCAD_LIB))))
+     (instance C9
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R281
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R283
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C180
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance R284
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C181
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance JP1
+      (viewRef NetlistView
+       (cellRef Header_5_0
+        (libraryRef OrCAD_LIB))))
+     (instance R285
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C90
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C182
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance C150
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R286
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C91
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance C183
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance C151
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R287
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C92
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C184
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance C152
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R288
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C93
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C61
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance TP80
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance C185
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance R289
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C153
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C94
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C62
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance C30
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP81
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance C186
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance C154
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C95
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C63
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance C31
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP82
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance C64
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C187
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance Y1
+      (viewRef NetlistView
+       (cellRef CRYSTAL_1
+        (libraryRef OrCAD_LIB))))
+     (instance C155
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C96
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP83
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance C65
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C188
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C156
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C97
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R360
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP84
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance C66
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance U90
+      (viewRef NetlistView
+       (cellRef UCC53X0
+        (libraryRef OrCAD_LIB))))
+     (instance C189
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance C157
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C98
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C34
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R361
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP85
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance C67
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance U91
+      (viewRef NetlistView
+       (cellRef URB24_0
+        (libraryRef OrCAD_LIB))))
+     (instance C99
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance C35
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R71
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance U92
+      (viewRef NetlistView
+       (cellRef OPA2340BARSO
+        (libraryRef OrCAD_LIB))))
+     (instance R362
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP86
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance C68
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R330
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C159
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R72
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R40
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R363
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP87
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance C69
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance EC67
+      (viewRef NetlistView
+       (cellRef ALECAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance U61
+      (viewRef NetlistView
+       (cellRef URB24_0
+        (libraryRef OrCAD_LIB))))
+     (instance R331
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R73
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R364
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP88
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance EC68
+      (viewRef NetlistView
+       (cellRef ALECAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R332
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R300
+      (viewRef NetlistView
+       (cellRef R
+        (libraryRef OrCAD_LIB))))
+     (instance U62
+      (viewRef NetlistView
+       (cellRef UCC53X0
+        (libraryRef OrCAD_LIB))))
+     (instance C38
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R42
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R74
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R365
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP89
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance EC69
+      (viewRef NetlistView
+       (cellRef ALECAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R333
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R301
+      (viewRef NetlistView
+       (cellRef R
+        (libraryRef OrCAD_LIB))))
+     (instance U63
+      (viewRef NetlistView
+       (cellRef UCC53X0
+        (libraryRef OrCAD_LIB))))
+     (instance C39
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R366
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R334
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R302
+      (viewRef NetlistView
+       (cellRef R
+        (libraryRef OrCAD_LIB))))
+     (instance U64
+      (viewRef NetlistView
+       (cellRef UCC53X0
+        (libraryRef OrCAD_LIB))))
+     (instance R44
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R12
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R76
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R367
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP27
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance R335
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R303
+      (viewRef NetlistView
+       (cellRef R
+        (libraryRef OrCAD_LIB))))
+     (instance U65
+      (viewRef NetlistView
+       (cellRef UCC53X0
+        (libraryRef OrCAD_LIB))))
+     (instance R77
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R13
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R368
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP28
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance C200
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance R336
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R304
+      (viewRef NetlistView
+       (cellRef R
+        (libraryRef OrCAD_LIB))))
+     (instance U66
+      (viewRef NetlistView
+       (cellRef UCC53X0
+        (libraryRef OrCAD_LIB))))
+     (instance R78
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R46
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R14
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP29
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance C201
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance R337
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R305
+      (viewRef NetlistView
+       (cellRef R
+        (libraryRef OrCAD_LIB))))
+     (instance U67
+      (viewRef NetlistView
+       (cellRef URB24_0
+        (libraryRef OrCAD_LIB))))
+     (instance D10
+      (viewRef NetlistView
+       (cellRef BAT54SBARSOT_0
+        (libraryRef OrCAD_LIB))))
+     (instance R15
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R79
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C202
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance R338
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance U36
+      (viewRef NetlistView
+       (cellRef URB24_0
+        (libraryRef OrCAD_LIB))))
+     (instance R306
+      (viewRef NetlistView
+       (cellRef R
+        (libraryRef OrCAD_LIB))))
+     (instance U68
+      (viewRef NetlistView
+       (cellRef URB24_0
+        (libraryRef OrCAD_LIB))))
+     (instance J3
+      (viewRef NetlistView
+       (cellRef CON8
+        (libraryRef OrCAD_LIB))))
+     (instance D11
+      (viewRef NetlistView
+       (cellRef BAT54SBARSOT_0
+        (libraryRef OrCAD_LIB))))
+     (instance R16
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R48
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance D12
+      (viewRef NetlistView
+       (cellRef D_1
+        (libraryRef OrCAD_LIB))))
+     (instance C203
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R339
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R307
+      (viewRef NetlistView
+       (cellRef R
+        (libraryRef OrCAD_LIB))))
+     (instance U69
+      (viewRef NetlistView
+       (cellRef UCC53X0
+        (libraryRef OrCAD_LIB))))
+     (instance R49
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C204
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R308
+      (viewRef NetlistView
+       (cellRef R
+        (libraryRef OrCAD_LIB))))
+     (instance J5
+      (viewRef NetlistView
+       (cellRef CON4
+        (libraryRef OrCAD_LIB))))
+     (instance C205
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R309
+      (viewRef NetlistView
+       (cellRef R
+        (libraryRef OrCAD_LIB))))
+     (instance J6
+      (viewRef NetlistView
+       (cellRef CONN_PCB_3MINUSR_0
+        (libraryRef OrCAD_LIB))))
+     (instance R19
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance J7
+      (viewRef NetlistView
+       (cellRef CON_10ABARF_0
+        (libraryRef OrCAD_LIB))))
+     (instance C206
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R121
+      (viewRef NetlistView
+       (cellRef R
+        (libraryRef OrCAD_LIB))))
+     (instance C207
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance J8
+      (viewRef NetlistView
+       (cellRef CON_10ABARF_0
+        (libraryRef OrCAD_LIB))))
+     (instance R122
+      (viewRef NetlistView
+       (cellRef R
+        (libraryRef OrCAD_LIB))))
+     (instance R123
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance J9
+      (viewRef NetlistView
+       (cellRef CON6
+        (libraryRef OrCAD_LIB))))
+     (instance C208
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance D5
+      (viewRef NetlistView
+       (cellRef DIODES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R124
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C209
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance D6
+      (viewRef NetlistView
+       (cellRef DIODES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R125
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance D7
+      (viewRef NetlistView
+       (cellRef DIODES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R126
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R127
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R290
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance D9
+      (viewRef NetlistView
+       (cellRef BAT54SBARSOT_0
+        (libraryRef OrCAD_LIB))))
+     (instance R128
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R291
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R129
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R292
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R293
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C190
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance R294
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C191
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R295
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R264
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C192
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance R296
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C160
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance Q10
+      (viewRef NetlistView
+       (cellRef STP75NF75_1
+        (libraryRef OrCAD_LIB))))
+     (instance C70
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R265
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C193
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance C161
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance R297
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance Q11
+      (viewRef NetlistView
+       (cellRef STP75NF75_1
+        (libraryRef OrCAD_LIB))))
+     (instance C71
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R266
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C194
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance C162
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance R298
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance Q12
+      (viewRef NetlistView
+       (cellRef STP75NF75_1
+        (libraryRef OrCAD_LIB))))
+     (instance C72
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP90
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance R267
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance Q13
+      (viewRef NetlistView
+       (cellRef MOSFET_P_0
+        (libraryRef OrCAD_LIB))))
+     (instance C195
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance R299
+      (viewRef NetlistView
+       (cellRef R
+        (libraryRef OrCAD_LIB))))
+     (instance C163
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance TP91
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance C73
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance EC71
+      (viewRef NetlistView
+       (cellRef ALECAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R268
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance Q14
+      (viewRef NetlistView
+       (cellRef STP75NF75_1
+        (libraryRef OrCAD_LIB))))
+     (instance C196
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C164
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance C100
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP60
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance C74
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance EC72
+      (viewRef NetlistView
+       (cellRef ALECAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R269
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C197
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C165
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance C101
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance C10
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C75
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP61
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance REF1
+      (viewRef NetlistView
+       (cellRef PIDUCIAL_POINT_2
+        (libraryRef OrCAD_LIB))))
+     (instance C198
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance C166
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance EC41
+      (viewRef NetlistView
+       (cellRef ALECAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C102
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C11
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP30
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP62
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance REF2
+      (viewRef NetlistView
+       (cellRef PIDUCIAL_POINT_2
+        (libraryRef OrCAD_LIB))))
+     (instance EC74
+      (viewRef NetlistView
+       (cellRef ALECAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C199
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance C167
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance EC42
+      (viewRef NetlistView
+       (cellRef ALECAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C103
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance C76
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R80
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C12
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP63
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP31
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance REF3
+      (viewRef NetlistView
+       (cellRef PIDUCIAL_POINT_2
+        (libraryRef OrCAD_LIB))))
+     (instance C168
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance EC43
+      (viewRef NetlistView
+       (cellRef ALECAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C104
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C77
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R81
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C13
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP64
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP32
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance R340
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C169
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance T1
+      (viewRef NetlistView
+       (cellRef INDUCTOR_0
+        (libraryRef OrCAD_LIB))))
+     (instance C137
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance EC44
+      (viewRef NetlistView
+       (cellRef ALECAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance U70
+      (viewRef NetlistView
+       (cellRef URB24_0
+        (libraryRef OrCAD_LIB))))
+     (instance C105
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance C78
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C46
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C14
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R82
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R50
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP33
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP65
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance EC77
+      (viewRef NetlistView
+       (cellRef ALECAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R341
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance T2
+      (viewRef NetlistView
+       (cellRef INDUCTOR_0
+        (libraryRef OrCAD_LIB))))
+     (instance EC45
+      (viewRef NetlistView
+       (cellRef ALECAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance U71
+      (viewRef NetlistView
+       (cellRef URB24_0
+        (libraryRef OrCAD_LIB))))
+     (instance C138
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance C79
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance C47
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R83
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R51
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C15
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP34
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP66
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance R342
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R310
+      (viewRef NetlistView
+       (cellRef R
+        (libraryRef OrCAD_LIB))))
+     (instance T3
+      (viewRef NetlistView
+       (cellRef INDUCTOR_0
+        (libraryRef OrCAD_LIB))))
+     (instance U72
+      (viewRef NetlistView
+       (cellRef URB24_0
+        (libraryRef OrCAD_LIB))))
+     (instance C139
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance Q1
+      (viewRef NetlistView
+       (cellRef STP75NF75_1
+        (libraryRef OrCAD_LIB))))
+     (instance C48
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R52
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R20
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C16
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP35
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP67
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance EC79
+      (viewRef NetlistView
+       (cellRef ALECAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R343
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R311
+      (viewRef NetlistView
+       (cellRef R
+        (libraryRef OrCAD_LIB))))
+     (instance U73
+      (viewRef NetlistView
+       (cellRef URB24_0
+        (libraryRef OrCAD_LIB))))
+     (instance Q2
+      (viewRef NetlistView
+       (cellRef STP75NF75_1
+        (libraryRef OrCAD_LIB))))
+     (instance C49
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R85
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R53
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance C17
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R21
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP68
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP36
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance R344
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R312
+      (viewRef NetlistView
+       (cellRef R
+        (libraryRef OrCAD_LIB))))
+     (instance U74
+      (viewRef NetlistView
+       (cellRef HCPL060L_0
+        (libraryRef OrCAD_LIB))))
+     (instance EC48
+      (viewRef NetlistView
+       (cellRef ALECAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance Q3
+      (viewRef NetlistView
+       (cellRef STP75NF75_1
+        (libraryRef OrCAD_LIB))))
+     (instance U10
+      (viewRef NetlistView
+       (cellRef LM393_1
+        (libraryRef OrCAD_LIB))))
+     (instance C18
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R54
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP69
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP37
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance R345
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R313
+      (viewRef NetlistView
+       (cellRef R
+        (libraryRef OrCAD_LIB))))
+     (instance U75
+      (viewRef NetlistView
+       (cellRef HCPL060L_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP101
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance EC49
+      (viewRef NetlistView
+       (cellRef ALECAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance Q4
+      (viewRef NetlistView
+       (cellRef STP75NF75_1
+        (libraryRef OrCAD_LIB))))
+     (instance C19
+      (viewRef NetlistView
+       (cellRef CAP_0
+        (libraryRef OrCAD_LIB))))
+     (instance R23
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R55
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP38
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance C210
+      (viewRef NetlistView
+       (cellRef CAP_NP
+        (libraryRef OrCAD_LIB))))
+     (instance R346
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R314
+      (viewRef NetlistView
+       (cellRef R
+        (libraryRef OrCAD_LIB))))
+     (instance U76
+      (viewRef NetlistView
+       (cellRef HCPL060L_0
+        (libraryRef OrCAD_LIB))))
+     (instance TP102
+      (viewRef NetlistView
+       (cellRef TEST_POINT_0
+        (libraryRef OrCAD_LIB))))
+     (instance Q5
+      (viewRef NetlistView
+       (cellRef STP75NF75_1
+        (libraryRef OrCAD_LIB))))
+     (instance U12
+      (viewRef NetlistView
+       (cellRef &74LVC4245A
+        (libraryRef OrCAD_LIB))))
+     (instance R88
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (instance R56
+      (viewRef NetlistView
+       (cellRef RES_0
+        (libraryRef OrCAD_LIB))))
+     (net (rename MINUS15V "-15V")
+      (joined
+       (portRef &1 (instanceRef C39))
+       (portRef &1 (instanceRef C38))
+       (portRef &1 (instanceRef C81))
+       (portRef &1 (instanceRef C91))
+       (portRef &1 (instanceRef C92))
+       (portRef &1 (instanceRef C93))
+       (portRef &1 (instanceRef C94))
+       (portRef &1 (instanceRef C95))
+       (portRef &1 (instanceRef C96))
+       (portRef &1 (instanceRef C97))
+       (portRef &4 (instanceRef U10))
+       (portRef &4 (instanceRef U3))
+       (portRef &4 (instanceRef U4))
+       (portRef &4 (instanceRef U5))
+       (portRef &4 (instanceRef U6))
+       (portRef &4 (instanceRef U7))
+       (portRef &4 (instanceRef U8))))
+     (net (rename PLUS15V "+15V")
+      (joined
+       (portRef &1 (instanceRef C35))
+       (portRef &1 (instanceRef C34))
+       (portRef &1 (instanceRef C80))
+       (portRef &1 (instanceRef C84))
+       (portRef &1 (instanceRef C85))
+       (portRef &1 (instanceRef C86))
+       (portRef &1 (instanceRef C87))
+       (portRef &1 (instanceRef C88))
+       (portRef &1 (instanceRef C89))
+       (portRef &1 (instanceRef C90))
+       (portRef &8 (instanceRef U10))
+       (portRef &8 (instanceRef U3))
+       (portRef &8 (instanceRef U4))
+       (portRef &8 (instanceRef U5))
+       (portRef &8 (instanceRef U6))
+       (portRef &8 (instanceRef U7))
+       (portRef &8 (instanceRef U8))))
+     (net N12154
+      (joined
+       (portRef &1 (instanceRef R19))
+       (portRef &1 (instanceRef C2))
+       (portRef &2 (instanceRef R13))
+       (portRef &2 (instanceRef R26))))
+     (net N12161
+      (joined
+       (portRef &6 (instanceRef U4))
+       (portRef &1 (instanceRef R26))
+       (portRef &2 (instanceRef R32))
+       (portRef &2 (instanceRef C8))))
+     (net N12179
+      (joined
+       (portRef &5 (instanceRef U3))
+       (portRef &1 (instanceRef R14))
+       (portRef &2 (instanceRef R19))))
+     (net N12196
+      (joined
+       (portRef &1 (instanceRef C17))
+       (portRef &1 (instanceRef R51))
+       (portRef &1 (instanceRef R40))
+       (portRef &2 (instanceRef R14))
+       (portRef &2 (instanceRef R30))
+       (portRef &2 (instanceRef R39))
+       (portRef &2 (instanceRef R57))
+       (portRef &2 (instanceRef R65))
+       (portRef &2 (instanceRef R79))
+       (portRef &7 (instanceRef U4))
+       (portRef &7 (instanceRef U3))
+       (portRef &1 (instanceRef U6))
+       (portRef &7 (instanceRef U5))
+       (portRef &7 (instanceRef U8))
+       (portRef &7 (instanceRef U7))))
+     (net N12234
+      (joined
+       (portRef &5 (instanceRef U4))
+       (portRef &1 (instanceRef R30))
+       (portRef &1 (instanceRef R27))))
+     (net N12250
+      (joined
+       (portRef &6 (instanceRef U3))
+       (portRef &1 (instanceRef C5))
+       (portRef &2 (instanceRef R27))
+       (portRef &2 (instanceRef R21))))
+     (net N16244
+      (joined
+       (portRef &2 (instanceRef U6))
+       (portRef &1 (instanceRef R54))
+       (portRef &2 (instanceRef R59))
+       (portRef &2 (instanceRef C20))))
+     (net N16260
+      (joined
+       (portRef &5 (instanceRef U5))
+       (portRef &1 (instanceRef R39))
+       (portRef &2 (instanceRef R50))))
+     (net N16044
+      (joined
+       (portRef &3 (instanceRef U6))
+       (portRef &1 (instanceRef R57))
+       (portRef &1 (instanceRef R55))))
+     (net N16220
+      (joined
+       (portRef &1 (instanceRef R50))
+       (portRef &1 (instanceRef C11))
+       (portRef &2 (instanceRef R38))
+       (portRef &2 (instanceRef R54))))
+     (net N16316
+      (joined
+       (portRef &6 (instanceRef U5))
+       (portRef &1 (instanceRef C16))
+       (portRef &2 (instanceRef R55))
+       (portRef &2 (instanceRef R48))))
+     (net N17187
+      (joined
+       (portRef &5 (instanceRef U8))
+       (portRef &1 (instanceRef R79))
+       (portRef &1 (instanceRef R77))))
+     (net N17467
+      (joined
+       (portRef &6 (instanceRef U7))
+       (portRef &1 (instanceRef C26))
+       (portRef &2 (instanceRef R77))
+       (portRef &2 (instanceRef R73))))
+     (net N17411
+      (joined
+       (portRef &5 (instanceRef U7))
+       (portRef &1 (instanceRef R65))
+       (portRef &2 (instanceRef R71))))
+     (net N17395
+      (joined
+       (portRef &6 (instanceRef U8))
+       (portRef &1 (instanceRef R76))
+       (portRef &2 (instanceRef R82))
+       (portRef &2 (instanceRef C28))))
+     (net N17355
+      (joined
+       (portRef &1 (instanceRef R71))
+       (portRef &1 (instanceRef C22))
+       (portRef &2 (instanceRef R64))
+       (portRef &2 (instanceRef R76))))
+     (net (rename &3_3V "3.3V")
+      (joined
+       (portRef &1 (instanceRef C157))
+       (portRef &1 (instanceRef C159))
+       (portRef &1 (instanceRef C160))
+       (portRef &1 (instanceRef C70))
+       (portRef &1 (instanceRef C69))
+       (portRef &1 (instanceRef C68))
+       (portRef &1 (instanceRef C67))
+       (portRef &1 (instanceRef C66))
+       (portRef &1 (instanceRef C64))
+       (portRef &1 (instanceRef C76))
+       (portRef &1 (instanceRef C57))
+       (portRef &1 (instanceRef C50))
+       (portRef &1 (instanceRef C46))
+       (portRef &1 (instanceRef C48))
+       (portRef &1 (instanceRef R83))
+       (portRef &1 (instanceRef C79))
+       (portRef &1 (instanceRef C78))
+       (portRef &1 (instanceRef C83))
+       (portRef &1 (instanceRef C82))
+       (portRef &1 (instanceRef C98))
+       (portRef &1 (instanceRef C99))
+       (portRef &1 (instanceRef C100))
+       (portRef &1 (instanceRef C101))
+       (portRef &1 (instanceRef J5))
+       (portRef &1 (instanceRef R6))
+       (portRef &1 (instanceRef R7))
+       (portRef &2 (instanceRef R289))
+       (portRef &2 (instanceRef R293))
+       (portRef &2 (instanceRef R294))
+       (portRef &2 (instanceRef R133))
+       (portRef &2 (instanceRef R126))
+       (portRef &2 (instanceRef R136))
+       (portRef &2 (instanceRef R138))
+       (portRef &2 (instanceRef R139))
+       (portRef &2 (instanceRef R135))
+       (portRef &2 (instanceRef R125))
+       (portRef A2 (instanceRef D11))
+       (portRef &2 (instanceRef R40))
+       (portRef &2 (instanceRef R42))
+       (portRef A2 (instanceRef D10))
+       (portRef A2 (instanceRef D9))
+       (portRef &2 (instanceRef R1))
+       (portRef &4 (instanceRef J7))
+       (portRef &7 (instanceRef J3))
+       (portRef &3 (instanceRef U14))
+       (portRef &7 (instanceRef U74))
+       (portRef &7 (instanceRef U75))
+       (portRef &7 (instanceRef U76))
+       (portRef &129 (instanceRef U20))
+       (portRef &20 (instanceRef U20))
+       (portRef &36 (instanceRef U20))
+       (portRef &53 (instanceRef U20))
+       (portRef &90 (instanceRef U20))
+       (portRef &8 (instanceRef U74))
+       (portRef &8 (instanceRef U75))
+       (portRef &8 (instanceRef U76))
+       (portRef &8 (instanceRef U19))
+       (portRef &24 (instanceRef U12))
+       (portRef &23 (instanceRef U12))
+       (portRef &4 (instanceRef X1))
+       (portRef &7 (instanceRef U18))
+       (portRef &122 (instanceRef U20))
+       (portRef &125 (instanceRef U20))
+       (portRef &135 (instanceRef U20))
+       (portRef &103 (instanceRef U20))
+       (portRef &76 (instanceRef U20))
+       (portRef &86 (instanceRef U20))
+       (portRef &42 (instanceRef U20))
+       (portRef &63 (instanceRef U20))
+       (portRef &18 (instanceRef U20))
+       (portRef &31 (instanceRef U20))
+       (portRef &4 (instanceRef U20))
+       (portRef &2 (instanceRef U16))
+       (portRef &4 (instanceRef U16))
+       (portRef &1 (instanceRef U14))))
+     (net N20565
+      (joined
+       (portRef &1 (instanceRef R20))
+       (portRef &1 (instanceRef C3))
+       (portRef &2 (instanceRef R15))
+       (portRef &2 (instanceRef R28))
+       (portRef &2 (instanceRef R12))))
+     (net N20385
+      (joined
+       (portRef &3 (instanceRef U4))
+       (portRef &1 (instanceRef R31))
+       (portRef &1 (instanceRef R29))))
+     (net N20661
+      (joined
+       (portRef &2 (instanceRef U3))
+       (portRef &1 (instanceRef C7))
+       (portRef &2 (instanceRef R29))
+       (portRef &2 (instanceRef R23))))
+     (net N20605
+      (joined
+       (portRef &3 (instanceRef U3))
+       (portRef &1 (instanceRef R16))
+       (portRef &2 (instanceRef R20))))
+     (net N20589
+      (joined
+       (portRef &2 (instanceRef U4))
+       (portRef &1 (instanceRef R28))
+       (portRef &2 (instanceRef R33))
+       (portRef &2 (instanceRef C9))
+       (portRef &2 (instanceRef R34))))
+     (net N20621
+      (joined
+       (portRef &1 (instanceRef R49))
+       (portRef &1 (instanceRef R42))
+       (portRef &2 (instanceRef R16))
+       (portRef &2 (instanceRef R31))
+       (portRef &2 (instanceRef R37))
+       (portRef &2 (instanceRef R56))
+       (portRef &2 (instanceRef R63))
+       (portRef &2 (instanceRef R78))
+       (portRef &1 (instanceRef U4))
+       (portRef &1 (instanceRef U3))
+       (portRef &7 (instanceRef U6))
+       (portRef &1 (instanceRef U5))
+       (portRef &1 (instanceRef U8))
+       (portRef &1 (instanceRef U7))))
+     (net N22723
+      (joined
+       (portRef &6 (instanceRef U6))
+       (portRef &1 (instanceRef R52))
+       (portRef &2 (instanceRef R58))
+       (portRef &2 (instanceRef C19))
+       (portRef &2 (instanceRef R60))))
+     (net N22539
+      (joined
+       (portRef &5 (instanceRef U6))
+       (portRef &1 (instanceRef R56))
+       (portRef &1 (instanceRef R53))))
+     (net N22739
+      (joined
+       (portRef &3 (instanceRef U5))
+       (portRef &1 (instanceRef R37))
+       (portRef &2 (instanceRef R44))))
+     (net N22715
+      (joined
+       (portRef &1 (instanceRef R44))
+       (portRef &1 (instanceRef C10))
+       (portRef &2 (instanceRef R36))
+       (portRef &2 (instanceRef R52))
+       (portRef &2 (instanceRef R35))))
+     (net N22795
+      (joined
+       (portRef &2 (instanceRef U5))
+       (portRef &1 (instanceRef C13))
+       (portRef &2 (instanceRef R53))
+       (portRef &2 (instanceRef R46))))
+     (net N24081
+      (joined
+       (portRef &2 (instanceRef U8))
+       (portRef &1 (instanceRef R74))
+       (portRef &2 (instanceRef R80))
+       (portRef &2 (instanceRef C27))
+       (portRef &2 (instanceRef R81))))
+     (net N24073
+      (joined
+       (portRef &1 (instanceRef R67))
+       (portRef &1 (instanceRef C21))
+       (portRef &2 (instanceRef R62))
+       (portRef &2 (instanceRef R74))
+       (portRef &2 (instanceRef R61))))
+     (net N24097
+      (joined
+       (portRef &3 (instanceRef U7))
+       (portRef &1 (instanceRef R63))
+       (portRef &2 (instanceRef R67))))
+     (net N24153
+      (joined
+       (portRef &2 (instanceRef U7))
+       (portRef &1 (instanceRef C24))
+       (portRef &2 (instanceRef R72))
+       (portRef &2 (instanceRef R69))))
+     (net N23897
+      (joined
+       (portRef &3 (instanceRef U8))
+       (portRef &1 (instanceRef R78))
+       (portRef &1 (instanceRef R72))))
+     (net N26969
+      (joined
+       (portRef &2 (instanceRef U10))
+       (portRef &2 (instanceRef R85))
+       (portRef &2 (instanceRef C29))))
+     (net N27283
+      (joined
+       (portRef &3 (instanceRef U10))
+       (portRef &1 (instanceRef R91))
+       (portRef &2 (instanceRef R88))
+       (portRef &2 (instanceRef R89))
+       (portRef &2 (instanceRef C30))))
+     (net IV_C
+      (joined
+       (portRef &1 (instanceRef R48))
+       (portRef &1 (instanceRef C15))
+       (portRef &1 (instanceRef R46))
+       (portRef &1 (instanceRef C12))
+       (portRef &2 (instanceRef R327))
+       (portRef &65 (instanceRef U2))
+       (portRef &66 (instanceRef U2))
+       (portRef &7 (instanceRef U85))))
+     (net IU_C
+      (joined
+       (portRef &1 (instanceRef R21))
+       (portRef &1 (instanceRef C4))
+       (portRef &1 (instanceRef R23))
+       (portRef &1 (instanceRef C6))
+       (portRef &2 (instanceRef R326))
+       (portRef &45 (instanceRef U2))
+       (portRef &46 (instanceRef U2))
+       (portRef &1 (instanceRef U85))))
+     (net IW_C
+      (joined
+       (portRef &1 (instanceRef R73))
+       (portRef &1 (instanceRef C25))
+       (portRef &1 (instanceRef R69))
+       (portRef &1 (instanceRef C23))
+       (portRef &2 (instanceRef R328))
+       (portRef &79 (instanceRef U2))
+       (portRef &80 (instanceRef U2))
+       (portRef &1 (instanceRef U86))))
+     (net VUV_C
+      (joined
+       (portRef &2 (instanceRef R335))
+       (portRef &75 (instanceRef U2))
+       (portRef &76 (instanceRef U2))
+       (portRef &7 (instanceRef U87))))
+     (net VVW_C
+      (joined
+       (portRef &2 (instanceRef R336))
+       (portRef &53 (instanceRef U2))
+       (portRef &54 (instanceRef U2))
+       (portRef &7 (instanceRef U88))))
+     (net N16809607
+      (joined
+       (portRef &2 (instanceRef R121))
+       (portRef &12 (instanceRef U18))))
+     (net N16809609
+      (joined
+       (portRef &2 (instanceRef R122))
+       (portRef &11 (instanceRef U18))))
+     (net CAN1H
+      (joined
+       (portRef &1 (instanceRef R122))
+       (portRef &1 (instanceRef C62))
+       (portRef &1 (instanceRef CN2))
+       (portRef &2 (instanceRef C63))))
+     (net CAN1L
+      (joined
+       (portRef &1 (instanceRef R121))
+       (portRef &1 (instanceRef C61))
+       (portRef &2 (instanceRef C62))
+       (portRef &2 (instanceRef CN2))))
+     (net CAN0_TX
+      (joined
+       (portRef &119 (instanceRef U1))
+       (portRef &120 (instanceRef U1))
+       (portRef &6 (instanceRef U18))))
+     (net (rename C_PVMINUS "C_PV-")
+      (joined
+       (portRef &2 (instanceRef R264))
+       (portRef &19 (instanceRef U12))))
+     (net (rename C_PUPLUS "C_PU+")
+      (joined
+       (portRef &2 (instanceRef R267))
+       (portRef &20 (instanceRef U12))))
+     (net (rename C_PUMINUS "C_PU-")
+      (joined
+       (portRef &2 (instanceRef R266))
+       (portRef &21 (instanceRef U12))))
+     (net C_BREAK
+      (joined
+       (portRef &1 (instanceRef R351))
+       (portRef &35 (instanceRef U2))
+       (portRef &36 (instanceRef U2))))
+     (net (rename C_PWPLUS "C_PW+")
+      (joined
+       (portRef &2 (instanceRef R269))
+       (portRef &16 (instanceRef U12))))
+     (net C_FAN
+      (joined
+       (portRef &1 (instanceRef R349))
+       (portRef &37 (instanceRef U2))
+       (portRef &38 (instanceRef U2))))
+     (net (rename C_PWMINUS "C_PW-")
+      (joined
+       (portRef &2 (instanceRef R268))
+       (portRef &17 (instanceRef U12))))
+     (net (rename C_PVPLUS "C_PV+")
+      (joined
+       (portRef &2 (instanceRef R265))
+       (portRef &18 (instanceRef U12))))
+     (net CAN0_RX
+      (joined
+       (portRef &121 (instanceRef U1))
+       (portRef &122 (instanceRef U1))
+       (portRef &5 (instanceRef U18))))
+     (net N16922842
+      (joined
+       (portRef &2 (instanceRef R6))
+       (portRef &3 (instanceRef J3))))
+     (net N16922938
+      (joined
+       (portRef &1 (instanceRef C1))
+       (portRef &2 (instanceRef R7))
+       (portRef &5 (instanceRef J3))))
+     (net (rename &1_2V "1.2V")
+      (joined
+       (portRef &1 (instanceRef C72))
+       (portRef &1 (instanceRef C73))
+       (portRef &1 (instanceRef C71))
+       (portRef &1 (instanceRef C75))
+       (portRef &1 (instanceRef C74))
+       (portRef &1 (instanceRef C52))
+       (portRef &1 (instanceRef C51))
+       (portRef &128 (instanceRef U20))
+       (portRef &19 (instanceRef U20))
+       (portRef &28 (instanceRef U20))
+       (portRef &52 (instanceRef U20))
+       (portRef &89 (instanceRef U20))
+       (portRef &5 (instanceRef U14))))
+     (net (rename PUMINUS "PU-")
+      (joined
+       (portRef &2 (instanceRef R117))
+       (portRef &3 (instanceRef U12))
+       (portRef &2 (instanceRef U64))
+       (portRef &3 (instanceRef U62))
+       (portRef &1 (instanceRef TP101))))
+     (net (rename PWPLUS "PW+")
+      (joined
+       (portRef &2 (instanceRef R112))
+       (portRef &8 (instanceRef U12))
+       (portRef &2 (instanceRef U63))
+       (portRef &3 (instanceRef U65))
+       (portRef &1 (instanceRef TP102))))
+     (net (rename PVMINUS "PV-")
+      (joined
+       (portRef &2 (instanceRef R115))
+       (portRef &5 (instanceRef U12))
+       (portRef &2 (instanceRef U69))
+       (portRef &3 (instanceRef U66))
+       (portRef &1 (instanceRef TP106))))
+     (net (rename PVPLUS "PV+")
+      (joined
+       (portRef &2 (instanceRef R114))
+       (portRef &6 (instanceRef U12))
+       (portRef &2 (instanceRef U66))
+       (portRef &3 (instanceRef U69))
+       (portRef &1 (instanceRef TP105))))
+     (net (rename PWMINUS "PW-")
+      (joined
+       (portRef &2 (instanceRef R113))
+       (portRef &7 (instanceRef U12))
+       (portRef &2 (instanceRef U65))
+       (portRef &3 (instanceRef U63))
+       (portRef &1 (instanceRef TP104))))
+     (net (rename PUPLUS "PU+")
+      (joined
+       (portRef &2 (instanceRef R116))
+       (portRef &4 (instanceRef U12))
+       (portRef &2 (instanceRef U62))
+       (portRef &3 (instanceRef U64))
+       (portRef &1 (instanceRef TP103))))
+     (net AD2S1205_DBI9
+      (joined
+       (portRef &33 (instanceRef U1))
+       (portRef &34 (instanceRef U1))
+       (portRef &9 (instanceRef U77))
+       (portRef &45 (instanceRef U20))))
+     (net AD2S1205_DBI11
+      (joined
+       (portRef &37 (instanceRef U1))
+       (portRef &38 (instanceRef U1))
+       (portRef &7 (instanceRef U77))
+       (portRef &47 (instanceRef U20))))
+     (net AD2S1205_DBI10
+      (joined
+       (portRef &39 (instanceRef U1))
+       (portRef &40 (instanceRef U1))
+       (portRef &8 (instanceRef U77))
+       (portRef &48 (instanceRef U20))))
+     (net AD2S1205_DBI6
+      (joined
+       (portRef &31 (instanceRef U1))
+       (portRef &32 (instanceRef U1))
+       (portRef &12 (instanceRef U77))
+       (portRef &44 (instanceRef U20))))
+     (net AD2S1205_DBI8
+      (joined
+       (portRef &35 (instanceRef U1))
+       (portRef &36 (instanceRef U1))
+       (portRef &10 (instanceRef U77))
+       (portRef &46 (instanceRef U20))))
+     (net AD2S1205_DBI5
+      (joined
+       (portRef &25 (instanceRef U1))
+       (portRef &26 (instanceRef U1))
+       (portRef &13 (instanceRef U77))
+       (portRef &40 (instanceRef U20))))
+     (net VOE
+      (joined
+       (portRef &1 (instanceRef C31))
+       (portRef &125 (instanceRef U2))
+       (portRef &126 (instanceRef U2))
+       (portRef &2 (instanceRef R91))
+       (portRef &2 (instanceRef R83))
+       (portRef K (instanceRef D5))
+       (portRef K (instanceRef D11))
+       (portRef &1 (instanceRef U10))))
+     (net TZ2
+      (joined
+       (portRef &1 (instanceRef C18))
+       (portRef &123 (instanceRef U2))
+       (portRef &124 (instanceRef U2))
+       (portRef &2 (instanceRef R51))
+       (portRef K (instanceRef D6))
+       (portRef K (instanceRef D10))))
+     (net PWM_OE
+      (joined
+       (portRef &117 (instanceRef U2))
+       (portRef &118 (instanceRef U2))
+       (portRef &22 (instanceRef U12))))
+     (net TZ1
+      (joined
+       (portRef &1 (instanceRef C14))
+       (portRef &121 (instanceRef U2))
+       (portRef &122 (instanceRef U2))
+       (portRef &2 (instanceRef R49))
+       (portRef K (instanceRef D7))
+       (portRef K (instanceRef D9))))
+     (net N16973524
+      (joined
+       (portRef &71 (instanceRef U1))
+       (portRef &72 (instanceRef U1))))
+     (net N16973534
+      (joined
+       (portRef &93 (instanceRef U1))
+       (portRef &94 (instanceRef U1))))
+     (net N16973532
+      (joined
+       (portRef &95 (instanceRef U1))
+       (portRef &96 (instanceRef U1))))
+     (net N16973542
+      (joined
+       (portRef &85 (instanceRef U1))
+       (portRef &86 (instanceRef U1))))
+     (net N16973538
+      (joined
+       (portRef &91 (instanceRef U1))
+       (portRef &92 (instanceRef U1))))
+     (net N16973540
+      (joined
+       (portRef &89 (instanceRef U1))
+       (portRef &90 (instanceRef U1))))
+     (net N16973544
+      (joined
+       (portRef &83 (instanceRef U1))
+       (portRef &84 (instanceRef U1))))
+     (net N16975014
+      (joined
+       (portRef &29 (instanceRef U2))
+       (portRef &30 (instanceRef U2))))
+     (net N16975016
+      (joined
+       (portRef &31 (instanceRef U2))
+       (portRef &32 (instanceRef U2))))
+     (net N16975018
+      (joined
+       (portRef &33 (instanceRef U2))
+       (portRef &34 (instanceRef U2))))
+     (net N16975066
+      (joined
+       (portRef &107 (instanceRef U2))
+       (portRef &108 (instanceRef U2))))
+     (net N16975064
+      (joined
+       (portRef &109 (instanceRef U2))
+       (portRef &110 (instanceRef U2))))
+     (net N16975072
+      (joined
+       (portRef &101 (instanceRef U2))
+       (portRef &102 (instanceRef U2))))
+     (net N16975082
+      (joined
+       (portRef &89 (instanceRef U2))
+       (portRef &90 (instanceRef U2))))
+     (net N16975068
+      (joined
+       (portRef &105 (instanceRef U2))
+       (portRef &106 (instanceRef U2))))
+     (net N16975070
+      (joined
+       (portRef &103 (instanceRef U2))
+       (portRef &104 (instanceRef U2))))
+     (net N16975076
+      (joined
+       (portRef &97 (instanceRef U2))
+       (portRef &98 (instanceRef U2))))
+     (net N16975074
+      (joined
+       (portRef &100 (instanceRef U2))
+       (portRef &99 (instanceRef U2))))
+     (net N16975084
+      (joined
+       (portRef &91 (instanceRef U2))
+       (portRef &92 (instanceRef U2))))
+     (net N16975080
+      (joined
+       (portRef &95 (instanceRef U2))
+       (portRef &96 (instanceRef U2))))
+     (net N16975032
+      (joined
+       (portRef &59 (instanceRef U2))
+       (portRef &60 (instanceRef U2))))
+     (net N16975034
+      (joined
+       (portRef &57 (instanceRef U2))
+       (portRef &58 (instanceRef U2))))
+     (net N16975036
+      (joined
+       (portRef &51 (instanceRef U2))
+       (portRef &52 (instanceRef U2))))
+     (net N16975030
+      (joined
+       (portRef &61 (instanceRef U2))
+       (portRef &62 (instanceRef U2))))
+     (net N16975050
+      (joined
+       (portRef &73 (instanceRef U2))
+       (portRef &74 (instanceRef U2))))
+     (net FAULT
+      (joined
+       (portRef A1 (instanceRef D7))
+       (portRef &1 (instanceRef R1))
+       (portRef A1 (instanceRef D5))
+       (portRef A1 (instanceRef D6))
+       (portRef &119 (instanceRef U2))
+       (portRef &120 (instanceRef U2))
+       (portRef A2 (instanceRef D5))
+       (portRef A2 (instanceRef D6))
+       (portRef A2 (instanceRef D7))))
+     (net ASCLIN3_OUT
+      (joined
+       (portRef &1 (instanceRef J3))
+       (portRef &115 (instanceRef U2))
+       (portRef &116 (instanceRef U2))))
+     (net ASCLIN3_IN
+      (joined
+       (portRef &113 (instanceRef U2))
+       (portRef &114 (instanceRef U2))
+       (portRef &8 (instanceRef J3))))
+     (net N16973550
+      (joined
+       (portRef &107 (instanceRef U1))
+       (portRef &108 (instanceRef U1))))
+     (net N16973552
+      (joined
+       (portRef &105 (instanceRef U1))
+       (portRef &106 (instanceRef U1))))
+     (net N16973554
+      (joined
+       (portRef &103 (instanceRef U1))
+       (portRef &104 (instanceRef U1))))
+     (net N16973560
+      (joined
+       (portRef &100 (instanceRef U1))
+       (portRef &99 (instanceRef U1))))
+     (net AD2S1205_DBI0
+      (joined
+       (portRef &17 (instanceRef U1))
+       (portRef &18 (instanceRef U1))
+       (portRef &20 (instanceRef U77))
+       (portRef &33 (instanceRef U20))))
+     (net AD2S1205_DBI1
+      (joined
+       (portRef &15 (instanceRef U1))
+       (portRef &16 (instanceRef U1))
+       (portRef &19 (instanceRef U77))
+       (portRef &32 (instanceRef U20))))
+     (net AD2S1205_DBI12
+      (joined
+       (portRef &61 (instanceRef U1))
+       (portRef &62 (instanceRef U1))
+       (portRef &66 (instanceRef U20))))
+     (net AD2S1205_DBI13
+      (joined
+       (portRef &63 (instanceRef U1))
+       (portRef &64 (instanceRef U1))
+       (portRef &67 (instanceRef U20))))
+     (net AD2S1205_DBI14
+      (joined
+       (portRef &13 (instanceRef U1))
+       (portRef &14 (instanceRef U1))
+       (portRef &30 (instanceRef U20))))
+     (net AD2S1205_DBI15
+      (joined
+       (portRef &11 (instanceRef U1))
+       (portRef &12 (instanceRef U1))
+       (portRef &29 (instanceRef U20))))
+     (net AD2S1205_DBI16
+      (joined
+       (portRef &10 (instanceRef U1))
+       (portRef &9 (instanceRef U1))
+       (portRef &27 (instanceRef U20))))
+     (net AD2S1205_DBI17
+      (joined
+       (portRef &7 (instanceRef U1))
+       (portRef &8 (instanceRef U1))
+       (portRef &26 (instanceRef U20))))
+     (net AD2S1205_DBI18
+      (joined
+       (portRef &5 (instanceRef U1))
+       (portRef &6 (instanceRef U1))
+       (portRef &24 (instanceRef U20))))
+     (net AD2S1205_DBI19
+      (joined
+       (portRef &3 (instanceRef U1))
+       (portRef &4 (instanceRef U1))
+       (portRef &23 (instanceRef U20))))
+     (net AD2S1205_DBI20
+      (joined
+       (portRef &3 (instanceRef U2))
+       (portRef &4 (instanceRef U2))
+       (portRef &143 (instanceRef U20))))
+     (net AD2S1205_DBI21
+      (joined
+       (portRef &5 (instanceRef U2))
+       (portRef &6 (instanceRef U2))
+       (portRef &142 (instanceRef U20))))
+     (net AD2S1205_DBI22
+      (joined
+       (portRef &7 (instanceRef U2))
+       (portRef &8 (instanceRef U2))
+       (portRef &141 (instanceRef U20))))
+     (net AD2S1205_DBI23
+      (joined
+       (portRef &10 (instanceRef U2))
+       (portRef &9 (instanceRef U2))
+       (portRef &140 (instanceRef U20))))
+     (net AD2S1205_DBI24
+      (joined
+       (portRef &11 (instanceRef U2))
+       (portRef &12 (instanceRef U2))
+       (portRef &139 (instanceRef U20))))
+     (net AD2S1205_DBI25
+      (joined
+       (portRef &13 (instanceRef U2))
+       (portRef &14 (instanceRef U2))
+       (portRef &138 (instanceRef U20))))
+     (net AD2S1205_DBI26
+      (joined
+       (portRef &15 (instanceRef U2))
+       (portRef &16 (instanceRef U2))
+       (portRef &137 (instanceRef U20))))
+     (net AD2S1205_DBI27
+      (joined
+       (portRef &17 (instanceRef U2))
+       (portRef &18 (instanceRef U2))
+       (portRef &134 (instanceRef U20))))
+     (net AD2S1205_DBI28
+      (joined
+       (portRef &19 (instanceRef U2))
+       (portRef &20 (instanceRef U2))
+       (portRef &133 (instanceRef U20))))
+     (net AD2S1205_DBI29
+      (joined
+       (portRef &21 (instanceRef U2))
+       (portRef &22 (instanceRef U2))
+       (portRef &132 (instanceRef U20))))
+     (net AD2S1205_DBI30
+      (joined
+       (portRef &23 (instanceRef U2))
+       (portRef &24 (instanceRef U2))
+       (portRef &131 (instanceRef U20))))
+     (net AD2S1205_DBI31
+      (joined
+       (portRef &25 (instanceRef U2))
+       (portRef &26 (instanceRef U2))
+       (portRef &127 (instanceRef U20))))
+     (net AD2S1205_C1
+      (joined
+       (portRef &59 (instanceRef U1))
+       (portRef &60 (instanceRef U1))
+       (portRef &62 (instanceRef U20))))
+     (net AD2S1205_C2
+      (joined
+       (portRef &55 (instanceRef U1))
+       (portRef &56 (instanceRef U1))
+       (portRef &59 (instanceRef U20))))
+     (net AD2S1205_C3
+      (joined
+       (portRef &51 (instanceRef U1))
+       (portRef &52 (instanceRef U1))
+       (portRef &57 (instanceRef U20))))
+     (net AD2S1205_C4
+      (joined
+       (portRef &49 (instanceRef U1))
+       (portRef &50 (instanceRef U1))
+       (portRef &56 (instanceRef U20))))
+     (net AD2S1205_DOS
+      (joined
+       (portRef &57 (instanceRef U1))
+       (portRef &58 (instanceRef U1))
+       (portRef &29 (instanceRef U77))
+       (portRef &61 (instanceRef U20))))
+     (net AD2S1205_LOT
+      (joined
+       (portRef &53 (instanceRef U1))
+       (portRef &54 (instanceRef U1))
+       (portRef &30 (instanceRef U77))
+       (portRef &58 (instanceRef U20))))
+     (net AD2S1205_CS_RD
+      (joined
+       (portRef &47 (instanceRef U1))
+       (portRef &48 (instanceRef U1))
+       (portRef &55 (instanceRef U20))
+       (portRef &3 (instanceRef U77))
+       (portRef &2 (instanceRef U77))))
+     (net AD2S1205_SAMPLE
+      (joined
+       (portRef &45 (instanceRef U1))
+       (portRef &46 (instanceRef U1))
+       (portRef &51 (instanceRef U20))
+       (portRef &4 (instanceRef U77))))
+     (net AD2S1205_RDVEL
+      (joined
+       (portRef &41 (instanceRef U1))
+       (portRef &42 (instanceRef U1))
+       (portRef &50 (instanceRef U20))
+       (portRef &5 (instanceRef U77))))
+     (net AD2S1205_DBI4
+      (joined
+       (portRef &27 (instanceRef U1))
+       (portRef &28 (instanceRef U1))
+       (portRef &14 (instanceRef U77))
+       (portRef &41 (instanceRef U20))))
+     (net AD2S1205_DBI7
+      (joined
+       (portRef &29 (instanceRef U1))
+       (portRef &30 (instanceRef U1))
+       (portRef &11 (instanceRef U77))
+       (portRef &43 (instanceRef U20))))
+     (net N16973576
+      (joined
+       (portRef &127 (instanceRef U1))
+       (portRef &128 (instanceRef U1))))
+     (net ZIGBEE_TXD
+      (joined
+       (portRef &115 (instanceRef U1))
+       (portRef &116 (instanceRef U1))
+       (portRef &3 (instanceRef J5))))
+     (net ZIGBEE_RXD
+      (joined
+       (portRef &117 (instanceRef U1))
+       (portRef &118 (instanceRef U1))
+       (portRef &2 (instanceRef J5))))
+     (net UART1_RXD_33
+      (joined
+       (portRef &1 (instanceRef J6))
+       (portRef &97 (instanceRef U1))
+       (portRef &98 (instanceRef U1))))
+     (net UART1_TXD_33
+      (joined
+       (portRef &101 (instanceRef U1))
+       (portRef &102 (instanceRef U1))
+       (portRef &2 (instanceRef J6))))
+     (net GND_SIGNAL
+      (joined
+       (portRef &5 (instanceRef U10))
+       (portRef &2 (instanceRef EC69))
+       (portRef &2 (instanceRef EC1))
+       (portRef &2 (instanceRef EC2))
+       (portRef &6 (instanceRef U10))
+       (portRef &4 (instanceRef U85))
+       (portRef &4 (instanceRef U86))
+       (portRef &4 (instanceRef U87))
+       (portRef &4 (instanceRef U88))
+       (portRef &4 (instanceRef U92))
+       (portRef &4 (instanceRef U79))
+       (portRef &1 (instanceRef R346))
+       (portRef &1 (instanceRef R362))
+       (portRef &1 (instanceRef R364))
+       (portRef &1 (instanceRef R366))
+       (portRef &1 (instanceRef R368))
+       (portRef &1 (instanceRef C174))
+       (portRef &1 (instanceRef C183))
+       (portRef &1 (instanceRef C184))
+       (portRef &1 (instanceRef C182))
+       (portRef &1 (instanceRef C177))
+       (portRef &1 (instanceRef C185))
+       (portRef &1 (instanceRef C167))
+       (portRef &1 (instanceRef R301))
+       (portRef &1 (instanceRef C168))
+       (portRef &1 (instanceRef C163))
+       (portRef &1 (instanceRef C165))
+       (portRef &1 (instanceRef R319))
+       (portRef &1 (instanceRef R320))
+       (portRef &1 (instanceRef R321))
+       (portRef &1 (instanceRef C171))
+       (portRef &1 (instanceRef C63))
+       (portRef &1 (instanceRef R114))
+       (portRef &1 (instanceRef R115))
+       (portRef &1 (instanceRef R116))
+       (portRef &1 (instanceRef R117))
+       (portRef &1 (instanceRef R112))
+       (portRef &1 (instanceRef R113))
+       (portRef &1 (instanceRef C29))
+       (portRef &1 (instanceRef R89))
+       (portRef &1 (instanceRef C30))
+       (portRef A1 (instanceRef D11))
+       (portRef &1 (instanceRef R32))
+       (portRef &1 (instanceRef C8))
+       (portRef &1 (instanceRef R59))
+       (portRef &1 (instanceRef C20))
+       (portRef &1 (instanceRef R82))
+       (portRef &1 (instanceRef C28))
+       (portRef &1 (instanceRef R33))
+       (portRef &1 (instanceRef C9))
+       (portRef &1 (instanceRef R34))
+       (portRef &1 (instanceRef R58))
+       (portRef &1 (instanceRef C19))
+       (portRef &1 (instanceRef R60))
+       (portRef &1 (instanceRef R80))
+       (portRef &1 (instanceRef C27))
+       (portRef &1 (instanceRef R81))
+       (portRef A1 (instanceRef D10))
+       (portRef A1 (instanceRef D9))
+       (portRef &1 (instanceRef U1))
+       (portRef &1 (instanceRef U2))
+       (portRef &1 (instanceRef R3))
+       (portRef &10 (instanceRef J8))
+       (portRef &10 (instanceRef J7))
+       (portRef &109 (instanceRef U1))
+       (portRef &110 (instanceRef U1))
+       (portRef &111 (instanceRef U2))
+       (portRef &112 (instanceRef U2))
+       (portRef &129 (instanceRef U1))
+       (portRef &130 (instanceRef U1))
+       (portRef &131 (instanceRef U1))
+       (portRef &132 (instanceRef U1))
+       (portRef &135 (instanceRef U2))
+       (portRef &136 (instanceRef U2))
+       (portRef &19 (instanceRef U1))
+       (portRef &2 (instanceRef U89))
+       (portRef &2 (instanceRef C187))
+       (portRef &2 (instanceRef C189))
+       (portRef &2 (instanceRef C188))
+       (portRef &2 (instanceRef C190))
+       (portRef &2 (instanceRef C192))
+       (portRef &2 (instanceRef C191))
+       (portRef &2 (instanceRef C193))
+       (portRef &2 (instanceRef C194))
+       (portRef &2 (instanceRef C197))
+       (portRef &2 (instanceRef C195))
+       (portRef &2 (instanceRef C198))
+       (portRef &2 (instanceRef C196))
+       (portRef &2 (instanceRef C203))
+       (portRef &2 (instanceRef C202))
+       (portRef &2 (instanceRef C204))
+       (portRef &2 (instanceRef C205))
+       (portRef &2 (instanceRef C206))
+       (portRef &2 (instanceRef C207))
+       (portRef &2 (instanceRef C201))
+       (portRef &2 (instanceRef C200))
+       (portRef &2 (instanceRef C199))
+       (portRef &2 (instanceRef C212))
+       (portRef &2 (instanceRef C211))
+       (portRef &2 (instanceRef C213))
+       (portRef &2 (instanceRef C214))
+       (portRef &2 (instanceRef C215))
+       (portRef &2 (instanceRef C216))
+       (portRef &2 (instanceRef C210))
+       (portRef &2 (instanceRef C209))
+       (portRef &2 (instanceRef C208))
+       (portRef &2 (instanceRef R359))
+       (portRef &2 (instanceRef C173))
+       (portRef &2 (instanceRef C179))
+       (portRef &2 (instanceRef C161))
+       (portRef &2 (instanceRef C162))
+       (portRef &2 (instanceRef C166))
+       (portRef &2 (instanceRef C164))
+       (portRef &2 (instanceRef C186))
+       (portRef &2 (instanceRef C170))
+       (portRef &2 (instanceRef C157))
+       (portRef &2 (instanceRef C159))
+       (portRef &2 (instanceRef C160))
+       (portRef &2 (instanceRef C219))
+       (portRef &2 (instanceRef C151))
+       (portRef &2 (instanceRef C152))
+       (portRef &2 (instanceRef C153))
+       (portRef &2 (instanceRef C154))
+       (portRef &2 (instanceRef C155))
+       (portRef &2 (instanceRef C156))
+       (portRef &2 (instanceRef C65))
+       (portRef &2 (instanceRef R123))
+       (portRef &2 (instanceRef R131))
+       (portRef &2 (instanceRef J7))
+       (portRef &2 (instanceRef C67))
+       (portRef &2 (instanceRef C70))
+       (portRef &2 (instanceRef C69))
+       (portRef &2 (instanceRef C68))
+       (portRef &2 (instanceRef C73))
+       (portRef &2 (instanceRef C74))
+       (portRef &2 (instanceRef C71))
+       (portRef &2 (instanceRef C72))
+       (portRef &2 (instanceRef C75))
+       (portRef &2 (instanceRef C66))
+       (portRef &2 (instanceRef R134))
+       (portRef &2 (instanceRef C64))
+       (portRef &2 (instanceRef C61))
+       (portRef &2 (instanceRef C76))
+       (portRef &2 (instanceRef C77))
+       (portRef &2 (instanceRef C56))
+       (portRef &2 (instanceRef C57))
+       (portRef &2 (instanceRef C52))
+       (portRef &2 (instanceRef C51))
+       (portRef &2 (instanceRef C50))
+       (portRef &2 (instanceRef C137))
+       (portRef &2 (instanceRef C46))
+       (portRef &2 (instanceRef C47))
+       (portRef &2 (instanceRef C48))
+       (portRef &2 (instanceRef C49))
+       (portRef &2 (instanceRef C35))
+       (portRef &2 (instanceRef C34))
+       (portRef &2 (instanceRef C39))
+       (portRef &2 (instanceRef C38))
+       (portRef &2 (instanceRef C31))
+       (portRef &2 (instanceRef C78))
+       (portRef &2 (instanceRef C79))
+       (portRef &2 (instanceRef C80))
+       (portRef &2 (instanceRef C81))
+       (portRef &2 (instanceRef C82))
+       (portRef &2 (instanceRef C83))
+       (portRef &2 (instanceRef C2))
+       (portRef &2 (instanceRef C4))
+       (portRef &2 (instanceRef C5))
+       (portRef &2 (instanceRef C11))
+       (portRef &2 (instanceRef C15))
+       (portRef &2 (instanceRef C16))
+       (portRef &2 (instanceRef C22))
+       (portRef &2 (instanceRef C25))
+       (portRef &2 (instanceRef C26))
+       (portRef &2 (instanceRef C17))
+       (portRef &2 (instanceRef C18))
+       (portRef &2 (instanceRef C3))
+       (portRef &2 (instanceRef C6))
+       (portRef &2 (instanceRef C7))
+       (portRef &2 (instanceRef C10))
+       (portRef &2 (instanceRef C12))
+       (portRef &2 (instanceRef C13))
+       (portRef &2 (instanceRef C21))
+       (portRef &2 (instanceRef C23))
+       (portRef &2 (instanceRef C14))
+       (portRef &2 (instanceRef C24))
+       (portRef &2 (instanceRef C84))
+       (portRef &2 (instanceRef C85))
+       (portRef &2 (instanceRef C86))
+       (portRef &2 (instanceRef C87))
+       (portRef &2 (instanceRef C88))
+       (portRef &2 (instanceRef C89))
+       (portRef &2 (instanceRef C90))
+       (portRef &2 (instanceRef C91))
+       (portRef &2 (instanceRef C92))
+       (portRef &2 (instanceRef C93))
+       (portRef &2 (instanceRef C94))
+       (portRef &2 (instanceRef C95))
+       (portRef &2 (instanceRef C96))
+       (portRef &2 (instanceRef C97))
+       (portRef &2 (instanceRef C98))
+       (portRef &2 (instanceRef C99))
+       (portRef &2 (instanceRef C100))
+       (portRef &2 (instanceRef C101))
+       (portRef &2 (instanceRef C102))
+       (portRef &2 (instanceRef C103))
+       (portRef &2 (instanceRef C104))
+       (portRef &2 (instanceRef C105))
+       (portRef &2 (instanceRef C1))
+       (portRef &2 (instanceRef J3))
+       (portRef &2 (instanceRef U1))
+       (portRef &2 (instanceRef U2))
+       (portRef &20 (instanceRef U1))
+       (portRef &27 (instanceRef U2))
+       (portRef &28 (instanceRef U2))
+       (portRef &3 (instanceRef J6))
+       (portRef &4 (instanceRef J5))
+       (portRef &41 (instanceRef U2))
+       (portRef &42 (instanceRef U2))
+       (portRef &43 (instanceRef U1))
+       (portRef &44 (instanceRef U1))
+       (portRef &5 (instanceRef JP1))
+       (portRef &55 (instanceRef U2))
+       (portRef &56 (instanceRef U2))
+       (portRef &63 (instanceRef U2))
+       (portRef &64 (instanceRef U2))
+       (portRef &65 (instanceRef U1))
+       (portRef &66 (instanceRef U1))
+       (portRef &67 (instanceRef U1))
+       (portRef &68 (instanceRef U1))
+       (portRef &77 (instanceRef U2))
+       (portRef &78 (instanceRef U2))
+       (portRef &87 (instanceRef U1))
+       (portRef &88 (instanceRef U1))
+       (portRef &9 (instanceRef J8))
+       (portRef &93 (instanceRef U2))
+       (portRef &94 (instanceRef U2))
+       (portRef AK (instanceRef U80))
+       (portRef &36 (instanceRef U77))
+       (portRef &42 (instanceRef U77))
+       (portRef &16 (instanceRef U77))
+       (portRef &23 (instanceRef U77))
+       (portRef &2 (instanceRef U12))
+       (portRef &4 (instanceRef Y1))
+       (portRef &2 (instanceRef Y1))
+       (portRef &2 (instanceRef U81))
+       (portRef &2 (instanceRef U82))
+       (portRef &2 (instanceRef U83))
+       (portRef &2 (instanceRef U84))
+       (portRef &1 (instanceRef U78))
+       (portRef &5 (instanceRef U74))
+       (portRef &5 (instanceRef U75))
+       (portRef &5 (instanceRef U76))
+       (portRef &2 (instanceRef X1))
+       (portRef &4 (instanceRef U19))
+       (portRef &2 (instanceRef U14))
+       (portRef &1 (instanceRef U16))
+       (portRef &4 (instanceRef U62))
+       (portRef &4 (instanceRef U64))
+       (portRef &4 (instanceRef U63))
+       (portRef &4 (instanceRef U65))
+       (portRef &4 (instanceRef U66))
+       (portRef &4 (instanceRef U69))
+       (portRef &108 (instanceRef U20))
+       (portRef &11 (instanceRef U12))
+       (portRef &4 (instanceRef U90))
+       (portRef &54 (instanceRef U20))
+       (portRef &68 (instanceRef U20))
+       (portRef &2 (instanceRef U18))
+       (portRef &77 (instanceRef U20))
+       (portRef &3 (instanceRef U18))
+       (portRef &91 (instanceRef U20))
+       (portRef &8 (instanceRef U18))
+       (portRef &96 (instanceRef U20))
+       (portRef &113 (instanceRef U20))
+       (portRef &5 (instanceRef U91))
+       (portRef &5 (instanceRef U36))
+       (portRef &12 (instanceRef U12))
+       (portRef &9 (instanceRef U18))
+       (portRef &16 (instanceRef U18))
+       (portRef &13 (instanceRef U20))
+       (portRef &13 (instanceRef U12))
+       (portRef &130 (instanceRef U20))
+       (portRef &136 (instanceRef U20))
+       (portRef &25 (instanceRef U20))
+       (portRef &3 (instanceRef U20))
+       (portRef &49 (instanceRef U20))
+       (portRef &3 (instanceRef U90))
+       (portRef K (instanceRef LED1))))
+     (net AD2S1205_DBI3
+      (joined
+       (portRef &21 (instanceRef U1))
+       (portRef &22 (instanceRef U1))
+       (portRef &15 (instanceRef U77))
+       (portRef &34 (instanceRef U20))))
+     (net AD2S1205_DBI2
+      (joined
+       (portRef &23 (instanceRef U1))
+       (portRef &24 (instanceRef U1))
+       (portRef &18 (instanceRef U77))
+       (portRef &35 (instanceRef U20))))
+     (net N17024619
+      (joined
+       (portRef &2 (instanceRef R283))
+       (portRef &2 (instanceRef R284))
+       (portRef &2 (instanceRef C147))
+       (portRef &1 (instanceRef Q10))
+       (portRef &1 (instanceRef Q9))))
+     (net N17025027
+      (joined
+       (portRef &2 (instanceRef R285))
+       (portRef &3 (instanceRef Q9))
+       (portRef &3 (instanceRef Q10))))
+     (net N17025118
+      (joined
+       (portRef &2 (instanceRef R286))
+       (portRef &2 (instanceRef R287))
+       (portRef &2 (instanceRef C149))
+       (portRef &1 (instanceRef Q12))
+       (portRef &1 (instanceRef Q11))))
+     (net N17025129
+      (joined
+       (portRef &2 (instanceRef R288))
+       (portRef &3 (instanceRef Q11))
+       (portRef &3 (instanceRef Q12))))
+     (net N17025368
+      (joined
+       (portRef &2 (instanceRef R280))
+       (portRef &3 (instanceRef Q5))
+       (portRef &3 (instanceRef Q7))))
+     (net N17025339
+      (joined
+       (portRef &2 (instanceRef R274))
+       (portRef &3 (instanceRef Q1))
+       (portRef &3 (instanceRef Q3))))
+     (net N17025349
+      (joined
+       (portRef &2 (instanceRef R276))
+       (portRef &2 (instanceRef R278))
+       (portRef &2 (instanceRef C142))
+       (portRef &1 (instanceRef Q7))
+       (portRef &1 (instanceRef Q5))))
+     (net N17025315
+      (joined
+       (portRef &2 (instanceRef R270))
+       (portRef &2 (instanceRef R272))
+       (portRef &2 (instanceRef C138))
+       (portRef &1 (instanceRef Q3))
+       (portRef &1 (instanceRef Q1))))
+     (net N17025561
+      (joined
+       (portRef &2 (instanceRef R275))
+       (portRef &3 (instanceRef Q2))
+       (portRef &3 (instanceRef Q4))))
+     (net N17025590
+      (joined
+       (portRef &2 (instanceRef R281))
+       (portRef &3 (instanceRef Q6))
+       (portRef &3 (instanceRef Q8))))
+     (net N17025537
+      (joined
+       (portRef &2 (instanceRef R271))
+       (portRef &2 (instanceRef R273))
+       (portRef &2 (instanceRef C139))
+       (portRef &1 (instanceRef Q4))
+       (portRef &1 (instanceRef Q2))))
+     (net N17025571
+      (joined
+       (portRef &2 (instanceRef R277))
+       (portRef &2 (instanceRef R279))
+       (portRef &2 (instanceRef C143))
+       (portRef &1 (instanceRef Q8))
+       (portRef &1 (instanceRef Q6))))
+     (net N17030646
+      (joined
+       (portRef &1 (instanceRef R272))
+       (portRef &6 (instanceRef U62))))
+     (net GND_AH
+      (joined
+       (portRef &2 (instanceRef EC41))
+       (portRef &1 (instanceRef C138))
+       (portRef &1 (instanceRef R274))
+       (portRef &2 (instanceRef C140))
+       (portRef &8 (instanceRef U62))
+       (portRef &5 (instanceRef U67))))
+     (net VCCAH
+      (joined
+       (portRef &1 (instanceRef EC41))
+       (portRef &1 (instanceRef C140))
+       (portRef &5 (instanceRef U62))
+       (portRef &3 (instanceRef U67))))
+     (net N17030633
+      (joined
+       (portRef &1 (instanceRef R270))
+       (portRef &7 (instanceRef U62))))
+     (net N17031198
+      (joined
+       (portRef &1 (instanceRef R278))
+       (portRef &6 (instanceRef U64))))
+     (net N17031185
+      (joined
+       (portRef &1 (instanceRef R276))
+       (portRef &7 (instanceRef U64))))
+     (net GND_AL
+      (joined
+       (portRef &2 (instanceRef EC43))
+       (portRef &1 (instanceRef C142))
+       (portRef &1 (instanceRef R280))
+       (portRef &2 (instanceRef C144))
+       (portRef &8 (instanceRef U64))
+       (portRef &5 (instanceRef U68))))
+     (net VCCAL
+      (joined
+       (portRef &1 (instanceRef EC43))
+       (portRef &1 (instanceRef C144))
+       (portRef &5 (instanceRef U64))
+       (portRef &3 (instanceRef U68))))
+     (net N17031802
+      (joined
+       (portRef &1 (instanceRef R273))
+       (portRef &6 (instanceRef U63))))
+     (net N17031789
+      (joined
+       (portRef &1 (instanceRef R271))
+       (portRef &7 (instanceRef U63))))
+     (net N17031906
+      (joined
+       (portRef &1 (instanceRef R279))
+       (portRef &6 (instanceRef U65))))
+     (net N17031904
+      (joined
+       (portRef &1 (instanceRef R277))
+       (portRef &7 (instanceRef U65))))
+     (net GND_BH
+      (joined
+       (portRef &2 (instanceRef EC42))
+       (portRef &1 (instanceRef C139))
+       (portRef &1 (instanceRef R275))
+       (portRef &2 (instanceRef C141))
+       (portRef &8 (instanceRef U63))
+       (portRef &5 (instanceRef U70))
+       (portRef &5 (instanceRef U72))))
+     (net GND_BL
+      (joined
+       (portRef &2 (instanceRef EC44))
+       (portRef &1 (instanceRef C143))
+       (portRef &1 (instanceRef R281))
+       (portRef &2 (instanceRef C145))
+       (portRef &8 (instanceRef U65))
+       (portRef &5 (instanceRef U71))))
+     (net VCCBL
+      (joined
+       (portRef &1 (instanceRef EC44))
+       (portRef &1 (instanceRef C145))
+       (portRef &5 (instanceRef U65))
+       (portRef &3 (instanceRef U71))
+       (portRef &3 (instanceRef U72))))
+     (net VCCBH
+      (joined
+       (portRef &1 (instanceRef EC42))
+       (portRef &1 (instanceRef C141))
+       (portRef &5 (instanceRef U63))
+       (portRef &3 (instanceRef U70))))
+     (net N17033090
+      (joined
+       (portRef &1 (instanceRef R286))
+       (portRef &7 (instanceRef U69))))
+     (net N17032975
+      (joined
+       (portRef &1 (instanceRef R283))
+       (portRef &7 (instanceRef U66))))
+     (net N17032988
+      (joined
+       (portRef &1 (instanceRef R284))
+       (portRef &6 (instanceRef U66))))
+     (net N17033092
+      (joined
+       (portRef &1 (instanceRef R287))
+       (portRef &6 (instanceRef U69))))
+     (net GND_CH
+      (joined
+       (portRef &2 (instanceRef EC49))
+       (portRef &1 (instanceRef C147))
+       (portRef &1 (instanceRef R285))
+       (portRef &2 (instanceRef C148))
+       (portRef &8 (instanceRef U66))
+       (portRef &5 (instanceRef U73))))
+     (net VCCCH
+      (joined
+       (portRef &1 (instanceRef EC49))
+       (portRef &1 (instanceRef C148))
+       (portRef &1 (instanceRef TP107))
+       (portRef &5 (instanceRef U66))
+       (portRef &3 (instanceRef U73))))
+     (net GND_CL
+      (joined
+       (portRef &2 (instanceRef EC54))
+       (portRef &1 (instanceRef C149))
+       (portRef &1 (instanceRef R288))
+       (portRef &2 (instanceRef C150))
+       (portRef &8 (instanceRef U69))))
+     (net VCCCL
+      (joined
+       (portRef &1 (instanceRef EC54))
+       (portRef &1 (instanceRef C150))
+       (portRef &1 (instanceRef TP108))
+       (portRef &5 (instanceRef U69))))
+     (net (rename &5_0V "5.0V")
+      (joined
+       (portRef &1 (instanceRef EC2))
+       (portRef &1 (instanceRef EC1))
+       (portRef &8 (instanceRef U85))
+       (portRef &8 (instanceRef U86))
+       (portRef &8 (instanceRef U87))
+       (portRef &8 (instanceRef U88))
+       (portRef &8 (instanceRef U92))
+       (portRef &1 (instanceRef C188))
+       (portRef &1 (instanceRef C189))
+       (portRef &1 (instanceRef C191))
+       (portRef &1 (instanceRef C192))
+       (portRef &1 (instanceRef C197))
+       (portRef &1 (instanceRef C194))
+       (portRef &1 (instanceRef C196))
+       (portRef &1 (instanceRef C198))
+       (portRef &1 (instanceRef R343))
+       (portRef &1 (instanceRef C203))
+       (portRef &1 (instanceRef C202))
+       (portRef &1 (instanceRef C205))
+       (portRef &1 (instanceRef C204))
+       (portRef &1 (instanceRef C207))
+       (portRef &1 (instanceRef C206))
+       (portRef &1 (instanceRef C201))
+       (portRef &1 (instanceRef C200))
+       (portRef &1 (instanceRef C199))
+       (portRef &1 (instanceRef C212))
+       (portRef &1 (instanceRef C211))
+       (portRef &1 (instanceRef C214))
+       (portRef &1 (instanceRef C213))
+       (portRef &1 (instanceRef C216))
+       (portRef &1 (instanceRef C215))
+       (portRef &1 (instanceRef C210))
+       (portRef &1 (instanceRef C209))
+       (portRef &1 (instanceRef C208))
+       (portRef &1 (instanceRef R367))
+       (portRef &1 (instanceRef R300))
+       (portRef &1 (instanceRef C164))
+       (portRef &1 (instanceRef C170))
+       (portRef &1 (instanceRef R316))
+       (portRef &1 (instanceRef C151))
+       (portRef &1 (instanceRef C156))
+       (portRef &1 (instanceRef C152))
+       (portRef &1 (instanceRef C153))
+       (portRef &1 (instanceRef C154))
+       (portRef &1 (instanceRef C155))
+       (portRef &1 (instanceRef C77))
+       (portRef &1 (instanceRef C56))
+       (portRef &1 (instanceRef C137))
+       (portRef &1 (instanceRef C47))
+       (portRef &1 (instanceRef C49))
+       (portRef &1 (instanceRef R88))
+       (portRef &1 (instanceRef R13))
+       (portRef &1 (instanceRef R38))
+       (portRef &1 (instanceRef R64))
+       (portRef &1 (instanceRef R15))
+       (portRef &1 (instanceRef R12))
+       (portRef &1 (instanceRef R36))
+       (portRef &1 (instanceRef R35))
+       (portRef &1 (instanceRef R62))
+       (portRef &1 (instanceRef R61))
+       (portRef &1 (instanceRef C102))
+       (portRef &1 (instanceRef C103))
+       (portRef &1 (instanceRef C104))
+       (portRef &1 (instanceRef C105))
+       (portRef &1 (instanceRef R2))
+       (portRef &133 (instanceRef U1))
+       (portRef &134 (instanceRef U1))
+       (portRef &135 (instanceRef U1))
+       (portRef &136 (instanceRef U1))
+       (portRef &137 (instanceRef U1))
+       (portRef &137 (instanceRef U2))
+       (portRef &138 (instanceRef U1))
+       (portRef &138 (instanceRef U2))
+       (portRef &139 (instanceRef U1))
+       (portRef &139 (instanceRef U2))
+       (portRef &140 (instanceRef U1))
+       (portRef &140 (instanceRef U2))
+       (portRef &2 (instanceRef C168))
+       (portRef &2 (instanceRef C163))
+       (portRef &2 (instanceRef C165))
+       (portRef &2 (instanceRef R315))
+       (portRef &2 (instanceRef R314))
+       (portRef &2 (instanceRef C171))
+       (portRef &39 (instanceRef U77))
+       (portRef &1 (instanceRef U77))
+       (portRef &17 (instanceRef U77))
+       (portRef &1 (instanceRef U81))
+       (portRef &1 (instanceRef U82))
+       (portRef &1 (instanceRef U83))
+       (portRef &1 (instanceRef U84))
+       (portRef &1 (instanceRef U62))
+       (portRef &1 (instanceRef U64))
+       (portRef &1 (instanceRef U63))
+       (portRef &1 (instanceRef U65))
+       (portRef &1 (instanceRef U66))
+       (portRef &1 (instanceRef U69))
+       (portRef &1 (instanceRef U90))
+       (portRef &1 (instanceRef U12))
+       (portRef &3 (instanceRef U78))
+       (portRef &13 (instanceRef U18))
+       (portRef &3 (instanceRef U16))
+       (portRef &3 (instanceRef U91))))
+     (net UDC_POWER
+      (joined
+       (portRef &1 (instanceRef EC67))
+       (portRef &1 (instanceRef EC68))
+       (portRef &1 (instanceRef EC51))
+       (portRef &1 (instanceRef EC57))
+       (portRef &1 (instanceRef EC53))
+       (portRef &1 (instanceRef EC55))
+       (portRef &1 (instanceRef EC59))
+       (portRef &1 (instanceRef EC48))
+       (portRef &1 (instanceRef EC45))
+       (portRef &1 (instanceRef EC74))
+       (portRef &1 (instanceRef EC77))
+       (portRef &1 (instanceRef EC79))
+       (portRef &1 (instanceRef EC72))
+       (portRef &1 (instanceRef R339))
+       (portRef &1 (instanceRef J9))
+       (portRef &1 (instanceRef CN4))
+       (portRef &1 (instanceRef CN3))
+       (portRef &2 (instanceRef Q9))
+       (portRef &2 (instanceRef Q1))
+       (portRef &2 (instanceRef Q2))
+       (portRef &1 (instanceRef D12))
+       (portRef &1 (instanceRef U70))
+       (portRef &1 (instanceRef U73))
+       (portRef &1 (instanceRef U71))
+       (portRef &1 (instanceRef U72))
+       (portRef &1 (instanceRef U67))
+       (portRef &1 (instanceRef U68))
+       (portRef &1 (instanceRef U91))
+       (portRef &1 (instanceRef U36))
+       (portRef &1 (instanceRef U61))))
+     (net GND_POWER
+      (joined
+       (portRef &2 (instanceRef EC67))
+       (portRef &2 (instanceRef EC68))
+       (portRef &2 (instanceRef EC51))
+       (portRef &2 (instanceRef EC57))
+       (portRef &2 (instanceRef EC53))
+       (portRef &2 (instanceRef EC55))
+       (portRef &2 (instanceRef EC59))
+       (portRef &2 (instanceRef EC45))
+       (portRef &2 (instanceRef EC48))
+       (portRef &2 (instanceRef EC74))
+       (portRef &2 (instanceRef EC77))
+       (portRef &2 (instanceRef EC79))
+       (portRef &2 (instanceRef EC71))
+       (portRef &2 (instanceRef EC72))
+       (portRef &1 (instanceRef R337))
+       (portRef &1 (instanceRef C222))
+       (portRef &2 (instanceRef J9))
+       (portRef &2 (instanceRef C223))
+       (portRef &3 (instanceRef U89))
+       (portRef &3 (instanceRef Q14))
+       (portRef &2 (instanceRef U70))
+       (portRef &2 (instanceRef U73))
+       (portRef &2 (instanceRef U71))
+       (portRef &2 (instanceRef U72))
+       (portRef &2 (instanceRef U67))
+       (portRef &2 (instanceRef U68))
+       (portRef &2 (instanceRef U91))
+       (portRef &2 (instanceRef U36))
+       (portRef &2 (instanceRef U61))
+       (portRef &5 (instanceRef U61))
+       (portRef &8 (instanceRef U90))
+       (portRef &5 (instanceRef U84))
+       (portRef &3 (instanceRef Q13))))
+     (net N17041061
+      (joined
+       (portRef &1 (instanceRef R290))
+       (portRef &2 (instanceRef U74))))
+     (net N17045357
+      (joined
+       (portRef &1 (instanceRef R295))
+       (portRef &2 (instanceRef U75))))
+     (net QEPA
+      (joined
+       (portRef &2 (instanceRef JP1))
+       (portRef &3 (instanceRef U74))))
+     (net N17045736
+      (joined
+       (portRef &1 (instanceRef R296))
+       (portRef &2 (instanceRef U76))))
+     (net N17041093
+      (joined
+       (portRef &1 (instanceRef R289))
+       (portRef &2 (instanceRef R292))
+       (portRef &6 (instanceRef U74))))
+     (net N17045363
+      (joined
+       (portRef &1 (instanceRef R293))
+       (portRef &2 (instanceRef R297))
+       (portRef &6 (instanceRef U75))))
+     (net Z
+      (joined
+       (portRef &1 (instanceRef R298))
+       (portRef &27 (instanceRef U77))))
+     (net N17045756
+      (joined
+       (portRef &1 (instanceRef R294))
+       (portRef &2 (instanceRef R298))
+       (portRef &6 (instanceRef U76))))
+     (net QEPZ
+      (joined
+       (portRef &4 (instanceRef JP1))
+       (portRef &3 (instanceRef U76))))
+     (net COS
+      (joined
+       (portRef &1 (instanceRef C179))
+       (portRef &2 (instanceRef R312))
+       (portRef &2 (instanceRef C181))
+       (portRef &2 (instanceRef R310))
+       (portRef &41 (instanceRef U77))))
+     (net SINN
+      (joined
+       (portRef &3 (instanceRef J8))
+       (portRef &4 (instanceRef T1))))
+     (net N16693073
+      (joined
+       (portRef &1 (instanceRef C161))
+       (portRef &2 (instanceRef R299))
+       (portRef &3 (instanceRef Y1))))
+     (net N16680003
+      (joined
+       (portRef &1 (instanceRef R303))
+       (portRef &2 (instanceRef C172))))
+     (net N16980326
+      (joined
+       (portRef &1 (instanceRef R317))
+       (portRef &2 (instanceRef R316))))
+     (net OSC_OUT
+      (joined
+       (portRef &1 (instanceRef R299))
+       (portRef &21 (instanceRef U77))))
+     (net N17082952
+      (joined
+       (portRef &1 (instanceRef R308))
+       (portRef &4 (instanceRef T2))))
+     (net SINP
+      (joined
+       (portRef &1 (instanceRef T1))
+       (portRef &4 (instanceRef J8))))
+     (net FS1
+      (joined
+       (portRef &1 (instanceRef R315))
+       (portRef &2 (instanceRef R320))
+       (portRef &31 (instanceRef U77))))
+     (net N16688858
+      (joined
+       (portRef &1 (instanceRef R311))
+       (portRef &2 (instanceRef C180))))
+     (net NEXC
+      (joined
+       (portRef &1 (instanceRef C180))
+       (portRef &35 (instanceRef U77))))
+     (net EXC_OUT
+      (joined
+       (portRef &2 (instanceRef C176))
+       (portRef &2 (instanceRef T2))
+       (portRef &5 (instanceRef J8))))
+     (net NEXC_OUT
+      (joined
+       (portRef &1 (instanceRef C176))
+       (portRef &3 (instanceRef T2))
+       (portRef &6 (instanceRef J8))))
+     (net OSC_IN
+      (joined
+       (portRef &1 (instanceRef Y1))
+       (portRef &1 (instanceRef C162))
+       (portRef &22 (instanceRef U77))))
+     (net N17083068
+      (joined
+       (portRef &1 (instanceRef R313))
+       (portRef &3 (instanceRef T3))))
+     (net SIN
+      (joined
+       (portRef &1 (instanceRef C173))
+       (portRef &2 (instanceRef R305))
+       (portRef &2 (instanceRef C175))
+       (portRef &2 (instanceRef R304))
+       (portRef &37 (instanceRef U77))))
+     (net N17082999
+      (joined
+       (portRef &1 (instanceRef R307))
+       (portRef &3 (instanceRef T1))))
+     (net COSN
+      (joined
+       (portRef &2 (instanceRef J8))
+       (portRef &4 (instanceRef T3))))
+     (net N16680007
+      (joined
+       (portRef &2 (instanceRef U79))
+       (portRef &1 (instanceRef C169))
+       (portRef &1 (instanceRef R302))
+       (portRef &2 (instanceRef R303))))
+     (net N17082977
+      (joined
+       (portRef &1 (instanceRef R304))
+       (portRef &2 (instanceRef T1))))
+     (net N16696269
+      (joined
+       (portRef &2 (instanceRef R300))
+       (portRef &6 (instanceRef U77))))
+     (net N17083050
+      (joined
+       (portRef &1 (instanceRef R310))
+       (portRef &2 (instanceRef T3))))
+     (net EXC
+      (joined
+       (portRef &1 (instanceRef C172))
+       (portRef &34 (instanceRef U77))))
+     (net REFBYP
+      (joined
+       (portRef &1 (instanceRef C166))
+       (portRef &2 (instanceRef C167))
+       (portRef &43 (instanceRef U77))))
+     (net N16699278
+      (joined
+       (portRef &44 (instanceRef U77))
+       (portRef &1 (instanceRef TP109))))
+     (net NRESET
+      (joined
+       (portRef &2 (instanceRef R301))
+       (portRef &2 (instanceRef U78))
+       (portRef &33 (instanceRef U77))))
+     (net N16688874
+      (joined
+       (portRef &2 (instanceRef R309))
+       (portRef &2 (instanceRef C178))
+       (portRef &2 (instanceRef R308))
+       (portRef &7 (instanceRef U79))))
+     (net SINL
+      (joined
+       (portRef &1 (instanceRef C175))
+       (portRef &1 (instanceRef R305))
+       (portRef &2 (instanceRef R307))
+       (portRef &2 (instanceRef C177))
+       (portRef &38 (instanceRef U77))))
+     (net N17082939
+      (joined
+       (portRef &1 (instanceRef R306))
+       (portRef &1 (instanceRef T2))))
+     (net N16680044
+      (joined
+       (portRef &2 (instanceRef R302))
+       (portRef &2 (instanceRef C169))
+       (portRef &2 (instanceRef R306))
+       (portRef &1 (instanceRef U79))))
+     (net N16699230
+      (joined
+       (portRef &24 (instanceRef U77))
+       (portRef &1 (instanceRef TP110))))
+     (net FS2
+      (joined
+       (portRef &1 (instanceRef R314))
+       (portRef &2 (instanceRef R319))
+       (portRef &32 (instanceRef U77))))
+     (net N16980302
+      (joined
+       (portRef &1 (instanceRef R318))
+       (portRef &2 (instanceRef R321))
+       (portRef A (instanceRef U80))))
+     (net VREF_3
+      (joined
+       (portRef &3 (instanceRef U79))
+       (portRef &5 (instanceRef U79))
+       (portRef &1 (instanceRef C186))
+       (portRef &2 (instanceRef C174))
+       (portRef &2 (instanceRef C182))
+       (portRef &2 (instanceRef R318))
+       (portRef &2 (instanceRef R317))
+       (portRef K (instanceRef U80))))
+     (net COSL
+      (joined
+       (portRef &1 (instanceRef C181))
+       (portRef &1 (instanceRef R312))
+       (portRef &2 (instanceRef R313))
+       (portRef &2 (instanceRef C185))
+       (portRef &40 (instanceRef U77))))
+     (net COSP
+      (joined
+       (portRef &1 (instanceRef J8))
+       (portRef &1 (instanceRef T3))))
+     (net N16688854
+      (joined
+       (portRef &6 (instanceRef U79))
+       (portRef &1 (instanceRef R309))
+       (portRef &1 (instanceRef C178))
+       (portRef &2 (instanceRef R311))))
+     (net (rename &15_0V "15.0V")
+      (joined
+       (portRef &8 (instanceRef U79))
+       (portRef &1 (instanceRef R291))
+       (portRef &2 (instanceRef C183))
+       (portRef &2 (instanceRef C184))
+       (portRef &2 (instanceRef R290))
+       (portRef &2 (instanceRef R295))
+       (portRef &2 (instanceRef R296))
+       (portRef &3 (instanceRef U36))))
+     (net U_B
+      (joined
+       (portRef &4 (instanceRef J9))
+       (portRef &5 (instanceRef U81))))
+     (net N17058735
+      (joined
+       (portRef &2 (instanceRef R322))
+       (portRef &3 (instanceRef U81))))
+     (net N17059296
+      (joined
+       (portRef &2 (instanceRef R323))
+       (portRef &3 (instanceRef U82))))
+     (net V_B
+      (joined
+       (portRef &5 (instanceRef J9))
+       (portRef &5 (instanceRef U82))))
+     (net (rename IVMINUSV "IV-V")
+      (joined
+       (portRef &1 (instanceRef C190))
+       (portRef &1 (instanceRef R323))
+       (portRef &1 (instanceRef R361))))
+     (net N17059609
+      (joined
+       (portRef &2 (instanceRef R325))
+       (portRef &3 (instanceRef U83))))
+     (net W_B
+      (joined
+       (portRef &6 (instanceRef J9))
+       (portRef &5 (instanceRef U83))))
+     (net (rename IVMINUSW "IV-W")
+      (joined
+       (portRef &1 (instanceRef C193))
+       (portRef &1 (instanceRef R325))
+       (portRef &1 (instanceRef R363))))
+     (net V_A
+      (joined
+       (portRef &1 (instanceRef R340))
+       (portRef &1 (instanceRef R342))
+       (portRef &2 (instanceRef Q10))
+       (portRef &2 (instanceRef Q11))
+       (portRef &4 (instanceRef U82))))
+     (net GND_MOSFET
+      (joined
+       (portRef &2 (instanceRef Q12))
+       (portRef &2 (instanceRef Q7))
+       (portRef &2 (instanceRef Q8))
+       (portRef &4 (instanceRef U84))))
+     (net N17066368
+      (joined
+       (portRef &2 (instanceRef R324))
+       (portRef &3 (instanceRef U84))))
+     (net U_A
+      (joined
+       (portRef &1 (instanceRef R338))
+       (portRef &2 (instanceRef Q3))
+       (portRef &2 (instanceRef Q5))
+       (portRef &4 (instanceRef U81))))
+     (net (rename IVMINUSGND_MOSFET "IV-GND_MOSFET")
+      (joined
+       (portRef &1 (instanceRef C195))
+       (portRef &1 (instanceRef R324))
+       (portRef &1 (instanceRef R365))))
+     (net N17069583
+      (joined
+       (portRef &2 (instanceRef U85))
+       (portRef &1 (instanceRef R326))
+       (portRef &2 (instanceRef R329))))
+     (net N17070111
+      (joined
+       (portRef &6 (instanceRef U85))
+       (portRef &1 (instanceRef R327))
+       (portRef &2 (instanceRef R330))))
+     (net N17070762
+      (joined
+       (portRef &2 (instanceRef U86))
+       (portRef &1 (instanceRef R328))
+       (portRef &2 (instanceRef R332))))
+     (net N17070805
+      (joined
+       (portRef &6 (instanceRef U86))
+       (portRef &1 (instanceRef R331))
+       (portRef &2 (instanceRef R333))))
+     (net IDC_C
+      (joined
+       (portRef &2 (instanceRef R331))
+       (portRef &85 (instanceRef U2))
+       (portRef &86 (instanceRef U2))
+       (portRef &7 (instanceRef U86))))
+     (net ADCTEST
+      (joined
+       (portRef &2 (instanceRef R2))
+       (portRef &2 (instanceRef R3))
+       (portRef &43 (instanceRef U2))
+       (portRef &44 (instanceRef U2))
+       (portRef &47 (instanceRef U2))
+       (portRef &48 (instanceRef U2))
+       (portRef &49 (instanceRef U2))
+       (portRef &50 (instanceRef U2))
+       (portRef &67 (instanceRef U2))
+       (portRef &68 (instanceRef U2))
+       (portRef &69 (instanceRef U2))
+       (portRef &70 (instanceRef U2))
+       (portRef &71 (instanceRef U2))
+       (portRef &72 (instanceRef U2))
+       (portRef &81 (instanceRef U2))
+       (portRef &82 (instanceRef U2))
+       (portRef &83 (instanceRef U2))
+       (portRef &84 (instanceRef U2))))
+     (net N17071810
+      (joined
+       (portRef &2 (instanceRef U87))
+       (portRef &1 (instanceRef R334))
+       (portRef &2 (instanceRef R337))))
+     (net N17071802
+      (joined
+       (portRef &3 (instanceRef U87))
+       (portRef &2 (instanceRef R339))
+       (portRef &2 (instanceRef R344))))
+     (net N17073081
+      (joined
+       (portRef &5 (instanceRef U87))
+       (portRef &2 (instanceRef R340))
+       (portRef &2 (instanceRef R345))))
+     (net N17073095
+      (joined
+       (portRef &6 (instanceRef U87))
+       (portRef &1 (instanceRef R335))
+       (portRef &2 (instanceRef R338))))
+     (net N17073530
+      (joined
+       (portRef &5 (instanceRef U88))
+       (portRef &2 (instanceRef R347))
+       (portRef &2 (instanceRef R342))))
+     (net N17073583
+      (joined
+       (portRef &6 (instanceRef U88))
+       (portRef &1 (instanceRef R336))
+       (portRef &2 (instanceRef R341))))
+     (net W_A
+      (joined
+       (portRef &1 (instanceRef R341))
+       (portRef &2 (instanceRef Q4))
+       (portRef &2 (instanceRef Q6))
+       (portRef &4 (instanceRef U83))))
+     (net (rename &2_5V "2.5V")
+      (joined
+       (portRef &2 (instanceRef U88))
+       (portRef &1 (instanceRef R344))
+       (portRef &1 (instanceRef R345))
+       (portRef &1 (instanceRef R347))
+       (portRef &1 (instanceRef U88))))
+     (net (rename IVMINUSU "IV-U")
+      (joined
+       (portRef &1 (instanceRef C187))
+       (portRef &1 (instanceRef R322))
+       (portRef &1 (instanceRef R360))))
+     (net N17075485
+      (joined
+       (portRef &3 (instanceRef U88))
+       (portRef &2 (instanceRef R343))
+       (portRef &2 (instanceRef R346))))
+     (net VDC_C
+      (joined
+       (portRef &1 (instanceRef R85))
+       (portRef &2 (instanceRef R334))
+       (portRef &87 (instanceRef U2))
+       (portRef &88 (instanceRef U2))
+       (portRef &1 (instanceRef U87))))
+     (net B
+      (joined
+       (portRef &1 (instanceRef R297))
+       (portRef &113 (instanceRef U1))
+       (portRef &114 (instanceRef U1))
+       (portRef &125 (instanceRef U1))
+       (portRef &126 (instanceRef U1))
+       (portRef &26 (instanceRef U77))
+       (portRef &82 (instanceRef U20))))
+     (net A
+      (joined
+       (portRef &1 (instanceRef R292))
+       (portRef &111 (instanceRef U1))
+       (portRef &112 (instanceRef U1))
+       (portRef &123 (instanceRef U1))
+       (portRef &124 (instanceRef U1))
+       (portRef &25 (instanceRef U77))
+       (portRef &83 (instanceRef U20))))
+     (net N16975102
+      (joined
+       (portRef &129 (instanceRef U2))
+       (portRef &130 (instanceRef U2))))
+     (net N16706645
+      (joined
+       (portRef &2 (instanceRef R350))
+       (portRef &1 (instanceRef Q13))))
+     (net N16706242
+      (joined
+       (portRef &1 (instanceRef U89))
+       (portRef &2 (instanceRef R349))))
+     (net N16706523
+      (joined
+       (portRef &2 (instanceRef CN4))
+       (portRef &2 (instanceRef CN3))
+       (portRef &4 (instanceRef Q13))
+       (portRef &2 (instanceRef Q13))))
+     (net N16706152
+      (joined
+       (portRef &1 (instanceRef R350))
+       (portRef &2 (instanceRef R348))
+       (portRef &4 (instanceRef U89))))
+     (net N17093628
+      (joined
+       (portRef &1 (instanceRef R357))
+       (portRef &7 (instanceRef U90))))
+     (net N17093505
+      (joined
+       (portRef &2 (instanceRef R357))
+       (portRef &2 (instanceRef R358))
+       (portRef &2 (instanceRef C222))
+       (portRef &1 (instanceRef Q14))))
+     (net N17093651
+      (joined
+       (portRef &1 (instanceRef R358))
+       (portRef &6 (instanceRef U90))))
+     (net N16973518
+      (joined
+       (portRef &1 (instanceRef R264))
+       (portRef &77 (instanceRef U1))
+       (portRef &78 (instanceRef U1))))
+     (net N16973520
+      (joined
+       (portRef &1 (instanceRef R265))
+       (portRef &75 (instanceRef U1))
+       (portRef &76 (instanceRef U1))))
+     (net N16973522
+      (joined
+       (portRef &1 (instanceRef R266))
+       (portRef &73 (instanceRef U1))
+       (portRef &74 (instanceRef U1))))
+     (net N16973526
+      (joined
+       (portRef &1 (instanceRef R267))
+       (portRef &69 (instanceRef U1))
+       (portRef &70 (instanceRef U1))))
+     (net N16973528
+      (joined
+       (portRef &1 (instanceRef R268))
+       (portRef &81 (instanceRef U1))
+       (portRef &82 (instanceRef U1))))
+     (net N16973530
+      (joined
+       (portRef &1 (instanceRef R269))
+       (portRef &79 (instanceRef U1))
+       (portRef &80 (instanceRef U1))))
+     (net N17094622
+      (joined
+       (portRef &2 (instanceRef R351))
+       (portRef &2 (instanceRef U90))))
+     (net (rename POWER_15_0V "POWER_15.0V")
+      (joined
+       (portRef &1 (instanceRef EC71))
+       (portRef &1 (instanceRef C223))
+       (portRef &1 (instanceRef R348))
+       (portRef &1 (instanceRef TP111))
+       (portRef &5 (instanceRef U90))
+       (portRef &3 (instanceRef U61))))
+     (net PB
+      (joined
+       (portRef &3 (instanceRef J9))
+       (portRef &2 (instanceRef D12))
+       (portRef &2 (instanceRef Q14))))
+     (net RLY
+      (joined
+       (portRef &39 (instanceRef U2))
+       (portRef &40 (instanceRef U2))
+       (portRef A (instanceRef LED1))))
+     (net N17040946
+      (joined
+       (portRef &1 (instanceRef EC69))
+       (portRef &1 (instanceRef C219))
+       (portRef &1 (instanceRef JP1))
+       (portRef &2 (instanceRef R291))))
+     (net QEPB
+      (joined
+       (portRef &3 (instanceRef JP1))
+       (portRef &3 (instanceRef U75))))
+     (net FPGA_TDI
+      (joined
+       (portRef &1 (instanceRef R130))
+       (portRef &110 (instanceRef U20))))
+     (net N17138854
+      (joined
+       (portRef &1 (instanceRef TP91))
+       (portRef &21 (instanceRef U20))))
+     (net SPI_MOSI
+      (joined
+       (portRef &2 (instanceRef R132))
+       (portRef &5 (instanceRef U19))))
+     (net FPGA_TCK
+      (joined
+       (portRef &1 (instanceRef R127))
+       (portRef &109 (instanceRef U20))))
+     (net N17139650
+      (joined
+       (portRef &1 (instanceRef TP33))
+       (portRef &112 (instanceRef U20))))
+     (net N17137998
+      (joined
+       (portRef &1 (instanceRef TP60))
+       (portRef &71 (instanceRef U20))))
+     (net N17138838
+      (joined
+       (portRef &1 (instanceRef TP89))
+       (portRef &16 (instanceRef U20))))
+     (net N17138057
+      (joined
+       (portRef &1 (instanceRef R124))
+       (portRef &2 (instanceRef U19))))
+     (net N17138836
+      (joined
+       (portRef &1 (instanceRef TP88))
+       (portRef &17 (instanceRef U20))))
+     (net RESET
+      (joined
+       (portRef &3 (instanceRef U19))
+       (portRef &1 (instanceRef C65))
+       (portRef &1 (instanceRef R126))
+       (portRef &105 (instanceRef U20))))
+     (net N17139458
+      (joined
+       (portRef &1 (instanceRef TP69))
+       (portRef &99 (instanceRef U20))))
+     (net N17139454
+      (joined
+       (portRef &1 (instanceRef TP75))
+       (portRef &97 (instanceRef U20))))
+     (net N17139344
+      (joined
+       (portRef &1 (instanceRef R139))
+       (portRef &37 (instanceRef U20))))
+     (net N17139357
+      (joined
+       (portRef &1 (instanceRef R135))
+       (portRef &69 (instanceRef U20))))
+     (net TDI
+      (joined
+       (portRef &2 (instanceRef R130))
+       (portRef &9 (instanceRef J7))))
+     (net N17139582
+      (joined
+       (portRef &1 (instanceRef TP62))
+       (portRef &124 (instanceRef U20))))
+     (net N17139508
+      (joined
+       (portRef &1 (instanceRef TP39))
+       (portRef &81 (instanceRef U20))))
+     (net N17138756
+      (joined
+       (portRef &1 (instanceRef TP83))
+       (portRef &9 (instanceRef U20))))
+     (net N17138710
+      (joined
+       (portRef &1 (instanceRef TP79))
+       (portRef &5 (instanceRef U20))))
+     (net N17139524
+      (joined
+       (portRef &1 (instanceRef TP41))
+       (portRef &79 (instanceRef U20))))
+     (net N17139516
+      (joined
+       (portRef &1 (instanceRef TP40))
+       (portRef &80 (instanceRef U20))))
+     (net N17139462
+      (joined
+       (portRef &1 (instanceRef TP77))
+       (portRef &87 (instanceRef U20))))
+     (net N17139584
+      (joined
+       (portRef &1 (instanceRef TP64))
+       (portRef &121 (instanceRef U20))))
+     (net N17139534
+      (joined
+       (portRef &1 (instanceRef TP43))
+       (portRef &75 (instanceRef U20))))
+     (net N17139464
+      (joined
+       (portRef &1 (instanceRef TP76))
+       (portRef &88 (instanceRef U20))))
+     (net N17139576
+      (joined
+       (portRef &1 (instanceRef TP61))
+       (portRef &126 (instanceRef U20))))
+     (net N17138012
+      (joined
+       (portRef &1 (instanceRef TP36))
+       (portRef &2 (instanceRef U20))))
+     (net N17138736
+      (joined
+       (portRef &1 (instanceRef TP80))
+       (portRef &8 (instanceRef U20))))
+     (net N17139610
+      (joined
+       (portRef &1 (instanceRef TP28))
+       (portRef &118 (instanceRef U20))))
+     (net N17139424
+      (joined
+       (portRef &7 (instanceRef U19))
+       (portRef &1 (instanceRef R125))))
+     (net TCK
+      (joined
+       (portRef &1 (instanceRef J7))
+       (portRef &2 (instanceRef R127))))
+     (net N17138774
+      (joined
+       (portRef &1 (instanceRef TP82))
+       (portRef &10 (instanceRef U20))))
+     (net N17139353
+      (joined
+       (portRef &1 (instanceRef R134))
+       (portRef &60 (instanceRef U20))))
+     (net N17139624
+      (joined
+       (portRef &1 (instanceRef TP31))
+       (portRef &115 (instanceRef U20))))
+     (net N17138796
+      (joined
+       (portRef &1 (instanceRef TP84))
+       (portRef &12 (instanceRef U20))))
+     (net SPI_CS
+      (joined
+       (portRef &1 (instanceRef U19))
+       (portRef &38 (instanceRef U20))))
+     (net N17139466
+      (joined
+       (portRef &1 (instanceRef TP73))
+       (portRef &92 (instanceRef U20))))
+     (net N17138798
+      (joined
+       (portRef &1 (instanceRef TP85))
+       (portRef &11 (instanceRef U20))))
+     (net N17139468
+      (joined
+       (portRef &1 (instanceRef TP72))
+       (portRef &93 (instanceRef U20))))
+     (net FPGA_TMS
+      (joined
+       (portRef &1 (instanceRef R129))
+       (portRef &107 (instanceRef U20))))
+     (net N17139592
+      (joined
+       (portRef &1 (instanceRef TP27))
+       (portRef &119 (instanceRef U20))))
+     (net N17139634
+      (joined
+       (portRef &1 (instanceRef TP32))
+       (portRef &114 (instanceRef U20))))
+     (net N17138036
+      (joined
+       (portRef &1 (instanceRef R133))
+       (portRef &39 (instanceRef U20))))
+     (net N17138738
+      (joined
+       (portRef &1 (instanceRef TP81))
+       (portRef &7 (instanceRef U20))))
+     (net N17138852
+      (joined
+       (portRef &1 (instanceRef TP90))
+       (portRef &22 (instanceRef U20))))
+     (net N17139532
+      (joined
+       (portRef &1 (instanceRef TP42))
+       (portRef &78 (instanceRef U20))))
+     (net N17139448
+      (joined
+       (portRef &1 (instanceRef TP68))
+       (portRef &100 (instanceRef U20))))
+     (net N17139626
+      (joined
+       (portRef &1 (instanceRef TP30))
+       (portRef &116 (instanceRef U20))))
+     (net N17139500
+      (joined
+       (portRef &1 (instanceRef TP38))
+       (portRef &85 (instanceRef U20))))
+     (net N17139580
+      (joined
+       (portRef &1 (instanceRef TP63))
+       (portRef &123 (instanceRef U20))))
+     (net FPGA_TDO
+      (joined
+       (portRef &1 (instanceRef R128))
+       (portRef &106 (instanceRef U20))))
+     (net SPI_MISO
+      (joined
+       (portRef &2 (instanceRef R124))
+       (portRef &65 (instanceRef U20))))
+     (net N17139492
+      (joined
+       (portRef &1 (instanceRef TP37))
+       (portRef &104 (instanceRef U20))))
+     (net N17139608
+      (joined
+       (portRef &1 (instanceRef TP29))
+       (portRef &117 (instanceRef U20))))
+     (net N17138038
+      (joined
+       (portRef &1 (instanceRef R132))
+       (portRef &64 (instanceRef U20))))
+     (net N17138438
+      (joined
+       (portRef &1 (instanceRef R136))
+       (portRef &72 (instanceRef U20))))
+     (net TDO
+      (joined
+       (portRef &2 (instanceRef R128))
+       (portRef &3 (instanceRef J7))))
+     (net N17139460
+      (joined
+       (portRef &1 (instanceRef TP70))
+       (portRef &95 (instanceRef U20))))
+     (net N17138820
+      (joined
+       (portRef &1 (instanceRef TP86))
+       (portRef &15 (instanceRef U20))))
+     (net N17139594
+      (joined
+       (portRef &1 (instanceRef TP65))
+       (portRef &120 (instanceRef U20))))
+     (net N17139542
+      (joined
+       (portRef &1 (instanceRef TP44))
+       (portRef &74 (instanceRef U20))))
+     (net N17139452
+      (joined
+       (portRef &1 (instanceRef TP66))
+       (portRef &102 (instanceRef U20))))
+     (net N17138459
+      (joined
+       (portRef &1 (instanceRef R131))
+       (portRef &73 (instanceRef U20))))
+     (net SPI_CLK
+      (joined
+       (portRef &6 (instanceRef U19))
+       (portRef &70 (instanceRef U20))))
+     (net N17139470
+      (joined
+       (portRef &1 (instanceRef TP71))
+       (portRef &94 (instanceRef U20))))
+     (net N17139648
+      (joined
+       (portRef &1 (instanceRef TP34))
+       (portRef &111 (instanceRef U20))))
+     (net N17138014
+      (joined
+       (portRef &1 (instanceRef TP35))
+       (portRef &1 (instanceRef U20))))
+     (net N17139310
+      (joined
+       (portRef &1 (instanceRef R138))
+       (portRef &1 (instanceRef X1))))
+     (net N17139288
+      (joined
+       (portRef &2 (instanceRef R137))
+       (portRef &3 (instanceRef X1))))
+     (net TMS
+      (joined
+       (portRef &2 (instanceRef R129))
+       (portRef &5 (instanceRef J7))))
+     (net FPGA_CLK
+      (joined
+       (portRef &1 (instanceRef R137))
+       (portRef &84 (instanceRef U20))))
+     (net N17139450
+      (joined
+       (portRef &1 (instanceRef TP67))
+       (portRef &101 (instanceRef U20))))
+     (net N17138822
+      (joined
+       (portRef &1 (instanceRef TP87))
+       (portRef &14 (instanceRef U20))))
+     (net N17138708
+      (joined
+       (portRef &1 (instanceRef TP78))
+       (portRef &6 (instanceRef U20))))
+     (net N17139456
+      (joined
+       (portRef &1 (instanceRef TP74))
+       (portRef &98 (instanceRef U20))))
+     (net N17138107
+      (joined
+       (portRef &1 (instanceRef R123))
+       (portRef &144 (instanceRef U20))))
+     (net N17145143
+      (joined
+       (portRef &3 (instanceRef U85))
+       (portRef &1 (instanceRef R359))
+       (portRef &2 (instanceRef R360))))
+     (net &2V
+      (joined
+       (portRef &2 (instanceRef U92))
+       (portRef &1 (instanceRef R329))
+       (portRef &1 (instanceRef R330))
+       (portRef &1 (instanceRef R332))
+       (portRef &1 (instanceRef R333))
+       (portRef &1 (instanceRef U92))))
+     (net N17145677
+      (joined
+       (portRef &5 (instanceRef U85))
+       (portRef &2 (instanceRef R361))
+       (portRef &2 (instanceRef R362))))
+     (net N17146166
+      (joined
+       (portRef &3 (instanceRef U86))
+       (portRef &2 (instanceRef R363))
+       (portRef &2 (instanceRef R364))))
+     (net N17146540
+      (joined
+       (portRef &5 (instanceRef U86))
+       (portRef &2 (instanceRef R365))
+       (portRef &2 (instanceRef R366))))
+     (net N17147728
+      (joined
+       (portRef &3 (instanceRef U92))
+       (portRef &2 (instanceRef R367))
+       (portRef &2 (instanceRef R368))))))))
+ (design SCHEMATIC1
+  (cellRef SCHEMATIC1
+   (libraryRef MAIN_LIB))))
