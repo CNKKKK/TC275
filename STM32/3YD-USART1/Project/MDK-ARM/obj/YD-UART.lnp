@@ -27,6 +27,9 @@
 ".\obj\stm32f10x_wwdg.o"
 ".\obj\system_stm32f10x.o"
 ".\obj\usart.o"
+".\obj\dac.o"
+".\obj\timer3_it.o"
+".\obj\timer4 _encoder.o"
 --library_type=microlib --strict --scatter ".\obj\YD-UART.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

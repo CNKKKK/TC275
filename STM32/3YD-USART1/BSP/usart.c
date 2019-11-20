@@ -1,23 +1,18 @@
-/******************** (C) COPYRIGHT  源地工作室 ********************************
- * 文件名  ：usart.c
- * 描述    ：将printf函数重定向到USART1。这样就可以用printf函数将单片机的数据打
- *           印到PC上的超级终端或串口调试助手。     
- * 作者    ：zhuoyingxingyu
- * 淘宝    ：源地工作室http://vcc-gnd.taobao.com/
- * 论坛地址：极客园地-嵌入式开发论坛http://vcc-gnd.com/
- * 版本更新: 2017-04-20
- * 硬件连接: TX->PA9;RX->PA10
- * 调试方式：J-Link-OB
-**********************************************************************************/	
+
 
 //头文件
 #include "usart.h"
+#include "ringbuff.h"
 
-u8 usart2Buf[64];
-u8 usart2Len;
-u8 usart1Buf[64];
+u8 usart1Buf[30];
 u8 usart1Len;
-
+u8 usart2Buf[30];
+u8 usart2Len;
+//char hexbuffer[5];//用于存放十六进制的速度值
+//u8 speedflag;
+char posref[2];
+char speedvalue[2];
+extern float angle_pu;
 
 #ifdef __GNUC__
   /* With GCC/RAISONANCE, small printf (option LD Linker->Libraries->Small printf
@@ -28,20 +23,101 @@ u8 usart1Len;
 #endif /* __GNUC__ */
 
 
+
  /**
   * @file   USART1_Config
-  * @brief  USART1 GPIO 配置,工作模式配置。9600-8-N-1
+  * @brief  USART1 GPIO 配置,工作模式配置。19600-8-N-1
   * @param  无
   * @retval 无
   */
+	
+	void send_pos(void);
+	void delay_ms(u32 i)
+{
+    u32 temp;
+    SysTick->LOAD=9000*i;      //72MHZ?
+    SysTick->CTRL=0X01;        
+    SysTick->VAL=0;            
+    do
+    {
+        temp=SysTick->CTRL;       
+    }
+    while((temp&0x01)&&(!(temp&(1<<16))));    
+    SysTick->CTRL=0;    
+    SysTick->VAL=0;        
+}
+/*环形队列存储数据*/
+		ringBuffer_t buffer = {0,0,{0}};//u2接收端行程一个环形队列初始化为0
+		ringBuffer_t buffer_A = {0,0,{0}};//U1接收端形成一个环形队列并初始化为0
+
+
+void RingBuf_Write(float data){//向缓冲区写入一个字节
+		buffer.ringBuf[buffer.tailPosition]=data;//从尾部追加
+	
+		if(++buffer.tailPosition >= BUFFER_MAX)//尾结点偏移
+			buffer.tailPosition = 0;//大于数组长度，最大数组长度归零，形成环形数组
+	//若尾部节点追到头部节点，则修改头节点偏移位置丢弃早期数据
+		if(buffer.tailPosition == buffer.headPosition)
+			if(++buffer.headPosition >= BUFFER_MAX)
+			buffer.headPosition=0;
+}
+
+void RingBuf_Write_A(float data){//向缓冲区写入一个字节
+	buffer_A.ringBuf[buffer_A.tailPosition]=data;//从尾部追加
+	/*提取位置参考值*/
+	if(buffer_A.ringBuf[buffer_A.tailPosition]==0XFF||buffer_A.ringBuf[(buffer_A.tailPosition)-1]==0XFE)// posref1 posref2 FE FF 以后面两个为标志位
+	{
+		posref[0]=buffer_A.ringBuf[(buffer_A.tailPosition)-3];
+		posref[1]=buffer_A.ringBuf[(buffer_A.tailPosition)-2];
+	}
+	/*把位置参考值提取出来*/
+		if(++buffer_A.tailPosition >= BUFFER_MAX)//尾结点偏移
+		buffer_A.tailPosition = 0;//大于数组长度，最大数组长度归零，形成环形数组
+	//若尾部节点追到头部节点，则修改头节点偏移位置丢弃早期数据
+	if(buffer_A.tailPosition == buffer_A.headPosition)
+		if(++buffer_A.headPosition >= BUFFER_MAX)
+			buffer_A.headPosition=0;
+}
+
+
+
+unsigned char RingBuf_Read( float* pData){//读取缓存区一个字节数据
+	if(buffer.headPosition == buffer.tailPosition)
+		{//头尾相接表示缓冲区为空
+		return 0;//读取失败 返回0
+		}
+	else{
+		*pData = buffer.ringBuf[buffer.headPosition];//如果缓冲区为空则取头节点并偏移头节点
+		if(++buffer.headPosition>=BUFFER_MAX)
+			buffer.headPosition = 0;
+		return 1;//读取成功返回1
+	}
+}
+
+unsigned char RingBuf_Read_A( float* pData){//读取缓存区一个字节数据
+	if(buffer_A.headPosition == buffer_A.tailPosition)
+		{//头尾相接表示缓冲区为空
+		return 0;//读取失败 返回0
+		}
+	else{
+		*pData = buffer_A.ringBuf[buffer_A.headPosition];//如果缓冲区为空则取头节点并偏移头节点
+		if(++buffer_A.headPosition>=BUFFER_MAX)
+			buffer_A.headPosition = 0;
+		return 1;//读取成功返回1
+	}
+}
+/*环形队列定义及方法*/
+
+
 void USART1_Config(void)
 {	
     GPIO_InitTypeDef GPIO_InitStructure;	
     USART_InitTypeDef USART_InitStructure;  //定义串口初始化结构体
-   NVIC_InitTypeDef NVIC_InitStructure;
+		NVIC_InitTypeDef NVIC_InitStructure;
+
 //	  USART_ClockInitTypeDef USART_ClockInitStruct1;//初始化时钟信号
     
-	RCC_APB2PeriphClockCmd( USART_RCC | USART_GPIO_RCC,ENABLE);//1.串口时钟使能（ RCC_APB2Periph_USART1）以及GPIO使能（RCC_APB2Periph_GPIOA）
+		RCC_APB2PeriphClockCmd( USART_RCC | USART_GPIO_RCC,ENABLE);//1.串口时钟使能（ RCC_APB2Periph_USART1）以及GPIO使能（RCC_APB2Periph_GPIOA）
 
     /*USART1_TX ->PA9*/			
     GPIO_InitStructure.GPIO_Pin = USART_TX;	       //2.选中串口默认输出管脚         
@@ -77,42 +153,52 @@ void USART1_Config(void)
 		 NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;			//IRQ使能
 		 NVIC_Init(&NVIC_InitStructure);	//初始化中断
 
+
 		USART_ITConfig(USART, USART_IT_RXNE, ENABLE);//开启中断接收
     USART_Cmd(USART, ENABLE);//3.使能串口
 		
 }
 
 
-void USART1_IRQHandler(void)//UART1接收数据函数中断
+
+	void USART1_IRQHandler(void)//UART1????????
 	{
 		uint8_t res; 
-
-		if(USART_GetITStatus(USART1, USART_IT_RXNE) != RESET) //判断读取数据寄存器是否为空
+		if(USART_GetITStatus(USART1, USART_IT_RXNE) != RESET) //?????????????
 			{
-				res =USART_ReceiveData(USART1); //读取USART2收到的数据
-				usart1Buf[usart1Len]=res; //记录收到的数据到内存
-
-				usart1Len++; //下标加1
-					if(usart1Len>=120)
-						usart1Len=0; 
+				res =USART_ReceiveData(USART1); //??USART1?????
+				usart1Buf[usart1Len++]=res; //??????????
+				if(usart1Len>5)
+					{
+						if(usart1Buf[usart1Len-2]==0x10&&usart1Buf[usart1Len-1]==0x18)//检测第一第二位是否为10 18 ，若是的话发送位置信息给上位机
+							{ 
+								send_pos();
+								usart1Len=0;
+							}
+						if(usart1Buf[usart1Len-5]==0x06&&usart1Buf[usart1Len-4]==0x10&&usart1Buf[usart1Len-3]==0x07)//传入速度写指令06 10 07 然后提取速度值
+							{
+									speedvalue[0]=usart1Buf[usart1Len-2];
+									speedvalue[1]=usart1Buf[usart1Len-1];
+								usart1Len=0;
+							}
+					}
+   
+					RingBuf_Write_A(res);
+          if(usart1Len>40)
+					usart1Len=0;
 			}
-    if(USART_GetFlagStatus(USART1,USART_FLAG_ORE) == SET)//如果发生溢出，先读SR，再读DR寄存器
-			{
+    if(USART_GetFlagStatus(USART1,USART_FLAG_ORE) == SET)//??????,??SR,??DR???
+   {
         USART_ReceiveData(USART1);
         USART_ClearFlag(USART1,USART_FLAG_ORE);
-			}
-		USART_ClearFlag(USART1,USART_IT_RXNE); //清除接收中断
-
+   }
+		USART_ClearFlag(USART1,USART_IT_RXNE); //??????
 	}
 
 void myUSART_Sendbyte(USART_TypeDef* USARTx, uint16_t Data)//给串口发送一位字符
 {
     while((USARTx->SR&0X40)==0);
-
-//		USARTx->DR = (Data & (uint16_t)0x01FF);
 		USART_SendData(USARTx,Data);
-//		printf("%x\n", Data);
-
 }
 
 void myUSART_Sendarr(USART_TypeDef* USARTx, u8 a[] ,uint8_t len)//给串口发送一个数组字符
@@ -123,35 +209,74 @@ void myUSART_Sendarr(USART_TypeDef* USARTx, u8 a[] ,uint8_t len)//给串口发送一个
 			myUSART_Sendbyte( USARTx, a[i]) ;
 			i++;
 		}
-
 }
 
-
-
-void USART1_SEND(void)//wang PC fasong
+int crc_cal_value( char *data_value,unsigned char data_length)//CRC校验位计算
 {
-			while(USART_GetFlagStatus(USART1,USART_FLAG_TXE)==RESET);//发送缓冲区标志为空
- 			myUSART_Sendarr(USART1,usart2Buf,8);//把UASRT2收到的内容通过UASRT1发过去
-			while(USART_GetFlagStatus(USART1,USART_FLAG_TC)==RESET);//发送完成标志
-		if(usart2Len >= 120)									//长度限制
-		{usart2Len=0;}
-
-//	for (i = 0; i<8; i++)
-//	{//printf("%x\n", usart2Buf[i]);
-//		USART_SendData(USART1,usart2Buf[i]);}
-
-	
+		int i;
+    int crc_value = 0xffff;
+    while(data_length--)
+			{
+					crc_value ^= *data_value++;
+					for(i=0;i<8;i++)
+					{
+						if(crc_value&0x0001)
+							crc_value = (crc_value>>1)^0xa001;
+						else
+					crc_value = crc_value>>1;
+					}
+			}
+		return(crc_value);
 }
 
+void send_pos(void)
+{
+	char pos[7];
+	int i;
 
+	{
+			
+		/*
+		把位置信息包装成modbus协议发送出去
+				myUSART_Sendbyte(USART1,0X0B 0X03);
+		*/
+				{
+					pos[0]=0x0b;
+					pos[1]=0x03;
+					pos[2]=0x02;					
+					pos[3]=((int)(angle_pu *100)/256);
+					pos[4]=((int)(angle_pu *100)%256);
+
+					pos[5]=crc_cal_value(pos,5);
+					pos[6]=crc_cal_value(pos,5)>>8;
+				}
+				for(i=0;i<7;i++)
+				{
+									myUSART_Sendbyte(USART1,pos[i]);
+				}
+			
+		}
+	}
+	void USART1_SEND_02(void)//wang PC fasong
+{
+	float ress;
+		if(RingBuf_Read(&ress)==1)//读环形队列里面的数据
+		{
+//			if(ress==0x0b)
+//			send_pos();//发送位置信息帧
+		myUSART_Sendbyte(USART1,ress);
+		}
+
+}
+	
 void USART2_Config(void)
 {	
-       GPIO_InitTypeDef GPIO_InitStructure2;	
+    GPIO_InitTypeDef GPIO_InitStructure2;	
     USART_InitTypeDef USART_InitStructure2;  //定义串口初始化结构体
     NVIC_InitTypeDef NVIC_InitStructure;
     
-	RCC_APB1PeriphClockCmd(USART2_RCC ,ENABLE);//串口时钟使能（ RCC_APB1Periph_USART2
-  RCC_APB2PeriphClockCmd(USART2_GPIO_RCC,ENABLE);//GPIO使能（RCC_APB2Periph_GPIOA）
+		RCC_APB1PeriphClockCmd(USART2_RCC ,ENABLE);//串口时钟使能（ RCC_APB1Periph_USART2
+		RCC_APB2PeriphClockCmd(USART2_GPIO_RCC,ENABLE);//GPIO使能（RCC_APB2Periph_GPIOA）
     /*USART1_TX ->PA2*/			
     GPIO_InitStructure2.GPIO_Pin = USART2_TX;	       //2.选中串口默认输出管脚         
     GPIO_InitStructure2.GPIO_Mode = GPIO_Mode_AF_PP;  // 定义管脚2的模式 推挽
@@ -171,39 +296,31 @@ void USART2_Config(void)
     USART_InitStructure2.USART_Parity = USART_Parity_No;		//校验位 无
     USART_InitStructure2.USART_HardwareFlowControl = USART_HardwareFlowControl_None;//无流控制
     USART_InitStructure2.USART_Mode = USART_Mode_Rx | USART_Mode_Tx;		//使能接收和发送引脚
-
     USART_Init(USART2, &USART_InitStructure2);//串口初始化
 
 		 NVIC_InitStructure.NVIC_IRQChannel = USART2_IRQn;
 		 NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority=3 ;//中断优先级为3
-		 NVIC_InitStructure.NVIC_IRQChannelSubPriority = 3;		//子优先级3
+		 NVIC_InitStructure.NVIC_IRQChannelSubPriority = 1;		//子优先级3
 		 NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;			//IRQ使能
 		 NVIC_Init(&NVIC_InitStructure);	//初始化中断
 
-
 		USART_ITConfig(USART2, USART_IT_RXNE, ENABLE);//开启中断
-    USART_Cmd(USART2, ENABLE);//3.使能串口
-		
-	
+    USART_Cmd(USART2, ENABLE);//3.使能串口	
 }
-
-
-
-
-
 
 void USART2_IRQHandler(void)//UART2接收数据函数中断
 	{
 		uint8_t res; 
-
-		if(USART_GetITStatus(USART2, USART_IT_RXNE) != RESET) //判断读取数据寄存器是否为空
+//for( i=0;i<5;i++)
+		{if(USART_GetITStatus(USART2, USART_IT_RXNE) != RESET) //判断读取数据寄存器是否为空
 			{
 				res =USART_ReceiveData(USART2); //读取USART2收到的数据
-				usart2Buf[usart2Len]=res; //记录收到的数据到内存
+				usart2Buf[usart2Len]=res; //记录收到的数据到内存	
 
-				usart2Len++; //下标加1
-					if(usart2Len>=8)
-						usart2Len=0; 
+				RingBuf_Write(res);//向环形队列中写入数据
+
+				USART_ClearFlag(USART2,USART_IT_RXNE); //清除接收中断
+					}
 			}
     if(USART_GetFlagStatus(USART2,USART_FLAG_ORE) == SET)//如果发生溢出，先读SR，再读DR寄存器
 			{
@@ -211,32 +328,31 @@ void USART2_IRQHandler(void)//UART2接收数据函数中断
         USART_ClearFlag(USART2,USART_FLAG_ORE);
 			}
 		USART_ClearFlag(USART2,USART_IT_RXNE); //清除接收中断
-
-	}
-
+		}
 	
+
 	void USART2_SEND(void)//wang PC fasong
-	{int i;
-		while(USART_GetFlagStatus(USART2,USART_FLAG_TXE)==RESET);//发送缓冲区标志为空
- 		for(i=0;i<15;i++)
-			{
-				if(usart1Buf[i*8]==0x0b)
-				{
-					myUSART_Sendarr(USART2,&usart1Buf[8*i],8);
-				}//把UASRT1收到的内容通过UASRT2发过去,以八位为单位发送
-			}
-				while(USART_GetFlagStatus(USART2,USART_FLAG_TC)==RESET);//发送缓冲区标志为空
-	if(usart1Len >= 120)									//长度限制
 	{
-	usart1Len=0;
+
+		float ress;
+//		for(i=0;i<15;i++){//发送地址为0b的发送出去
+//		if(usart1Buf[i*8]==0x0b)
+//			myUSART_Sendarr(USART2,&usart1Buf[i*8],8);
+//		//delay_ms(50);
+//		}
+		
+		{
+			if(RingBuf_Read_A(&ress)==1)
+				{	
+					myUSART_Sendbyte(USART2,ress);
+
+				}
+//				if(speedflag==1)
+//				{		myUSART_Sendbyte(USART2,getspeedcommand(20));
+//						speedflag=0;
+//				}
+		}
 	}
-	//for (i = 0; i<8; i++)
-	{//printf("%x\n", usart1Buf[i]);
-	}
-	
-	 //printf("U1fasonghanshu jieshu\r\n");
-	
-}
 	
 /**
   * @brief  Retargets the C library printf function to the USART.

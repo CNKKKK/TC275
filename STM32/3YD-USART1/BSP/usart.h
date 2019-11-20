@@ -23,8 +23,12 @@
 
 void USART1_Config(void);
 void USART2_Config(void);
-void myUSART_Sendbyte(USART_TypeDef* USARTx, uint16_t Data);
-void myUSART_Sendarr(USART_TypeDef* USARTx, u8 a[] ,uint8_t len);
-void USART1_SEND(void);
+void delay_ms(u32 i);
+void USART1_SEND_02(void);
+void USART1_SEND_04(void);
+void USART1_SEND_07(void);
+void USART1_SEND_0c(void);
+void USART1_SEND_30(void);
 void USART2_SEND(void);
+void send_pos(void);
 #endif

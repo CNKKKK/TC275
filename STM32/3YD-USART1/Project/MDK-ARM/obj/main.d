@@ -29,3 +29,6 @@
 .\obj\main.o: ..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h
 .\obj\main.o: ..\..\BSP\usart.h
 .\obj\main.o: E:\KEIL5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\main.o: ..\..\BSP\dac.h
+.\obj\main.o: ..\..\BSP\time4.h
+.\obj\main.o: ..\..\BSP\TMER.h

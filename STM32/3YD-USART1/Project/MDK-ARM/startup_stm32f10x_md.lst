@@ -468,7 +468,7 @@ ork --depend=.\obj\startup_stm32f10x_md.d -o.\obj\startup_stm32f10x_md.o -IC:\U
 sers\CNK\Desktop\TC275program\TC275\STM32\3YD-USART1\Project\MDK-ARM\RTE -IE:\K
 EIL5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include -IE:\KEIL5\ARM\PACK\Keil\STM32F1xx_
 DFP\1.0.5\Device\Include --predefine="__MICROLIB SETA 1" --predefine="__UVISION
-_VERSION SETA 518" --predefine="_RTE_ SETA 1" --predefine="STM32F10X_MD SETA 1"
+_VERSION SETA 518" --predefine="_RTE_ SETA 1" --predefine="STM32F10X_HD SETA 1"
  --list=.\startup_stm32f10x_md.lst ..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\S
 TM32F10x\startup\arm\startup_stm32f10x_md.s
 

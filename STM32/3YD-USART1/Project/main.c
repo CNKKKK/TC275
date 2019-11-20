@@ -1,12 +1,14 @@
 /********************  ********************************
- * 文件名  ：main.c
- * 描述    ：通过串口1打印输出自己输入的字符串；（串口信息为：9600，N,8，1）  
+位置闭环的构建
 
 **********************************************************************************/	
 
 //头文件
 #include "stm32f10x.h"
 #include "usart.h"
+#include "dac.h"
+#include "time4.h"
+#include "TMER.h"
 
 /**
   * @file   main
@@ -19,125 +21,55 @@
 
 
 
-//uint16_t TIM_Count;	//定时器计数
-u8 RS232_RX_BUF[200];          //接收缓冲区
-u8 RS232_RX_CNT=0;                        //接收数据长度
-u8 RS232_TX_CNT=0;						//发送数据长度
 
-
-//毫秒级别延时
-void delay_ms(u32 i)
-{
-    u32 temp;
-    SysTick->LOAD=9000*i;      //??????, 72MHZ?
-    SysTick->CTRL=0X01;        //??,???????,???????
-    SysTick->VAL=0;            //?????
-    do
-    {
-        temp=SysTick->CTRL;       //????????
-    }
-    while((temp&0x01)&&(!(temp&(1<<16))));    //??????
-    SysTick->CTRL=0;    //?????
-    SysTick->VAL=0;        //?????
-}
-unsigned int crc_cal_value(unsigned char *data_value,unsigned char data_length)//计算CRC的值
-{
-	int i;
-    unsigned int crc_value = 0xffff;//CRC输出为16进制的16位
-    while(data_length--)
-    {
-        crc_value ^= *data_value++;
-        for(i=0;i<8;i++)
-				{
-    if(crc_value&0x0001)
-        crc_value = (crc_value>>1)^0xa001;
-		else
-    crc_value = crc_value>>1;
-				}
-		}			
-	return(crc_value);
-}
-
-
-
-//void Send_ReadCommandtoInverter(void){		int i;
-///*
-//	主机命令：
-//	帧头						3.5字节时间
-//	ADR 						01H
-//	CMD读数据				03H
-//	速度起始位高位	10H
-//	速度起始位低位	07H
-//	寄存器个数高位	00H
-//	寄存器个数低位	02H
-//	CRC CHK低位			56H
-//	CRC CHK高位			CBH
-//	帧尾						3.5字符时间
-//	*/	
-
-//	u8 RS232_TX_BUF[8]={0x01,0x03,0x10,0x07,0x00,0x02};//发送接收速度信号的指令
-//	RS232_TX_BUF[6]=crc_cal_value(RS232_TX_BUF,8)&0x00ff;//CRC先把低字节加入到帧中
-//	RS232_TX_BUF[7]=(crc_cal_value(RS232_TX_BUF,8)>>8)&0x00ff;//加入高字节
-//	printf("Send_ReadCommandtoInverter start\r\n");
-//		for (i = 0; i<8; i++)
-//		printf("%x\n", RS232_TX_BUF[i]);
-//	printf("shuzu zhenghe wancheng\\r\n");
-//	delay_ms(4);//10Khz的计数频率，技计数到5000是500ms，在这里3.5ms
-////	TIM3_Init(1000/BaudRate*10*3.5/10,7199);
-//	printf("shuzu fasong kaishi\r\n");
-//	myUSART_Sendarr(USART2,RS232_TX_BUF,8);
-//	printf("shuzu fasong over\r\n");
-//		printf("Send_ReadCommandtoInverter over\r\n");
-
-
+//unsigned int crc_cal_value(unsigned char *data_value,unsigned char data_length)//计算CRC的值
+//{
+//	int i;
+//    unsigned int crc_value = 0xffff;//CRC输出为16进制的16位
+//    while(data_length--)
+//    {
+//        crc_value ^= *data_value++;
+//        for(i=0;i<8;i++)
+//				{
+//    if(crc_value&0x0001)
+//        crc_value = (crc_value>>1)^0xa001;
+//		else
+//    crc_value = crc_value>>1;
+//				}
+//		}			
+//	return(crc_value);
 //}
-
-
-//void USART2_receive(void)
-//	{//USART2的接收数据
-//				printf("USART RECEIVE START");
-//	if(USART_GetITStatus(USART2,USART_IT_RXNE)!=RESET)//观察是否接收到数据
-//		{
-//			USART_ClearITPendingBit(USART2,USART_IT_RXNE);//清除标志位
-//			RS232_RX_BUF[RS232_RX_CNT++]=USART_ReceiveData(USART2);
-//          if( RS232_RX_CNT==8)
-//                RS232_RX_CNT=0;    
-//		}
-//						printf("USART RECEIVE over");
-//	}
-
-//void USART1_send(void)
-//	{	printf("USART SEND START");
-//		//static u8 k;
-//		USART_ClearFlag(USART1,USART_FLAG_TC);//清除USART1的发送标志位
-//		if(USART_GetITStatus(USART1,USART_IT_RXNE)!=Bit_RESET)
-//			{
-//				USART_SendData(USART1,usart2Buf);
-//						while(USART_GetFlagStatus(USART1,USART_IT_RXNE)!=RESET);
-//			}
-//			printf("USART SEND over");
-//	}
-
-
-
-
-
+extern float Elecspeed;//转速值
+extern float angle_pu;//角度值
+int espd;//为了串口表示的速度值
+int angle,oldangle;//为了串口表示的角度值
+extern char posref[2];
+float angle_gi;//设定的位置参考值
+int i=0;
 int main(void)
-{	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);
-   		USART2_Config();//串口2参数配置初始化 
-	    USART1_Config();//串口1参数配置初始化
+{	
+		NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);
+		USART1_Config();//串口1参数配置初始化
+		USART2_Config();//串口2参数配置初始化
+//	TIM6_Configuration();//计时器初始化 为DAC的PA5口提供三角波for test
+		DAC_configration();//DAC初始化
+		Timer3_Init();  //定时器中断 计算位置等信息
+		Timer4_Init();//正交编码器定时器中断
 
-printf("Write Function1\r\n");
-    while (1)
-    {//printf("Write Function2\r\n");
-//			TIM3_Init(10000,7199);
-			delay_ms(1000);
-//	printf("Write Function3\r\n");
-//			Send_ReadCommandtoInverter();//发送接收信息的指令
-	//printf("fasong jieshouzhiling wanchen\r\n");
-//			USART2_receive();//USART2接收速度信息
-			USART1_SEND();//UASRT1将UASRT2收到的信息传给PC
-			USART2_SEND();//UASRT2将UASRT1收到的信息传给PC
+	while (1)
+    {
+		TIM4_getCount();//计算角速度，位置等信息
+		espd=Elecspeed*1;//for test
+		angle=angle_pu*100;//for test
+//  Dac1_Set_Vol(100);/*0000-3300对应-10-10hz*///PA4口输出固定电平	for test
+	Dac1_Set_Vol(PIfunction(4.125,8.5));//PI控制输出
+//printf("电角度数值 = %d\n",posref[0]);//for test
+//		printf("转速 = %d\n",PIfunction(4.125,8.5));
+		USART2_SEND();//UASRT2将UASRT1收到的信息传给PC		
+		USART1_SEND_02();//UASRT1将UASRT2收到的信息传给PC	
+//		i++;
+//		if(i%1000==0)
+//			send_pos();//发送位置信息
     }
 }
 
